@@ -8,13 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        "potta": ["Potta One", "system-ui"], 
+        "apple": ["Homemade Apple", "cursive"],
+
       },
+
+      colors: {
+        "purple-100": "#CEC6DB",
+        "black-100": "#050505",
+        "purple-200": "#4E3C57",
+      },
+      dropShadow: {
+        'xl': '0 35px 35px rgba(78,60,87)',
+        '2xl': [
+            '0 35px 35px rgba(206, 198, 219, 1)',
+            '0 45px 65px rgba(206, 198, 219, 1)'
+        ]
+      }
+      
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
