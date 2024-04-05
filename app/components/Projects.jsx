@@ -16,14 +16,14 @@ const Projects = () => {
             {/* Grid Item 1 */}
             <div className=" p-6">
             <h2 className="font-semibold text-3xl mb-2 text-stone-100 font-apple">Work</h2>
-            <p className='text-stone-300'>I am passionate about finding the intersection between accessibility and design for growth. <br/> Learn more about my <a>why</a></p>        </div>
+            <p className='text-stone-300'>I am passionate about finding the intersection between accessibility and design for growth.</p>        </div>
 
             {/* Grid Item 2 */}
             <div className=" ">
                 <p className='text-stone-200 font-semibold pt-4 text-xl'>Currently:</p>
-                <p className='text-stone-300'>Designing @TD Lab, exploring teas, crocheting a bag</p>
+                <p className='text-stone-300'>Designing @ TD Innovation Lab, exploring teas, crocheting a bag</p>
                 <p className='text-stone-200 font-semibold pt-4 text-xl'>Previously:</p>
-                <p className='text-stone-300'>PM @Openlane <br/> Design @Department of National Defence</p>
+                <p className='text-stone-300'>PM @Openlane <br/> Design and PM @Department of National Defence</p>
             </div>
 
             {/* Additional grid items can be added here following the same structure */}
@@ -32,8 +32,10 @@ const Projects = () => {
         </div>
         </div>
 
-        <Uxapp/>
+        <div className='pt-4'>
         <Trace/>
+        <Uxapp/>
+        </div>
 
 
     </div>

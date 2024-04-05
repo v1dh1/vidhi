@@ -4,6 +4,7 @@ import "./globals.css";
 import Head from "next/head";
 import Nav from './components/Nav';
 import Footer from "./components/Footer";
+import NewNav from "./components/NewNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,8 @@ export default function RootLayout({
       {/* Additional favicon sizes and types can be included here */}
     </Head>
     <Nav />
+    <NewNav />
+
     <main className={inter.className}>{children}</main>
     <Footer /></>
   );

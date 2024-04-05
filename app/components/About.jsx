@@ -20,13 +20,15 @@ const About = () => {
               <div className='text-xl text-stone-200 pt-2 font-bold'>Currently seeking Fall 2024 product internships</div>
 
               <div className=" flex flex-row gap-6 pt-4">
-                <button className='btn text-xl text-stone-100 bg-gradient-to-br hover:bg-gradient-to-bl from-stone-700 to-stone-950 drop-shadow-lg '>Let's Talk  💌</button>
+                <a href="mailto:vidhigokani1@gmail.com">
+                <button className='btn text-xl text-stone-100 bg-gradient-to-br hover:bg-gradient-to-bl from-stone-700 to-stone-950 drop-shadow-lg'>Let's Talk  💌</button>
+                </a>
               </div>
 
 
           </div>
-          <div className="w-full rounded-sm drop-shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 bg-stone-500 border border-gray-200 p-4">
-            Currently seeking Fall 2024 product internships!!
+          <div className="w-full p-4">
+            
           </div>
         </div>
       </div>
