@@ -1,10 +1,10 @@
 import Projects from './components/Projects';
-import About from './components/About';
+import Homepage from './home/Homepage';
 
 export default function Home() {
   return (
     <>
-    <About/>
+    <Homepage/>
     <Projects/>
     
 

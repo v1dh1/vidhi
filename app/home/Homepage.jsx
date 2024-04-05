@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+const Homepage = () => {
   return (
 <div style={{ minHeight: '90vh' }} className="flex flex-col justify-center items-center  ">
       <div className="container mx-auto w-3/4">
@@ -36,4 +36,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Homepage

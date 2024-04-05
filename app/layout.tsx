@@ -19,16 +19,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <><Head>
-      <title>Vidhi Gokani</title>
-      <meta name="description" content="Product Designer" />
-      <link rel="icon" href="/favicon.svg" />
-      {/* Additional favicon sizes and types can be included here */}
-    </Head>
-    <Nav />
-    <NewNav />
+    <html lang="en">
+      <body>
 
+      
+        <Head>
+          <title>Vidhi Gokani</title>
+          <meta name="description" content="Product Designer" />
+          <link rel="icon" href="/favicon.svg" />
+          {/* Additional favicon sizes and types can be included here */}
+        </Head>
+        <Nav />
+        <NewNav />
     <main className={inter.className}>{children}</main>
-    <Footer /></>
+    <Footer />
+
+    </body>
+
+    </html>
   );
 }

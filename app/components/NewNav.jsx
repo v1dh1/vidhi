@@ -1,13 +1,12 @@
 // NavBar.js
 import Link from 'next/link';
-import About from './About';
-import AboutMe from '../about/AboutMe';
+
 
 const NewNav = () => {
   return (
     <div className="fixed inset-x-0 bottom-10 mx-auto text-white py-2 flex justify-center space-x-4 rounded-full drop-shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 bg-stone-800 border border-stone-200 z-50 sm:w-1/3 md:w-1/2 lg:w-1/3">
       {/* Button 1: Home */}
-      <Link href="/">
+      <Link href="/home">
       <button className='flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl'>
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M20.8004 16.7998C20.5796 16.7998 20.4004 16.979 20.4004 17.1998V17.9998C20.4004 18.2206 20.5796 18.3998 20.8004 18.3998C21.0212 18.3998 21.2004 18.2206 21.2004 17.9998V17.1998C21.2004 16.979 21.0212 16.7998 20.8004 16.7998Z" fill="#F6F6F5"/>
@@ -41,24 +40,26 @@ const NewNav = () => {
       {/* Button 2: Active/About */}
       <Link href="/about">
       <button className="flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_127_33)">
-          <path d="M1.71387 22.7117C2.696 21.7061 2.72281 20.2297 2.75372 18.5265C2.80213 15.8598 2.8606 12.6378 6.61283 9.79883H17.539C21.2913 12.6378 21.3515 15.8598 21.3998 18.5265C21.4307 20.2297 21.4576 21.7061 22.4396 22.7117" stroke="#F6F6F5" stroke-width="1.71415" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M17.752 9.79923H6.40127L4.98242 2.70498L8.52954 4.83326L12.0767 1.28613L15.6238 4.83326L19.171 2.70498L17.752 9.79923Z" stroke="#F6F6F5" stroke-width="1.71415" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M17.3291 17.3926C17.4103 17.9703 17.321 18.5877 17.1465 19.1822C16.529 21.2872 14.2708 22.2603 12.0771 22.2603C9.88341 22.2603 7.62528 21.2872 7.0077 19.1822C6.83332 18.5877 6.74397 17.9703 6.82522 17.3926C6.93465 16.6144 7.15824 15.8711 7.44714 15.174C9.20678 14.9086 10.8703 14.0689 12.0771 13.0347C13.284 14.0689 14.9475 14.9086 16.7071 15.174C16.996 15.8711 17.2195 16.6144 17.3291 17.3926Z" stroke="#F6F6F5" stroke-width="1.71415" stroke-linecap="round" stroke-linejoin="round"/>
-          </g>
-          <defs>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clipPath="url(#clip0_127_33)">
+          <path d="M1.71387 22.7117C2.696 21.7061 2.72281 20.2297 2.75372 18.5265C2.80213 15.8598 2.8606 12.6378 6.61283 9.79883H17.539C21.2913 12.6378 21.3515 15.8598 21.3998 18.5265C21.4307 20.2297 21.4576 21.7061 22.4396 22.7117" stroke="#F6F6F5" strokeWidth="1.71415" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M17.752 9.79923H6.40127L4.98242 2.70498L8.52954 4.83326L12.0767 1.28613L15.6238 4.83326L19.171 2.70498L17.752 9.79923Z" stroke="#F6F6F5" strokeWidth="1.71415" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M17.3291 17.3926C17.4103 17.9703 17.321 18.5877 17.1465 19.1822C16.529 21.2872 14.2708 22.2603 12.0771 22.2603C9.88341 22.2603 7.62528 21.2872 7.0077 19.1822C6.83332 18.5877 6.74397 17.9703 6.82522 17.3926C6.93465 16.6144 7.15824 15.8711 7.44714 15.174C9.20678 14.9086 10.8703 14.0689 12.0771 13.0347C13.284 14.0689 14.9475 14.9086 16.7071 15.174C16.996 15.8711 17.2195 16.6144 17.3291 17.3926Z" stroke="#F6F6F5" strokeWidth="1.71415" strokeLinecap="round" strokeLinejoin="round"/>
+        </g>
+        <defs>
           <clipPath id="clip0_127_33">
-          <rect width="23.998" height="23.998" fill="white"/>
+            <rect width="23.998" height="23.998" fill="white"/>
           </clipPath>
-          </defs>
-        </svg>
+        </defs>
+      </svg>
+
 
         About
       </button>
       </Link>
 
       {/* Button 3: Another Page */}
+      <a>
       <button className='flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl'>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_127_34)">
@@ -74,6 +75,7 @@ const NewNav = () => {
 
         Resume
       </button>
+      </a>
     </div>
   );
 };
