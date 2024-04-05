@@ -5,7 +5,7 @@ const Uxapp = () => {
     <div className='pt-4'>
         
         <div className="card lg:card-side shadow-xl bg-stone-950">
-        <figure className=''><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+        <figure className=''></figure>
         <div className="card-body">
             <h2 className="card-title text-stone-200 text-2xl "> Weavely - Brinign back bartering! </h2>
             <p className='text-stone-300'>Case Study | Personal Project | 2024</p>

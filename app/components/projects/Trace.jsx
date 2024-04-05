@@ -5,7 +5,7 @@ const Trace = () => {
 <div className='pt-4'>
         
         <div className="card lg:card-side shadow-xl bg-stone-950">
-        <figure className=''><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+        <figure className=''></figure>
         <div className="card-body">
             <h2 className="card-title text-stone-200 text-2xl "> Integrating a standalone app into an exisiting TD app in the US market </h2>
             <p className='text-stone-300'>Case Study | TD Innovation Lab | 2024</p>
