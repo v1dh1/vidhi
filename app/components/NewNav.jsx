@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const NewNav = () => {
   return (
-    <div className="fixed inset-x-0 bottom-10 mx-auto text-white py-2 flex justify-center space-x-4 rounded-full drop-shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 bg-stone-800 border border-stone-200 z-50 sm:w-1/3 md:w-1/2 lg:w-1/3">
+    <div className="fixed inset-x-0 bottom-10 mx-auto text-white py-2 flex justify-center space-x-4 rounded-full drop-shadow-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 bg-stone-400 border border-stone-200 z-50 sm:w-1/3 md:w-1/2 lg:w-1/3">
       {/* Button 1: Home */}
       <Link href="/home">
       <button className='flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl'>

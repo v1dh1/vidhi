@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         "potta": ["Potta One", "system-ui"], 
         "apple": ["Homemade Apple", "cursive"],
+        "sofia": ["Princess Sofia", "cursive"],
 
       },
 

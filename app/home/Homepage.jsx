@@ -10,7 +10,7 @@ const Homepage = () => {
               <div className='text-3xl text-stone-300'>
                 {"Hello, I'm"} 
               </div>
-              <div className='text-7xl font-extrabold pt-2 text-fuchsia-100 font-apple'>
+              <div className='text-7xl font-extrabold pt-6 text-fuchsia-100 font-sofia pb-2'>
              {" Vidhi ✫"}
               </div>
               <div className='text-2xl text-stone-200 pt-4'>
@@ -21,7 +21,7 @@ const Homepage = () => {
 
               <div className=" flex flex-row gap-6 pt-4">
                 <a href="mailto:vidhigokani1@gmail.com">
-                <button className='btn text-xl text-stone-100 bg-gradient-to-br hover:bg-gradient-to-bl from-stone-700 to-stone-950 drop-shadow-lg'>{"Let's Talk  💌"}</button>
+                <button className='btn text-xl text-stone-950 bg-fuchsia-100 hover:bg-fuchsia-300 drop-shadow-lg'>{"Let's Talk  💌"}</button>
                 </a>
               </div>
 
