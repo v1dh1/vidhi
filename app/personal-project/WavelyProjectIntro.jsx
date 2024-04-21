@@ -1,12 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
 
 const WavelyProjectIntro = () => {
   return (
-    <div className='w-11/12 mx-auto'>
+    <div className='w-3/4 mx-auto'>
 
         <div className='text-6xl font-sofia text-center text-fuchsia-100 p-4'>Wavely</div>
 
-        <div className="grid grid-cols-2 gap-4 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 pb-4">
             <div className=''>
                 
                 <div className='text-xl text-stone-200'>Wavely App Design</div>
@@ -36,7 +37,18 @@ const WavelyProjectIntro = () => {
 
             </div>
 
-        <div className='bg-fuchsia-500'>fjen</div>
+        <div className=''>
+            
+
+        <Image
+              src="/design1.png"
+              width={2000}
+              height={500}
+              alt="survey results from q1"
+              
+            />
+            
+        </div>
         </div>
     </div>
   )
