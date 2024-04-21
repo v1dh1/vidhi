@@ -12,6 +12,7 @@ const config: Config = {
         "potta": ["Potta One", "system-ui"], 
         "apple": ["Homemade Apple", "cursive"],
         "sofia": ["Princess Sofia", "cursive"],
+        "serifDisplay": ["DM Serif Text", "serif"],
 
       },
 

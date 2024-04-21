@@ -8,7 +8,7 @@ const Uxapp = () => {
         <div className="card lg:card-side shadow-xl bg-stone-800">
         <figure className=''></figure>
         <div className="card-body">
-            <h2 className="card-title text-stone-200 text-2xl "> Weavely - Bringing back bartering! </h2>
+            <h2 className="card-title text-stone-200 text-2xl font-serifDisplay"> Weavely - Bringing back bartering! </h2>
             <p className='text-stone-300'>Case Study | Personal Project | 2024</p>
 
             <div className='flex flex-wrap gap-2'>

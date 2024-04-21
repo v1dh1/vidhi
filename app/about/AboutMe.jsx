@@ -6,8 +6,8 @@ const AboutMe = () => {
   return (
     <div className='container mx-auto w-3/4'>
 
-    <div className='text-fuchsia-100 font-apple text-5xl flex justify-center pt-8'>
-    ❁ About Me 
+    <div className='text-fuchsia-100 font-sofia text-6xl flex justify-center pt-8'>
+     About Me 
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-8">
