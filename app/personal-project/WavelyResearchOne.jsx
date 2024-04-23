@@ -55,7 +55,7 @@ const WavelyResearchOne = () => {
         <div className='pt-8'></div>
 
         <div className='bg-stone-800 rounded-3xl px-6 pt-4'>
-            <div className='text-xl font-serifDisplay text-stone-100 font-semibold'>Findings</div>
+            <div className=' text-stone-400 font-semibold'>Findings</div>
 
             <div className='text-stone-200 text-xl pt-4 font-serifDisplay'>{"The crafting community navigates a paradoxical challenge, balancing the boundless potential of creativity with the practical limitations of material cost, accessibility, and sustainability."}</div>
 

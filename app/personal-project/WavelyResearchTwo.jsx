@@ -12,7 +12,7 @@ const WavelyResearchTwo = () => {
 <div className='text-stone-400 pt-4'>PART 2</div>
 <div className='text-stone-100 text-3xl pt-2 font-serifDisplay'>Understanding the Problem</div>
 
-<div className='pt-2 text-stone-400'>{'Methods: Competitor Analysis, User Persona, Current Journey Map'}</div>
+<div className='pt-2 text-stone-400'>{'Methods: Competitor Analysis, User Persona'}</div>
 <div className='pt-4 pb-8 text-stone-100'>{"Now that I’ve established that the problem really exists, I did more research into the way people are currently sourcing products."}</div>
 
 <div className='text-stone-400 pb-2'>Competitor Analysis</div>
