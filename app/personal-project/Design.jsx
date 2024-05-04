@@ -178,7 +178,7 @@ const Design = () => {
 
             </div>
 
-            <div className='flex justify-center pt-4 pb-4'>
+            <div className='flex text-center flex-justify-center pt-4 pb-4'>
             <div className='pl-4 text-stone-200'>{"This product card was designed to be simplistic, and only show the required information needed for users to understand what the product is, and 2 actions they can do with it. The first action would be to"} "like" {"the product (which would add it to their wishlist), and the second would be to click on this card itself, which would lead to the product's page containing more details about the item, and give users the option to contact the lister to barter for the item."}</div>
 
             </div>

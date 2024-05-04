@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import TraceProject from './TraceProject';
 
 export default function ProtectedPage() {
   const [password, setPassword] = useState('');
@@ -39,7 +40,7 @@ export default function ProtectedPage() {
   return (
     <div>
       {/* Your protected content goes here */}
-      <p>This is a protected page.</p>
+      <TraceProject/>
     </div>
   );
 }
