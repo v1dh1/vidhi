@@ -76,7 +76,7 @@ const Design = () => {
 
             <div className=''>
 
-            <div className='text-stone-200 text-center pt-8 pb-2'>I also did an exploration on what I wanted the product and event cards to look like.</div>
+            <div className='text-stone-200 text-center pt-8 pb-2'>{"I also did an exploration on what I wanted the product and event cards to look like."}</div>
 
             <div className='flex justify-center'>
             <Image
@@ -94,7 +94,7 @@ const Design = () => {
 
 
 
-        <div className='pt-8 text-stone-200 text-center pb-2'>Then again, made more low-fidelity screens for other sections of the app.</div>
+        <div className='pt-8 text-stone-200 text-center pb-2'>{"Then again, made more low-fidelity screens for other sections of the app."}</div>
         <div className='flex justify-center'>
         <Image
               src="/exploration2.png"
