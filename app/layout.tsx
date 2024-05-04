@@ -30,8 +30,12 @@ export default function RootLayout({
           {/* Additional favicon sizes and types can be included here */}
         </Head>
         <Nav />
-        <NewNav />
-    <main className={inter.className}>{children}</main>
+        
+        <div className="hidden md:block">
+          <NewNav />
+        </div>    
+        
+        <main className={inter.className}>{children}</main>
     <Footer />
 
     </body>

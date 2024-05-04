@@ -12,7 +12,7 @@ const Trace = () => {
             <h2 className="card-title text-stone-200 text-2xl font-serifDisplay"> Integrating a standalone app into the TD mobile banking app in the US market </h2>
             <p className='text-stone-300'>Case Study | TD Innovation Lab | 2024</p>
 
-            <div className='flex flex-wrap gap-2'>
+            <div className='flex flex-wrap gap-2 pt-4'>
             <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">UI Design</div>
             <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Prototyping</div>
             <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Design Thinking</div>

@@ -34,8 +34,9 @@ const Projects = () => {
         </div>
 
         <div className='pt-4'>
-        <Trace/>
         <Uxapp/>
+
+        <Trace/>
         </div>
 
 
