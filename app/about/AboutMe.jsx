@@ -15,7 +15,7 @@ const AboutMe = () => {
         
         <div className=''>
         <div class="text-l p-4 text-stone-200">{"Hello! I'm Vidhi, a passionate product designer currently studying Systems Design Engineering at the University of Waterloo. My approach to design is deeply rooted in empathy, as I believe in creating products that not only look good but also cater to the diverse needs of users. My dedication to accessibility drives me to design inclusive solutions that empower everyone to engage with technology effortlessly. "}</div>
-        <div className='text-l p-4 text-stone-200'>{"Outside of design, you'll often find me immersed in my hobbies, whether I'm crocheting intricate patterns, delving into a captivating book, or [insert third hobby]. I thrive on the intersection of creativity and problem-solving, and I'm excited to continue shaping meaningful experiences through design."}</div>
+        <div className='text-l p-4 text-stone-200'>{"Outside of design, you'll often find me immersed in my hobbies, whether I'm crocheting intricate patterns, or delving into a captivating book. I thrive on the intersection of creativity and problem-solving, and I'm excited to continue shaping meaningful experiences through design."}</div>
     </div>
 
     <div className="flex items-center justify-center rounded-lg p-4">

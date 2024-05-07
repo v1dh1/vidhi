@@ -28,9 +28,9 @@ const Design = () => {
         </div>
 
         <div className='text-stone-100 text-xl pt-8 pb-4'>{"Onboarding"}</div>
-        <div className='text-stone-200'>{"I stuck to a 3 screen process for onboarding. The onboarding process of any app can make or break whether users will actually use the app or not. Users have limited time which they are ready to devote to learning how the product works before starting to actually interact with it, and I wanted to keep the onboarding short and simple. It should concisely let users know who should use this app, how it will be helpful, and how to use it. "}</div>
+        <div className='text-stone-200'>{"I stuck to a 3 screen process for onboarding. The onboarding process of any app can make or break whether users will actually use the app or not. Users have limited time which they are ready to devote to learning how the product works before starting to actually interact with it, and I wanted to keep the onboarding short and simple. It should concisely let users know who should use this app, how it will be helpful, and how to use it. I made a short 3 screen onboarding, to support higher engagement, and a lower time to value rate. "}</div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
 
             <div className='pt-4'>
 
@@ -43,12 +43,17 @@ const Design = () => {
             </div>
 
 
-            <div className=''>hiii</div>
+            <Image
+              src="/Onboarding.png"
+              width={1000}
+              height={500}
+              alt="iphone mockup of front page"
+            />
         </div>
 
-        <div className='text-stone-200 text-center pt-2'>{"The before and the after of onboarding"}</div>
+        <div className='text-stone-200 text-center pt-2 pb-4'>{"The before and the after of onboarding"}</div>
 
-        <div className='text-stone-100'>{"This project was a really iterative process. I started with barebone wireframes of what the main screen of this app may look like"}</div>
+        <div className='text-stone-100 pb-2'>{"This project was a really iterative process. I started with barebone wireframes of what the main screen of this app may look like"}</div>
 
         <div className='grid grid-cols-1 md:grid-cols-2'>
        
@@ -154,11 +159,11 @@ const Design = () => {
 
         </div>
 
-        <div className='text-stone-200 pt-4 text-center'>{"Finally, I made my final iteration of the app design. Let's take a look at some components in detail."}</div>
+        <div className='text-stone-200 pt-4 text-center'>{"Finally, I made my final iteration of the app design."}</div>
         <div className='flex justify-center pt-4 pb-4'>
         <Image
-              src="/finaldesign.png"
-              width={1000}
+              src="/trace.png"
+              width={900}
               height={500}
               alt="final design screens"
             />
@@ -166,23 +171,6 @@ const Design = () => {
 
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2'>
-            <div className='flex justify-center pt-4 pb-4'>
-
-            <Image
-              src="/beads.png"
-              width={500}
-              height={500}
-              alt="zoomed in product card"
-            />
-
-            </div>
-
-            <div className='flex text-center flex-justify-center pt-4 pb-4'>
-            <div className='pl-4 text-stone-200'>{"This product card was designed to be simplistic, and only show the required information needed for users to understand what the product is, and 2 actions they can do with it. The first action would be to"} {"like"} {"the product (which would add it to their wishlist), and the second would be to click on this card itself, which would lead to the product's page containing more details about the item, and give users the option to contact the lister to barter for the item."}</div>
-
-            </div>
-        </div>
     </div>
 
 </div>

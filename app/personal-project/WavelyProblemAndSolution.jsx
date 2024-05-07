@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const WavelyProblemAndSolution = () => {
   return (
@@ -16,8 +17,14 @@ const WavelyProblemAndSolution = () => {
         <div className='pt-32'></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-red-200 p-4 shadow rounded">
-              Item 1
+            <div className=''>
+            <Image
+              src="/wavelysolution.png"
+              width={2000}
+              height={500}
+              alt="survey results from q1"
+              
+            />
             </div>
             
             <div className="">

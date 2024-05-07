@@ -5,7 +5,6 @@ const PersonalProject = () => {
   return (
     <div>
 
-        hii this is where wavely will go
         <Wavely/>
     </div>
   )
