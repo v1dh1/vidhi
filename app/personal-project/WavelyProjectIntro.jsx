@@ -32,7 +32,7 @@ const WavelyProjectIntro = () => {
                 </div>
 
                 <div className='pt-4'>
-                    <button className="btn btn-xs text-stone-900 bg-fuchsia-100 hover:bg-fuchsia-300 sm:btn-sm md:btn-md lg:btn-md">View Figma File</button>
+                    <button className="btn btn-xs text-stone-900 bg-fuchsia-100 hover:bg-fuchsia-300 sm:btn-sm md:btn-md lg:btn-md"><a href='https://www.figma.com/proto/klRcf3GeY1OJfcTpiTqPx3/Weavely-App-Design?type=design&node-id=0-1&viewport=-1327%2C-997%2C0.13&t=91XcLNpExsXGVDmd-0&scaling=scale-down&starting-point-node-id=334%3A4698'>View Figma File</a></button>
                 </div>
 
             </div>
