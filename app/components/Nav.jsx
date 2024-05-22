@@ -24,7 +24,7 @@ const Nav = () => {
       </Link>
 
 
-      <a href="https://drive.google.com/file/d/1xbe8cnvqcKaVr7SjYRO4gTSXOxID3E7Z/view?usp=sharing" className="flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl">Resume</a>
+      <a href="https://drive.google.com/file/d/1t_sdutYwX4q2fcUNYJUWpvfCeOOtKc1N/view?usp=sharing" className="flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl">Resume</a>
         </div>
 
 
