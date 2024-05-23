@@ -59,7 +59,7 @@ const NewNav = () => {
       </Link>
 
       {/* Button 3: Resume */}
-      <a href="https://drive.google.com/file/d/1xbe8cnvqcKaVr7SjYRO4gTSXOxID3E7Z/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1t_sdutYwX4q2fcUNYJUWpvfCeOOtKc1N/view?usp=sharing">
       <button className='flex flex-col items-center justify-center text-stone-200 py-2 px-4 rounded hover:bg-stone-950 hover:rounded-3xl'>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_127_34)">
