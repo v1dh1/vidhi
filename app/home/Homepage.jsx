@@ -17,7 +17,7 @@ const Homepage = () => {
               {"Product Designer and Manager who dabbles in code. Engineering student @UWaterloo"}
               </div>
 
-              <div className='text-xl text-stone-200 pt-2 font-bold'>{"Currently seeking Fall 2024 product internships"}</div>
+              <div className='text-xl text-stone-200 pt-2 font-bold'>{"Currently seeking Fall 2024 internships"}</div>
 
               <div className=" flex flex-row gap-6 pt-4">
                 <a href="mailto:vidhigokani1@gmail.com">
