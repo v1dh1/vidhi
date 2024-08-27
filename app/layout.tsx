@@ -29,11 +29,7 @@ export default function RootLayout({
           <link rel="icon" href="/favicon.svg" />
           {/* Additional favicon sizes and types can be included here */}
         </Head>
-        <Nav />
-        
-        <div className="hidden md:block">
-          <NewNav />
-        </div>    
+
         
         <main className={inter.className}>{children}</main>
     <Footer />
