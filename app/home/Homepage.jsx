@@ -45,7 +45,6 @@ const Homepage = () => {
           <p className='pt-8 text-l text-stone-800'> About </p>
           <p className='text-xs text-stone-400'>What makes me, me</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
-          <p className='text-xs text-stone-600 pt-2'>I'm a Product Designer from Canada that is driven by curiosity and crafting pleasant visuals. Previously, I designed for an agency called Essential Designs. Currently, I am freelancing and pursuing side ventures.</p>
 
 
           {/* case studies layout */}
@@ -60,7 +59,6 @@ const Homepage = () => {
           
          {/* contact*/}
          <p className='pt-8 text-l text-stone-800'>Contact</p>
-          <p className='text-xs text-stone-600 pb-2'>I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships</p>
           <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50"><a href='mailto:vidhigokani1@gmail.com'>Let's Talk</a></button>
           <div className='px-3 py-2 border-b border-pink-200'></div>
 
@@ -75,10 +73,7 @@ const Homepage = () => {
       <div className="bg-white md:col-span-3 p-4 overflow-y-auto">
         {/* Content of the right column goes here */}
         <h1>Main Content</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae
-          risus nec dui venenatis dignissim. Suspendisse tempor, lacus at bibendum
-          aliquam, urna ligula fermentum nunc, eu facilisis lectus ex et eros.
+        <p>n
         </p>
         {/* Add more content as needed */}
       </div>
