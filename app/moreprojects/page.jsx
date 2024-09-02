@@ -46,7 +46,7 @@ const Moreprojects = () => {
 
         {/* Projects takes up 3/4 of the screen */}
         <main className="bg-white md:col-span-3 p-4 overflow-y-auto">
-          <EngineeringProjects />
+          <EngineeringProjects /> {"hopefully this will work !!!"}
         </main>
       </div>
       </motion.div>

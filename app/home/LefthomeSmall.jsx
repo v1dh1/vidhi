@@ -25,7 +25,7 @@ const LefthomeSmall = () => {
       <div className="navbar bg-pink-50 w-full fixed top-0 z-50">
         <div className="flex-1">
           <Link href="/home" className="btn btn-ghost text-2xl text-stone-800 font-medium font-sofia">
-            Vidhi Gokani ★
+            {"Vidhi Gokani ★"}
           </Link>
         </div>
         <div className="flex-none">
@@ -55,7 +55,7 @@ const LefthomeSmall = () => {
               >
                 <p className="text-l text-stone-800">About</p>
                 <p className="text-xs text-stone-600">
-                  What makes me, me ₊˚.🎧 ✩｡☕ 🤎
+                  {"What makes me, me ₊˚.🎧 ✩｡☕ 🤎"}
                 </p>
               </motion.div>
             </Link>
@@ -68,20 +68,20 @@ const LefthomeSmall = () => {
               >
                 <p className="text-l text-stone-800">Case Studies</p>
                 <p className="text-xs text-stone-600">
-                  View my selected projects
+                  {"View my selected projects"}
                 </p>
               </motion.div>
             </Link>
 
             <Link href="/protectedPage">
               <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
-                TD Bank ⤞
+                {"TD Bank ⤞"}
               </p>
             </Link>
 
             <Link href="/wavelyproject">
               <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
-                Wavely ⤞
+                {"Wavely ⤞"}
               </p>
             </Link>
 
@@ -93,7 +93,7 @@ const LefthomeSmall = () => {
               >
                 <p className="text-l text-stone-800">More Projects</p>
                 <p className="text-xs text-stone-600">
-                  Engineering, Passion Projects and More
+                 {" Engineering, Passion Projects and More"}
                 </p>
               </motion.div>
             </Link>
@@ -101,11 +101,10 @@ const LefthomeSmall = () => {
             <div className="py-2">
               <p className="text-l text-stone-800">Contact</p>
               <p className="text-xs text-stone-600 pb-2">
-                I am always looking to connect with new people, feel free to reach out. 
-                Currently seeking Summer 2025 internships
+                {"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}
               </p>
               <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50">
-                <a href="mailto:vidhigokani1@gmail.com">Let's Talk</a>
+                <a href="mailto:vidhigokani1@gmail.com">{"Let's Talk"}</a>
               </button>
             </div>
           </div>

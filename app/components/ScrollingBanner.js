@@ -6,16 +6,16 @@ export default function ScrollingBanner() {
          <div className="text-pink-200">
          
           <span className="text-lg font-bold mx-4 text-pink-400">
-          𐙚 ‧₊˚ ⋅ cute cafés 𐙚 ‧₊˚ ⋅ 
+         {" 𐙚 ‧₊˚ ⋅ cute cafés 𐙚 ‧₊˚ ⋅ "}
           </span>
           <span className="text-lg font-bold mx-4 ">
-          ༶•┈┈୨♡୧┈┈•༶ books that make me feel ༶•┈┈୨♡୧┈┈•༶ 
+          {"༶•┈┈୨♡୧┈┈•༶ books that make me feel ༶•┈┈୨♡୧┈┈•༶ "}
           </span>
           <span className="text-lg font-bold mx-4">
-          ✧･ﾟ: *✧･ﾟ:*
+          {"✧･ﾟ: *✧･ﾟ:*"}
           </span>
           <span className="text-lg font-bold mx-4">
-          ੈ✩‧₊˚
+         {" ੈ✩‧₊˚"}
           </span>
           </div>
         </div>

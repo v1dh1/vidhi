@@ -22,7 +22,7 @@ const Lefthome = () => {
         <div className='p-4'>
         {/* name + title */}
         <Link href="/home">
-        <p className='text-2xl text-stone-800 font-medium font-sofia'>Vidhi Gokani ★</p>
+        <p className='text-2xl text-stone-800 font-medium font-sofia'>{"Vidhi Gokani ★"}</p>
           <p className='text-xs text-stone-600'>Product Designer</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
           </Link>
@@ -33,7 +33,7 @@ const Lefthome = () => {
             <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
               <p className='pt-8 text-l text-stone-800'> About </p>
-              <p className='text-xs text-stone-600'>What makes me, me ₊˚.🎧 ✩｡☕ 🤎</p>
+              <p className='text-xs text-stone-600'>{"What makes me, me ₊˚.🎧 ✩｡☕ 🤎"}</p>
             </motion.div>
           </Link>
 
@@ -45,15 +45,15 @@ const Lefthome = () => {
         <Link href="/home">
           <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-            <p className='pt-8 text-l text-stone-800'>Case Studies</p>
-            <p className='text-xs text-stone-600 pb-4'>View my selected projects</p>
+            <p className='pt-8 text-l text-stone-800'>{"Case Studies"}</p>
+            <p className='text-xs text-stone-600 pb-4'>{"View my selected project"}s</p>
           </motion.div>
           </Link>
 
 
           <div className='text-stone-600 text-sm'>
-            <Link href="/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>TD Bank ⤞</p></Link>
-            <Link href="/wavelyproject"><p className='hover:text-pink-600 hover:font-semibold'>Wavely ⤞</p></Link>
+            <Link href="/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
+            <Link href="/wavelyproject"><p className='hover:text-pink-600 hover:font-semibold'>{"Wavely ⤞"}</p></Link>
           </div>
 
           <div className='px-3 py-2 border-b border-pink-200'></div>
@@ -62,8 +62,8 @@ const Lefthome = () => {
          <Link href='/moreprojects'>
          <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-         <p className='pt-8 text-l text-stone-800'>More Projects</p>
-          <p className='text-xs text-stone-600'>Engineering, Passion Projects and More </p>
+         <p className='pt-8 text-l text-stone-800'>{"More Projects"}</p>
+          <p className='text-xs text-stone-600'>{"Engineering, Passion Projects and More "}</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
           </motion.div>
           </Link>
@@ -71,7 +71,7 @@ const Lefthome = () => {
          {/* contact*/}
          <p className='pt-8 text-l text-stone-800'>Contact</p>
           <p className='text-xs text-stone-600 pb-2'>{"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}</p>
-          <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50"><a href='mailto:vidhigokani1@gmail.com'>Let's Talk</a></button>
+          <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50"><a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a></button>
           <div className='px-3 py-2 border-b border-pink-200'></div>
 
      </div>
