@@ -1,3 +1,4 @@
+'use client';
 import React from 'react'
 import TraceIntro from './TraceComponents/TraceIntro';
 import TraceStart from './TraceComponents/TraceStart';
