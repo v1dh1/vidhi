@@ -19,11 +19,11 @@ const Trace = () => {
         <div className="card lg:card-side bg-stone-50">
         <figure>
           <Image
-                    src="/trace-after.png" // The path to your image
+                    src="/trace-after.png" 
                     alt="Descriptive text for the image"
-                    layout="fit" // This makes the image fill the container
-                    objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                    className="rounded-lg" // Ensures the image has rounded corners like the container
+                    layout="fit"
+                    objectFit="cover" 
+                    className="rounded-lg" 
                     height={400}
                     width={400}
                 />
