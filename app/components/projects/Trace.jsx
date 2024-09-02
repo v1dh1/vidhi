@@ -1,32 +1,50 @@
+'use client';
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+
+
 
 
 const Trace = () => {
   return (
 <div className='pt-4'>
+
+  <Link href="/protectedPage">
+
+    <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
+              transition={{ duration: 0.2 }}>
         
-        <div className="card lg:card-side shadow-xl bg-stone-800">
-        <figure className=''></figure>
+        <div className="card lg:card-side bg-stone-50">
+        <figure>
+          <Image
+                    src="/trace-after.png" // The path to your image
+                    alt="Descriptive text for the image"
+                    layout="fit" // This makes the image fill the container
+                    objectFit="cover" // This makes the image cover the available space, you can adjust as needed
+                    className="rounded-lg" // Ensures the image has rounded corners like the container
+                    height={400}
+                    width={400}
+                />
+        </figure>
         <div className="card-body">
-            <h2 className="card-title text-stone-200 text-2xl font-serifDisplay"> Integrating a standalone app into the TD mobile banking app in the US market </h2>
-            <p className='text-stone-300'>Case Study | TD Innovation Lab | 2024</p>
-
-            <div className='flex flex-wrap gap-2 pt-4'>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">UI Design</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Prototyping</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Design Thinking</div>
+          <h2 className="card-title text-stone-700 text-2xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
+          <p className='text-stone-700'> TD Innovation Lab | 2024</p>
+          
+          <div className='flex flex-wrap gap-2 pt-4'>
+                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>
+                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Prototyping</div>
+                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Design Thinking</div>
           </div>
-
-            <div className="card-actions justify-end">
-            <Link href="/protectedPage">
-            <button className="btn text-l text-stone-800 bg-fuchsia-100 hover:bg-fuchsia-300 border-none drop-shadow-lg">
-
-              View Case Study</button>
-              </Link>
-            </div>
+          <div className="card-actions justify-end">
+          </div>
         </div>
-        </div>
+      </div>
+
+        </motion.div>
+
+        </Link>
     
         </div>
   )

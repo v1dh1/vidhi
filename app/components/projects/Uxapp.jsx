@@ -1,12 +1,20 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from 'framer-motion';
+
 
 const Uxapp = () => {
   return (
     <div className='pt-4'>
+
+    <Link href="/wavelyproject">
+
+    <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
+              transition={{ duration: 0.2 }}>
         
-        <div className="card lg:card-side shadow-xl bg-stone-800">
+        <div className="card lg:card-side bg-stone-50">
         <figure className=''></figure>
         <div className="card-body">
 
@@ -25,14 +33,14 @@ const Uxapp = () => {
           </div>
 
           <div className=''>
-            <h2 className="card-title text-stone-200 text-2xl font-serifDisplay"> Wavely - Bringing back bartering </h2>
-            <p className='text-stone-300'>Case Study | Personal Project | 2024</p>
+            <h2 className="card-title text-stone-700 text-2xl"> Wavely - Bringing back bartering </h2>
+            <p className='text-stone-700'>Case Study | Personal Project | 2024</p>
 
             <div className='flex flex-wrap gap-2 pt-4'>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">UI Design</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">UX Design</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Design Thinking</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-fuchsia-100 text-fuchsia-100">Research</div>
+            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>
+            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UX Design</div>
+            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Design Thinking</div>
+            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Research</div>
 
             </div>
 
@@ -40,18 +48,12 @@ const Uxapp = () => {
 
             <div className="card-actions justify-end">
 
-                <Link href="/personal-project">
-            
-                <button className="btn text-l text-stone-800 bg-fuchsia-100 hover:bg-fuchsia-300">
-
-                  View Case Study</button>
-
-                  </Link>
             </div>
         </div>
         </div>
+        </motion.div>
     
-
+        </Link>
     </div>
   )
 }

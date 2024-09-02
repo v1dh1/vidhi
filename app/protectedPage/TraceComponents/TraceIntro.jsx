@@ -6,29 +6,29 @@ const TraceIntro = () => {
     <div>
 
 
-        <div className='text-stone-100 text-4xl pt-8'>Trace</div>
-        <div className='text-stone-200 text-2xl pt-4'>{"Integrating a standalone app into the existing TD Mobile Banking App"}</div>
+        <div className='text-stone-700 text-4xl pt-8 font-semibold'>Trace</div>
+        <div className='text-stone-500 text-2xl pt-4'>{"Integrating a standalone app into the existing TD Mobile Banking App"}</div>
 
-        <div className='text-stone-300 pt-2'> {"⚠️ Disclaimer: Due to intellectual property restrictions on this project, I am unable to publicly discuss all details, or include more pictures. For more details, you can reach out to me :)"}</div>
+        <div className='text-stone-500 pt-2'> {"⚠️ Disclaimer: Due to intellectual property restrictions on this project, I am unable to publicly discuss all details, or include more pictures. For more details, you can reach out to me :)"}</div>
 
         <div className='flex flex-row gap-3 pt-4 '>
-                    <div className="badge badge-outline border-fuchsia-100 text-fuchsia-100">UX Design</div>
-                    <div className="badge badge-outline border-fuchsia-100 text-fuchsia-100">Research</div>
-                    <div className="badge badge-outline border-fuchsia-100 text-fuchsia-100">Prototyping</div>
+                    <div className="badge badge-outline border-pink-400 text-pink-400">UX Design</div>
+                    <div className="badge badge-outline border-pink-400 text-pink-400">Research</div>
+                    <div className="badge badge-outline border-pink-400 text-pink-400">Prototyping</div>
         </div>
 
         <div className='flex flex-row gap-12 pt-4'>
 
-            <div className='text-stone-200 pt-4'>6 min read</div>
+            <div className='text-stone-600 pt-4'>6 min read</div>
 
             <div className=''>
-                <div className='text-stone-100 pt-4'>TIMELINE</div>
-                <div className='text-stone-300'>January - March 2024</div>
+                <div className='text-stone-700 pt-4'>TIMELINE</div>
+                <div className='text-stone-600'>January - March 2024</div>
             </div>
 
             <div className=''>
-                <div className='text-stone-100 pt-4'>DESIGN ROLE</div>
-                <div className='text-stone-300'>{"UI Design, Research"}</div>
+                <div className='text-stone-700 pt-4'>DESIGN ROLE</div>
+                <div className='text-stone-600'>{"UI Design, Research"}</div>
             </div>
         </div>
 
@@ -41,7 +41,7 @@ const TraceIntro = () => {
               height={500}
               alt="Trace Before"
             />
-          <div className='text-center pt-2 text-stone-200'>Trace Before the Integration</div>
+          <div className='text-center pt-2 text-stone-500'>Trace Before the Integration</div>
         </div>
 
         <div className=''>
@@ -51,7 +51,7 @@ const TraceIntro = () => {
               height={500}
               alt="Trace After"
             />
-          <div className='text-center pt-2 text-stone-200'>Trace After the Integration</div>
+          <div className='text-center pt-2 text-stone-500'>Trace After the Integration</div>
         </div>
 
         </div>

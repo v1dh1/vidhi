@@ -1,13 +1,11 @@
-"use client"
-
+"use client";
 import React from 'react'
-import AboutMe from './AboutMe'
+import EngineeringProjects from './engineering/EngineeringProjects';
 
-
-import Lefthome from '../home/Lefthome'
-import LefthomeSmall from '../home/LefthomeSmall'
-import Link from 'next/link';
 import { motion } from 'framer-motion';
+
+import Lefthome from '../home/Lefthome';
+import LefthomeSmall from '../home/LefthomeSmall';
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
@@ -16,22 +14,26 @@ const pageTransition = {
 };
 
 
-const About = () => {
+const Moreprojects = () => {
   return (
-    <main>
-        <div>
+
+
+    <div>
+      
 
     <motion.div
-    initial="initial"
-    animate="animate"
-    exit="exit"
-    variants={pageTransition}
-  >
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={pageTransition}
+      >
+
+
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="md:hidden">
         <LefthomeSmall />
         <main className="bg-white p-4 overflow-y-auto">
-          <AboutMe />
+          <EngineeringProjects />
         </main>
       </div>
 
@@ -44,14 +46,17 @@ const About = () => {
 
         {/* Projects takes up 3/4 of the screen */}
         <main className="bg-white md:col-span-3 p-4 overflow-y-auto">
-          <AboutMe />
+          <EngineeringProjects />
         </main>
       </div>
       </motion.div>
+
     </div>
-        
-    </main>
+
+
+
+    
   )
 }
 
-export default About
+export default Moreprojects
