@@ -2,7 +2,6 @@
 import React from 'react'
 
 import Projects from './components/Projects';
-import Homepage from './home/Homepage';
 import { motion } from 'framer-motion';
 import Lefthome from './home/Lefthome';
 import LefthomeSmall from './home/LefthomeSmall'
