@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -33,8 +33,8 @@ const Uxapp = () => {
           </div>
 
           <div className=''>
-            <h2 className="card-title text-stone-700 text-2xl"> Wavely - Bringing back bartering </h2>
-            <p className='text-stone-700'>Case Study | Personal Project | 2024</p>
+            <h2 className="card-title text-stone-700 text-2xl"> {"Wavely - Bringing back bartering"} </h2>
+            <p className='text-stone-700'>{"Case Study | Personal Project | 2024"}</p>
 
             <div className='flex flex-wrap gap-2 pt-4'>
             <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>

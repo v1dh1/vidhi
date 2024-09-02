@@ -19,18 +19,18 @@ const Trace = () => {
         <div className="card lg:card-side bg-stone-50">
         <figure>
           <Image
-                    src="/trace-after.png" // The path to your image
+                    src="/trace-after.png" 
                     alt="Descriptive text for the image"
-                    layout="fit" // This makes the image fill the container
-                    objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                    className="rounded-lg" // Ensures the image has rounded corners like the container
+                    layout="fit"
+                    objectFit="cover" 
+                    className="rounded-lg" 
                     height={400}
                     width={400}
                 />
         </figure>
         <div className="card-body">
           <h2 className="card-title text-stone-700 text-2xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
-          <p className='text-stone-700'> TD Innovation Lab | 2024</p>
+          <p className='text-stone-700'> {"TD Innovation Lab | 2024"}</p>
           
           <div className='flex flex-wrap gap-2 pt-4'>
                   <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>

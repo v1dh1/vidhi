@@ -36,7 +36,7 @@ const SystemsModeling = () => {
     
   </figure>
   <div className="card-body md:w-2/3">
-    <h2 className="card-title text-stone-700">Modeling a Human Transporter</h2>
+    <h2 className="card-title text-stone-700">{"Modeling a Human Transporter"}</h2>
     <p className='text-l text-stone-500'>{"This project models the dynamics of the Ninebot S Max human transporter, commonly used by university students, to develop a simulation that ensures stability over maximum travel distances. Using Simulink and SimulationX, the project combines theoretical and experimental approaches to optimize the transporter's performance."}</p>
     <p className='text-m text-stone-500'>{"click to view!"}</p>
    

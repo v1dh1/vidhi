@@ -1,5 +1,7 @@
+'use client';
 import React from 'react'
 import Image from 'next/image';
+
 
 import ScrollingBanner from '../components/ScrollingBanner';
 
@@ -10,7 +12,7 @@ const AboutMe = () => {
     <div className='container mx-auto p-4'>
 
     <div className='text-stone-700 font-semibold text-6xl p-4 pt-16 md:pt-4'>
-     About Vidhi
+     {"About Vidhi"}
 
     </div>
 
@@ -67,8 +69,8 @@ const AboutMe = () => {
 
 
 
-    <div className='text-xl text-stone-700 pt-20'>Life Snippets</div>
-    <div className='text-stone-500'>⚠️ Coming Soon</div>
+    <div className='text-xl text-stone-700 pt-20'>{"Life Snippets"}</div>
+    <div className='text-stone-500'>{"⚠️ Coming Soon"}</div>
     </div>
 
   )
