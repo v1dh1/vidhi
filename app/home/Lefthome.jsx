@@ -71,8 +71,18 @@ const Lefthome = () => {
          {/* contact*/}
          <p className='pt-8 text-l text-stone-800'>Contact</p>
           <p className='text-xs text-stone-600 pb-2'>{"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}</p>
-          <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50"><a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a></button>
+
+          <div className="flex space-x-4">
+            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-200">
+              <a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a>
+            </button>
+            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-200">
+              <a href='https://drive.google.com/file/d/1xbe8cnvqcKaVr7SjYRO4gTSXOxID3E7Z/view?usp=sharing'>{"Resume"}</a>
+            </button>
+          </div>
+
           <div className='px-3 py-2 border-b border-pink-200'></div>
+
 
      </div>
 
