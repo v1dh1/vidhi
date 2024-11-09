@@ -2,7 +2,7 @@
 import React from 'react'
 import Uxapp from './projects/Uxapp';
 import Trace from './projects/Trace';
-
+import Goco from './projects/Goco';
 const Projects = () => {
   return (
 
@@ -24,6 +24,7 @@ const Projects = () => {
         <div className='pt-4'>
         <Trace/>
         <Uxapp/>
+        <Goco/>
 
        
         </div>

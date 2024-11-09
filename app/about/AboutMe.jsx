@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image';
 
 
-import ScrollingBanner from '../components/ScrollingBanner';
+import ScrollingBanner from '../components/scrolls/Headingscroll';
 
 
 

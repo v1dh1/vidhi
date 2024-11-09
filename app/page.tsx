@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import { motion } from 'framer-motion';
 import Lefthome from './home/Lefthome';
 import LefthomeSmall from './home/LefthomeSmall'
+import Homecontent from './home/Homecontent';
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
@@ -28,7 +29,7 @@ export default function Home() {
       <div className="md:hidden">
         <LefthomeSmall />
         <main className="bg-white p-4 overflow-y-auto">
-          <Projects />
+          <Homecontent />
         </main>
       </div>
 
@@ -41,7 +42,7 @@ export default function Home() {
 
         {/* Projects takes up 3/4 of the screen */}
         <main className="bg-white md:col-span-3 p-4 overflow-y-auto">
-          <Projects />
+          <Homecontent />
         </main>
       </div>
       </motion.div>

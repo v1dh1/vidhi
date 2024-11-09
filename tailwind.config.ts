@@ -13,6 +13,7 @@ const config: Config = {
         "apple": ["Homemade Apple", "cursive"],
         "sofia": ["Princess Sofia", "cursive"],
         "serifDisplay": ["DM Serif Text", "serif"],
+        "garamond": ["Cormorant Garamond", "serif"]
 
       },
 

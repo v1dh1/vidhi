@@ -22,8 +22,8 @@ const Lefthome = () => {
         <div className='p-4'>
         {/* name + title */}
         <Link href="/home">
-        <p className='text-2xl text-stone-800 font-medium font-sofia'>{"Vidhi Gokani ★"}</p>
-          <p className='text-xs text-stone-600'>Product Designer</p>
+        <p className='text-2xl text-stone-800 font-medium font-garamond'>{"Vidhi Gokani ★"}</p>
+          <p className='text-xs text-stone-600'>{"Product & Design"}</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
           </Link>
           {/* about me intro */}
@@ -33,7 +33,7 @@ const Lefthome = () => {
             <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
               <p className='pt-8 text-l text-stone-800'> About </p>
-              <p className='text-xs text-stone-600'>{"What makes me, me ₊˚.🎧 ✩｡☕ 🤎"}</p>
+              <p className='text-xs text-stone-600'>{".˚₊ About Vidhi ₊˚."}</p>
             </motion.div>
           </Link>
 
@@ -42,7 +42,7 @@ const Lefthome = () => {
 
 
           {/* case studies layout */}
-        <Link href="/home">
+        <Link href="/design">
           <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
             <p className='pt-8 text-l text-stone-800'>{"Case Studies"}</p>
@@ -52,8 +52,8 @@ const Lefthome = () => {
 
 
           <div className='text-stone-600 text-sm'>
-            <Link href="/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
-            <Link href="/wavelyproject"><p className='hover:text-pink-600 hover:font-semibold'>{"Wavely ⤞"}</p></Link>
+            <Link href="/design/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
+            <Link href="/design/wavely"><p className='hover:text-pink-600 hover:font-semibold'>{"Wavely ⤞"}</p></Link>
           </div>
 
           <div className='px-3 py-2 border-b border-pink-200'></div>

@@ -21,119 +21,41 @@ const Footer = () => {
 
     </aside> 
     <nav className="flex flex-row gap-4 md:place-self-center md:justify-self-end">
-        <a href='https://www.linkedin.com/in/vidhigokani/'><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 256 256" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{ mixBlendMode: "normal" }}>
-  <g transform="scale(5.12, 5.12)">
-    <path fill="#e7e5e4" d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z" />
-  </g>
-</svg>
+        <a href='https://www.linkedin.com/in/vidhigokani/'> <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="black"
+  >
+    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.5 20h-3v-11h3v11zm-1.5-12.28c-.97 0-1.75-.78-1.75-1.72s.78-1.72 1.75-1.72 1.75.78 1.75 1.72-.78 1.72-1.75 1.72zm13.5 12.28h-3v-5.6c0-3.36-4-3.1-4 0v5.6h-3v-11h3v1.8c1.4-2.59 7-2.78 7 2.47v6.73z" />
+  </svg>
 
 
         </a>
         <a href='mailto:vidhigokani1@gmail.com'>
 
         <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 439.371 331.469"
-  fillRule="evenodd"
-  stroke="none"
-  strokeWidth="1"
-  strokeLinecap="butt"
-  strokeLinejoin="miter"
-  strokeMiterlimit="10"
-  fontFamily="none"
-  fontWeight="none"
-  fontSize="none"
-  textAnchor="none"
-  style={{ mixBlendMode: "normal" }}
->
-  <defs>
-    <marker
-      id="ArrowEnd"
-      markerHeight="3"
-      markerUnits="strokeWidth"
-      markerWidth="4"
-      orient="auto"
-      refX="0"
-      refY="5"
-      viewBox="0 0 10 10"
-    >
-      <path d="M 0,0 L 10,5 L 0,10 L 0,0 z" fill="#f5f5f4" />
-    </marker>
-    <marker
-      id="ArrowStart"
-      markerHeight="3"
-      markerUnits="strokeWidth"
-      markerWidth="4"
-      orient="auto"
-      refX="10"
-      refY="5"
-      viewBox="0 0 10 10"
-    >
-      <path d="M 10,0 L 0,5 L 10,10 L 10,0 z" fill="#f5f5f4" />
-    </marker>
-  </defs>
-  <g transform="translate(-145.3305, -145.3305)">
-    <path
-      d="M 569.374,461.472 L 569.374,160.658 L 160.658,160.658 L 160.658,461.472 L 569.374,461.472 z"
-      fill="none"
-      stroke="#f5f5f4"
-      strokeWidth="30.655"
-    />
-    <path
-      d="M 164.46,164.49 L 340.78,343.158 C 353.849,356.328 377.63,356.172 390.423,343.278 L 566.622,165.928"
-      fill="none"
-      stroke="#f5f5f4"
-      strokeWidth="30.655"
-    />
-    <path
-      d="M 170.515,451.566 L 305.61,313.46"
-      fill="none"
-      stroke="#f5f5f4"
-      strokeWidth="30.655"
-    />
-    <path
-      d="M 557.968,449.974 L 426.515,315.375"
-      fill="none"
-      stroke="#f5f5f4"
-      strokeWidth="30.655"
-    />
-  </g>
-</svg>
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="black"
+  >
+    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zm-16 12V8.99l7.5 5.26c.4.28.9.28 1.3 0L20 8.99V18H4z"/>
+  </svg>
 
 
 </a>
-        <a href='https://github.com/v1dh1'><svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 512 512"
-  xmlSpace="preserve"
-  fillRule="evenodd"
-  clipRule="evenodd"
-  stroke="none"
-  strokeWidth="1"
-  strokeLinecap="butt"
-  strokeLinejoin="miter"
-  strokeMiterlimit="10"
-  fontFamily="none"
-  fontWeight="none"
-  fontSize="none"
-  textAnchor="none"
-  style={{ enableBackground: "new 0 0 512 512" }}
->
-  <path
-    fill="#f5f5f4"
-    d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1
-      c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14
-      c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5
-      c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7
-      c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3
-      c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7
-      C480,134.8,379.7,32,256,32z"
-  />
-</svg>
+        <a href='https://github.com/v1dh1'>  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="black"
+  >
+    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.799 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.726-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.833 2.809 1.304 3.495.997.108-.775.418-1.305.761-1.605-2.666-.3-5.467-1.334-5.467-5.934 0-1.31.469-2.38 1.236-3.22-.124-.302-.535-1.52.118-3.165 0 0 1.008-.322 3.301 1.23a11.54 11.54 0 0 1 3.003-.404c1.019.005 2.047.137 3.003.404 2.292-1.552 3.298-1.23 3.298-1.23.656 1.645.245 2.863.121 3.165.77.84 1.235 1.91 1.235 3.22 0 4.61-2.805 5.63-5.478 5.922.43.37.816 1.102.816 2.22v3.293c0 .32.22.694.825.576C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z" />
+  </svg>
 </a>
     </nav>
     </div>

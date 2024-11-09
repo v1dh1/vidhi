@@ -55,12 +55,12 @@ const LefthomeSmall = () => {
               >
                 <p className="text-l text-stone-800">About</p>
                 <p className="text-xs text-stone-600">
-                  {"What makes me, me ₊˚.🎧 ✩｡☕ 🤎"}
+                  {".˚₊ About Vidhi ₊˚."}
                 </p>
               </motion.div>
             </Link>
 
-            <Link href="/home">
+            <Link href="/design">
               <motion.div
                 whileHover={{ opacity: 0.8, scale: 0.95 }}
                 transition={{ duration: 0.2 }}
@@ -73,13 +73,13 @@ const LefthomeSmall = () => {
               </motion.div>
             </Link>
 
-            <Link href="/protectedPage">
+            <Link href="/design/protectedPage">
               <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
                 {"TD Bank ⤞"}
               </p>
             </Link>
 
-            <Link href="/wavelyproject">
+            <Link href="/design/wavely">
               <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
                 {"Wavely ⤞"}
               </p>

@@ -11,7 +11,7 @@ const Trace = () => {
   return (
 <div className='pt-4'>
 
-  <Link href="/protectedPage">
+  <Link href="/design/protectedPage">
 
     <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
@@ -29,7 +29,7 @@ const Trace = () => {
                 />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-stone-600 text-2xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
+          <h2 className="card-title text-stone-700 text-2xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
           <p className='text-stone-700'> {"TD Innovation Lab | 2024"}</p>
           
           <div className='flex flex-wrap gap-2 pt-4'>

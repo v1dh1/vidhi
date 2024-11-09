@@ -4,6 +4,7 @@ import React from 'react'
 import Lefthome from './Lefthome';
 import LefthomeSmall from './LefthomeSmall';
 import Projects from '../components/Projects';
+import Homecontent from './Homecontent';
 
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
       <div className="md:hidden">
         <LefthomeSmall />
         <main className="bg-white p-4 overflow-y-auto">
-          <Projects />
+        <Homecontent/>
         </main>
       </div>
 
@@ -28,7 +29,8 @@ const Home = () => {
 
         {/* Projects takes up 3/4 of the screen */}
         <main className="bg-white md:col-span-3 p-4 overflow-y-auto">
-          <Projects />
+        <Homecontent/>
+
         </main>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Uxapp = () => {
   return (
     <div className='pt-4'>
 
-    <Link href="/wavelyproject">
+    <Link href="/design/wavely">
 
     <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
