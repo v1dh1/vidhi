@@ -24,7 +24,6 @@ const Projects = () => {
         <div className='pt-4'>
         <Trace/>
         <Uxapp/>
-        <Goco/>
 
        
         </div>
