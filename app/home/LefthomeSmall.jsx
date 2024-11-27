@@ -24,7 +24,7 @@ const LefthomeSmall = () => {
     >
       <div className="navbar bg-pink-50 w-full fixed top-0 z-50">
         <div className="flex-1">
-          <Link href="/home" className="btn btn-ghost text-2xl text-stone-800 font-medium font-sofia">
+          <Link href="/home" className="btn btn-ghost text-2xl font-semibold text-stone-800 font-garamond">
             {"Vidhi Gokani ★"}
           </Link>
         </div>
@@ -38,9 +38,10 @@ const LefthomeSmall = () => {
       {isOpen && (
         <div className="fixed inset-0 z-50 bg-opacity-95 flex flex-col p-4 bg-pink-50">
           <div className="flex justify-between items-center mb-4">
-            <Link href="/home" className="text-2xl text-stone-800 font-medium font-sofia">
-              Vidhi Gokani ★
+            <Link href="/home" className="text-2xl font-semibold text-stone-800 font-garamond">
+              {"Vidhi Gokani ★"}
             </Link>
+
             <button onClick={toggleDropdown} className="btn btn-ghost text-xl">
               ✕
             </button>
@@ -53,9 +54,10 @@ const LefthomeSmall = () => {
                 transition={{ duration: 0.2 }}
                 className="py-2"
               >
-                <p className="text-l text-stone-800">About</p>
+                <p className="text-l font-semibold text-stone-800">About</p>
+            
                 <p className="text-xs text-stone-600">
-                  {".˚₊ About Vidhi ₊˚."}
+                  {"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning banking, automotive services, and national defense, I bring a unique perspective to my design work. "}
                 </p>
               </motion.div>
             </Link>
@@ -66,7 +68,7 @@ const LefthomeSmall = () => {
                 transition={{ duration: 0.2 }}
                 className="py-2"
               >
-                <p className="text-l text-stone-800">Case Studies</p>
+                <p className="text-l font-semibold text-stone-800">Case Studies</p>
                 <p className="text-xs text-stone-600">
                   {"View my selected projects"}
                 </p>
@@ -74,13 +76,13 @@ const LefthomeSmall = () => {
             </Link>
 
             <Link href="/design/protectedPage">
-              <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
+              <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
                 {"TD Bank ⤞"}
               </p>
             </Link>
 
             <Link href="/design/wavely">
-              <p className="hover:text-pink-600 text-stone-500 hover:font-semibold">
+              <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
                 {"Wavely ⤞"}
               </p>
             </Link>
@@ -91,7 +93,7 @@ const LefthomeSmall = () => {
                 transition={{ duration: 0.2 }}
                 className="py-2"
               >
-                <p className="text-l text-stone-800">More Projects</p>
+                <p className="text-l font-semibold text-stone-800">More Projects</p>
                 <p className="text-xs text-stone-600">
                  {" Engineering, Passion Projects and More"}
                 </p>
@@ -99,13 +101,22 @@ const LefthomeSmall = () => {
             </Link>
 
             <div className="py-2">
-              <p className="text-l text-stone-800">Contact</p>
+              <p className="text-l text-stone-800 font-semibold">Contact</p>
               <p className="text-xs text-stone-600 pb-2">
                 {"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}
               </p>
-              <button className="btn btn-xs text-stone-700 bg-pink-100 hover:bg-green-50">
-                <a href="mailto:vidhigokani1@gmail.com">{"Let's Talk"}</a>
-              </button>
+              
+
+              <div className="flex space-x-4 pt-4">
+              <button className="btn btn-sm text-stone-700 bg-pink-200 hover:bg-pink-400 border-pink-800">
+              <a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a>
+            </button>
+            <button className="btn btn-sm text-stone-700 bg-pink-200 hover:bg-pink-400 border-pink-800">
+              <a href='https://drive.google.com/file/d/1paguULT2jvpkgY_Nu4vgRKhL747UMBB9/view?usp=sharing'>{"Resume"}</a>
+            </button>
+          </div>
+
+
             </div>
           </div>
         </div>

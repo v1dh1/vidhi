@@ -18,7 +18,7 @@ export default function ScrollingBanner() {
         </style>
         <div className="text-xl">
           <span className=" mx-4">
-            {"‧₊˚ ⋅ product design ‧₊˚ "}
+            {".-‘🚂-‘.ᯓᡣ𐭩 ‧₊˚ ⋅ product design ‧₊˚ "}
           </span>
           <span className=" mx-4">
             {"branding"}

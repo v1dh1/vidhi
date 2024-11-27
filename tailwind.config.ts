@@ -25,6 +25,7 @@ const config: Config = {
         "messagegrey": "#E9E9EB",
         "messageblack": "#212123",
         "messagewhite": "#CAEDFF",
+        "white-200": "#FFFEF9",
 
       },
       dropShadow: {

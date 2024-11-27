@@ -7,7 +7,7 @@ import React from 'react'
 
 import { motion } from 'framer-motion';
 
-import Lefthome from '../home/Lefthome';
+import Lefthome from '../home/Lefthome'
 import LefthomeSmall from '../home/LefthomeSmall';
 
 const pageTransition = {

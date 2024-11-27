@@ -22,7 +22,7 @@ const Lefthome = () => {
         <div className='p-4'>
         {/* name + title */}
         <Link href="/home">
-        <p className='text-2xl text-stone-800 font-medium font-garamond'>{"Vidhi Gokani ★"}</p>
+        <p className='text-2xl font-semibold text-stone-800 font-garamond'>{"Vidhi Gokani ★"}</p>
           <p className='text-xs text-stone-600'>{"Product & Design"}</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
           </Link>
@@ -32,21 +32,21 @@ const Lefthome = () => {
           <Link href="/about">
             <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-              <p className='pt-8 text-l text-stone-800'> About </p>
-              <p className='text-xs text-stone-600'>{".˚₊ About Vidhi ₊˚."}</p>
+              <p className='pt-8 text-l font-semibold text-stone-800'> About </p>
+              <p className='text-xs text-stone-600 pt-2'>{"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning banking, automotive services, and national defense, I bring a unique perspective to my design work. "}</p>
+          <div className='px-3 py-2 border-b border-pink-200'></div>
+
             </motion.div>
           </Link>
 
-          <div className='px-3 py-2 border-b border-pink-200'></div>
-          <p className='text-xs text-stone-600 pt-2'>{"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning banking, automotive services, and national defense, I bring a unique perspective to my design work. "}</p>
 
 
           {/* case studies layout */}
         <Link href="/design">
           <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-            <p className='pt-8 text-l text-stone-800'>{"Case Studies"}</p>
-            <p className='text-xs text-stone-600 pb-4'>{"View my selected project"}s</p>
+            <p className='pt-8 text-l font-semibold text-stone-800'>{"Case Studies"}</p>
+            <p className='text-xs text-stone-600 pb-4'>{"View my selected projects"}</p>
           </motion.div>
           </Link>
 
@@ -62,23 +62,31 @@ const Lefthome = () => {
          <Link href='/moreprojects'>
          <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-         <p className='pt-8 text-l text-stone-800'>{"More Projects"}</p>
+         <p className='pt-8 text-l font-semibold text-stone-800'>{"More Projects"}</p>
           <p className='text-xs text-stone-600'>{"Engineering, Passion Projects and More "}</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
           </motion.div>
           </Link>
 
          {/* contact*/}
-         <p className='pt-8 text-l text-stone-800'>Contact</p>
-          <p className='text-xs text-stone-600 pb-2'>{"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}</p>
+         <p className='pt-8 text-l text-stone-800 font-semibold'>Contact</p>
+          <p className='text-xs text-stone-600 pb-4'>{"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}</p>
 
           <div className="flex space-x-4">
-            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-200">
+
+          <motion.div whileHover={{scale: 0.95 }}
+              transition={{ duration: 0.2 }}>
+            <button className="btn btn-sm text-stone-700 bg-pink-200 hover:bg-pink-400 border-pink-800">
               <a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a>
             </button>
-            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-200">
-              <a href='https://drive.google.com/file/d/1xbe8cnvqcKaVr7SjYRO4gTSXOxID3E7Z/view?usp=sharing'>{"Resume"}</a>
+            </motion.div>
+
+            <motion.div whileHover={{scale: 0.95 }}
+              transition={{ duration: 0.2 }}>
+            <button className="btn btn-sm text-stone-700 bg-pink-200 hover:bg-pink-400 border-pink-800">
+              <a href='https://drive.google.com/file/d/1paguULT2jvpkgY_Nu4vgRKhL747UMBB9/view?usp=sharing'>{"Resume"}</a>
             </button>
+            </motion.div>
           </div>
 
           <div className='px-3 py-2 border-b border-pink-200'></div>

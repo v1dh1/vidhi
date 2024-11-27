@@ -10,8 +10,6 @@
 @tailwind utilities;
 
 
-
-
 :root {
   background-color: #e8d5e0;
 }
@@ -24,6 +22,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  
 
 }
 
