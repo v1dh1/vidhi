@@ -3,11 +3,12 @@ import React from 'react'
 import Uxapp from './projects/Uxapp';
 import Trace from './projects/Trace';
 import Goco from './projects/Goco';
+import Wealthyplanet from './projects/Wealthyplanet';
 const Projects = () => {
   return (
 
     <div className='relative z-20 flex justify-center w-full'>
-      <div className="w-full p-4">
+      <div className="w-full p-4"> {/*removed p-4*/}
 
 
 
@@ -24,6 +25,7 @@ const Projects = () => {
         <div className='pt-4'>
         <Trace/>
         <Uxapp/>
+        <Wealthyplanet/>
 
        
         </div>

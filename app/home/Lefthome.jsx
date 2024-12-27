@@ -18,8 +18,8 @@ const Lefthome = () => {
     exit="exit"
     variants={pageTransition}
   >
-    <div>
-        <div className='p-4'>
+    <div className=''>
+        <div className='p-4 '>
         {/* name + title */}
         <Link href="/home">
         <p className='text-2xl font-semibold text-stone-800 font-garamond'>{"Vidhi Gokani ★"}</p>
@@ -45,15 +45,15 @@ const Lefthome = () => {
         <Link href="/design">
           <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
-            <p className='pt-8 text-l font-semibold text-stone-800'>{"Case Studies"}</p>
+            <p className='pt-8 text-l font-semibold text-stone-800'>{"Design Case Studies"}</p>
             <p className='text-xs text-stone-600 pb-4'>{"View my selected projects"}</p>
           </motion.div>
           </Link>
 
 
           <div className='text-stone-600 text-sm'>
+            <Link href="/design/wealthyplanet"><p className='hover:text-pink-600 hover:font-semibold pb-2'>{"WealthyPlanet ⤞"}</p></Link>
             <Link href="/design/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
-            <Link href="/design/wavely"><p className='hover:text-pink-600 hover:font-semibold'>{"Wavely ⤞"}</p></Link>
           </div>
 
           <div className='px-3 py-2 border-b border-pink-200'></div>

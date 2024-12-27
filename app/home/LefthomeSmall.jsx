@@ -75,17 +75,18 @@ const LefthomeSmall = () => {
               </motion.div>
             </Link>
 
+            <Link href="/design/wealthyplanet">
+              <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
+                {"WealthyPlanet ⤞"}
+              </p>
+            </Link>
+
             <Link href="/design/protectedPage">
               <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
                 {"TD Bank ⤞"}
               </p>
             </Link>
 
-            <Link href="/design/wavely">
-              <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
-                {"Wavely ⤞"}
-              </p>
-            </Link>
 
             <Link href="/moreprojects">
               <motion.div
