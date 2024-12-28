@@ -7,10 +7,10 @@ import { useState } from "react";
 const Wpproject = () => {
   return (
     <div className='text-stone-800'>
-      <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>Redesigning WealthyPlanet's Website</section>
+      <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>{"Redesigning WealthyPlanet's Website"}</section>
 
       <section className='pt-8 pb-8 p-4'> 
-        <div className='text-l text-stone-800'>WealthyPlanet is a financial wellness platform dedicated to helping Canadians achieve financial security by reducing debt, building savings, and planning for a secure retirement. Through AI-driven insights and personalized financial plans, WealthyPlanet simplifies complex financial decisions, making it easier for users to manage their money and achieve their long-term goals.</div>
+        <div className='text-l text-stone-800'>{"WealthyPlanet is a financial wellness platform dedicated to helping Canadians achieve financial security by reducing debt, building savings, and planning for a secure retirement. Through AI-driven insights and personalized financial plans, WealthyPlanet simplifies complex financial decisions, making it easier for users to manage their money and achieve their long-term goals."}</div>
       </section>
 
       <section className='p-4 pb-8 border-b-2'>
@@ -20,7 +20,7 @@ const Wpproject = () => {
           <div className='border-r-2 md:border-none'>
             <div className='text-xl font-semibold pb-2'>Role</div>
             <div className='text-l'>{"UX and UI Designer,"}</div>
-            <div className='text-l'>Worked with developers and leadership.</div>
+            <div className='text-l'>{"Worked with developers and leadership."}</div>
 
           </div>
 
@@ -265,7 +265,7 @@ const Wpproject = () => {
         />
       </div>
 
-      <div id="first-final" className="flex justify-center">
+      <div id="second-final" className="flex justify-center">
         <Image
           src="/wpfinal2.png" // The path to your image
           alt="wealthyplanet user persona"
