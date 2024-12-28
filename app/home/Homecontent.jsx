@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Headingscroll from "../components/scrolls/Headingscroll";
 import Trace from "../components/projects/Trace";
 import Uxapp from '../components/projects/Uxapp';
+import WealthyPlanet from '../components/projects/Wealthyplanet';
 import Link from 'next/link';
 
 const Homecontent = () => {
@@ -26,8 +27,8 @@ const Homecontent = () => {
 
     <div className='pt-8 text-stone-800 text-xl font-semibold'>{"View my projects below"}</div>
 
+    <WealthyPlanet/>
     <Trace/>
-    <Uxapp/>
 
     <div className="flex justify-center items-center gap-4 pt-8 pb-4">
 

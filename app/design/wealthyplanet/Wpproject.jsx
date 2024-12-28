@@ -10,7 +10,8 @@ const Wpproject = () => {
       <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>{"Redesigning WealthyPlanet's Website"}</section>
 
       <section className='pt-8 pb-8 p-4'> 
-        <div className='text-l text-stone-800'>{"WealthyPlanet is a financial wellness platform dedicated to helping Canadians achieve financial security by reducing debt, building savings, and planning for a secure retirement. Through AI-driven insights and personalized financial plans, WealthyPlanet simplifies complex financial decisions, making it easier for users to manage their money and achieve their long-term goals."}</div>
+        <div className='text-l text-stone-800'>{"WealthyPlanet’s website struggled to connect with its core audience—middle-aged parents aiming to secure their financial future. Users found the platform confusing, lacked trust in its tools, and were overwhelmed by financial jargon, which hindered engagement."}</div>
+        <div className='text-l text-stone-800 pt-2'>{"I led the end-to-end redesign of the website, creating a user-friendly, intuitive platform. After the redesign, users reported higher confidence in navigating their financial planning journey, leading to increased sign-ups and greater trust in WealthyPlanet's services."}</div>
       </section>
 
       <section className='p-4 pb-8 border-b-2'>
