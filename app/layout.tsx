@@ -24,8 +24,8 @@ export default function RootLayout({
         <Head>
           <title>Vidhi Gokani</title>
           <meta name="description" content="Product Designer" />
-          <link rel="icon" href="/favicon.svg" />
-          {/* Additional favicon sizes and types can be included here */}
+          <link rel="icon" href="/favicon.ico" />
+          {/* ^^used to be .svg Additional favicon sizes and types can be included here */}
         </Head>
 
         

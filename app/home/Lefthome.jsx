@@ -70,7 +70,7 @@ const Lefthome = () => {
 
          {/* contact*/}
          <p className='pt-8 text-l text-stone-800 font-semibold'>Contact</p>
-          <p className='text-xs text-stone-600 pb-4'>{"I am always looking to connect with new people, feel free to reach out. Currently seeking Summer 2025 internships"}</p>
+          <p className='text-xs text-stone-600 pb-4'>{"I am always looking to connect with new people, feel free to reach out."} <strong>Currently seeking Summer 2025 internships</strong></p>
 
           <div className="flex space-x-4">
 
