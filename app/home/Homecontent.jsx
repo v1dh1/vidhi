@@ -13,7 +13,7 @@ const Homecontent = () => {
 
       <div className='text-4xl md:text-7xl text-stone-800 font-serif pl-4 pr-4 pt-24 md:pt-12 relative z-10 pb-4 border-b-2 border-pink-50'>
         <h2 className='font-garamond'>
-          {"I’m a product designer who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}        </h2>
+          {"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}        </h2>
       </div>
 
      
