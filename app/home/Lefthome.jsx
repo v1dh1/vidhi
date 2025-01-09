@@ -84,7 +84,7 @@ const Lefthome = () => {
             <motion.div whileHover={{scale: 0.95 }}
               transition={{ duration: 0.2 }}>
             <button className="btn btn-sm text-stone-700 bg-pink-200 hover:bg-pink-400 border-pink-800">
-              <a href='https://drive.google.com/file/d/1paguULT2jvpkgY_Nu4vgRKhL747UMBB9/view?usp=sharing'>{"Resume"}</a>
+              <a href='https://drive.google.com/file/d/1dYT9M2ICSXjgdHJ-6tBbqt8tai_7fq79/view?usp=sharing'>{"Resume"}</a>
             </button>
             </motion.div>
           </div>
