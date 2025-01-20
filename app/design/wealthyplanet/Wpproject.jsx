@@ -248,9 +248,7 @@ const Wpproject = () => {
     <section>
       <div className='grid grid-cols-1 md:grid-cols-2 pt-8'>
         <div className='italic font-semibold text-l'>Final Design</div>
-        <div className='md:flex justify-end sm:pt-2 md:pt-0'>
-          <button className="btn btn-sm text-md bg-pink-200 border-none shadow-none text-stone-800 hover:bg-pink-400">View Full Figma Prototype</button>
-        </div>
+        
         <div className='pt-2 pb-8'>{"Here is a snippet of some design highlights from the landing page."}</div>
 
       </div>
