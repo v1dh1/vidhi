@@ -249,9 +249,10 @@ const Wpproject = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 pt-8'>
         <div className='italic font-semibold text-l'>Final Design</div>
         
-        <div className='pt-2 pb-8'>{"Here is a snippet of some design highlights from the landing page."}</div>
-
       </div>
+
+      <div className='pt-2 pb-8'>{"Here is a snippet of some design highlights from the landing page."}</div>
+
 
       <div id="first-final" className="flex justify-center">
         <Image
