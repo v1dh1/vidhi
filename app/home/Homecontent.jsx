@@ -11,21 +11,23 @@ const Homecontent = () => {
     <div className='relative'>
       {/* Background text */}
 
-      <div className='text-4xl md:text-7xl text-stone-800 font-serif pl-4 pr-4 pt-24 md:pt-12 relative z-10 pb-4 border-b-2 border-pink-50'>
-        <h2 className='font-garamond'>
-          {"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}        </h2>
+
+
+    
+      <div className='grid grid-cols-1 md:grid-cols-12 pt-20'>
+          <div className='col-span-1 md:col-span-3'></div>
+          
+          <div className='col-span-1 md:col-span-6'>
+              <div className='text-3xl font-inter pt-12 text-stone-900'>{"Welcome, I'm Vidhi. Nice to meet you."}</div>
+              <div className='text-l pt-4 text-stone-600'>{"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}</div>
+              <div className='text-l pt-2 text-stone-600'>{"Currently, I'm working at WealthyPlanet Financial as the lead product designer. I am "}<strong>seeking Summer 2025 internships</strong> {"in product and/or design!"}</div>
+              <div className='pt-4'><div className='bg-pink-100 pt-2 pb-2 rounded-lg'><Headingscroll/></div></div>
+              <div className='text-l pt-8 pb-12 text-stone-800 font-semibold'>{"View my projects below"}</div>
+          </div>
+
+          <div className='col-span-1 md:col-span-3'></div>
       </div>
 
-     
-
-    <div className='pt-4'></div>
-      <div className='bg-pink-200 pt-3 pb-3 rounded-lg'><Headingscroll/></div>
-
-    <div className='pt-8 text-stone-800'>
-      {"Currently, I'm working at WealthyPlanet Financial as the lead product designer. I am seeking"} <strong>Summer 2025 internships</strong> {"in product and/or design!"}
-    </div>
-
-    <div className='pt-8 text-stone-800 text-xl font-semibold'>{"View my projects below"}</div>
 
     <WealthyPlanet/>
     <Trace/>
@@ -33,13 +35,13 @@ const Homecontent = () => {
     <div className="flex justify-center items-center gap-4 pt-8 pb-4">
 
     <Link href="/design">
-      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none">
+      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none shadow-none">
         View more design projects
       </button>
     </Link>
 
     <Link href="/moreprojects">
-      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none">
+      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none shadow-none">
         View engineering projects
       </button>
       </Link>
