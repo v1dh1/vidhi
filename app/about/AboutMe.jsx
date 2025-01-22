@@ -10,12 +10,13 @@ import ScrollingBanner from '../components/scrolls/Headingscroll';
 
 const AboutMe = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto pt-20 md:pt-12'>
     
-
-    <div className='text-stone-700 font-semibold text-4xl md:text-6xl p-4 pt-16 md:pt-4 border-b-2 border-pink-200'>
-     {"About Vidhi"}
-    </div>
+    <div className="flex items-center space-x-2 p-4">
+  <div className="text-stone-800 font-semibold text-3xl">About</div>
+  <div className="italic text-stone-800 font-semibold text-3xl border-b-2 border-pink-200">Vidhi</div>
+  
+</div>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 pb-8">
 

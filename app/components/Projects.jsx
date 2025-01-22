@@ -14,8 +14,8 @@ const Projects = () => {
 
             {/* Grid Item 1 */}
             <div className="">
-            <h2 className="text-4xl md:text-6xl font-semibold text-stone-700 pt-16 md:pt-4">Case Studies</h2>
-            <p className='text-stone-500 text-xl pt-2'>{"I am passionate about finding the intersection between accessibility and design for growth."}</p>        </div>
+            <h2 className="text-3xl md:text-3xl font-semibold text-stone-700 pt-16 md:pt-4">Case Studies</h2>
+            <p className='text-stone-700 text-lg pt-2'>{"I am passionate about finding the intersection between accessibility and design for growth."}</p>        </div>
 
 
 

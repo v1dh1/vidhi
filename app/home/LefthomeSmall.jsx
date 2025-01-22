@@ -57,7 +57,7 @@ const LefthomeSmall = () => {
                 <p className="text-l font-semibold text-stone-800">About</p>
             
                 <p className="text-xs text-stone-600">
-                  {"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning banking, automotive services, and national defense, I bring a unique perspective to my design work. "}
+                  {"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning fintech, automotive services, and national defense, I bring a unique perspective to my design work. "}
                 </p>
               </motion.div>
             </Link>

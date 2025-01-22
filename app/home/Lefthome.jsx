@@ -33,7 +33,7 @@ const Lefthome = () => {
             <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
               <p className='pt-8 text-l font-semibold text-stone-800'> About </p>
-              <p className='text-xs text-stone-600 pt-2'>{"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning banking, automotive services, and national defense, I bring a unique perspective to my design work. "}</p>
+              <p className='text-xs text-stone-600 pt-2'>{"I'm a Product Designer from Canada, driven by curiosity and a passion for creating engaging and intuitive user experiences. With a diverse background spanning fintech, automotive services, and national defense, I bring a unique perspective to my design work. "}</p>
           <div className='px-3 py-2 border-b border-pink-200'></div>
 
             </motion.div>
