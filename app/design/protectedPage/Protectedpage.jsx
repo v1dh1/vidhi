@@ -20,7 +20,7 @@ export default function ProtectedPage() {
       <div className='h-screen -my-16 p-4 flex flex-col justify-center items-center'>
 
   <div className='text-4xl text-stone-700 text-center font-semibold'>{"This page is protected"}</div>
-  <div className='text-l text-stone-600 text-center pt-3 pb-8'>{"Enter the password on my resume to view this project"}</div>
+  <div className='text-l text-stone-600 text-center pt-3 pb-8'>{"Enter the password: tdlab123 to view this project"}</div>
 
   <div className='w-full max-w-xs flex justify-center items-center gap-4'>
     <input
