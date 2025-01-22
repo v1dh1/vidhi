@@ -29,13 +29,13 @@ const Trace = () => {
                 />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-stone-700 text-2xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
+          <h2 className="card-title text-stone-700 text-xl">{"Integrating a standalone app into the TD mobile banking app in the US market"}</h2>
           <p className='text-stone-700'> {"TD Innovation Lab | 2024"}</p>
           
           <div className='flex flex-wrap gap-2 pt-4'>
-                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>
-                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Prototyping</div>
-                  <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Design Thinking</div>
+                  <div className="badge badge-md badge-outline border-pink-800 text-pink-800">UI Design</div>
+                  <div className="badge badge-md badge-outline border-pink-800 text-pink-800">Prototyping</div>
+                  <div className="badge badge-md badge-outline border-pink-800 text-pink-800">Design Thinking</div>
           </div>
           <div className="card-actions justify-end">
           </div>

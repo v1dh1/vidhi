@@ -33,14 +33,14 @@ const WealthyPlanet = () => {
           </div>
 
           <div className=''>
-            <h2 className="card-title text-stone-700 text-2xl"> {"Designing a Landing Page for WealthyPlanet"} </h2>
+            <h2 className="card-title text-stone-700 text-xl"> {"Designing a Landing Page for WealthyPlanet"} </h2>
             <p className='text-stone-700'>{"Case Study | WealthyPlanet | 2024"}</p>
 
             <div className='flex flex-wrap gap-2 pt-4'>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UI Design</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">UX Design</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Design Systems</div>
-            <div className="badge badge-sm md:badge-sm lg:badge-md badge-outline border-pink-400 text-pink-400">Research</div>
+            <div className="badge badge-md badge-outline border-pink-800 text-pink-800">UI Design</div>
+            <div className="badge badge-md badge-outline border-pink-800 text-pink-800">UX Design</div>
+            <div className="badge badge-md badge-outline border-pink-800 text-pink-800">Design Systems</div>
+            <div className="badge badge-md badge-outline border-pink-800 text-pink-800">Research</div>
 
             </div>
 
