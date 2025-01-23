@@ -2,17 +2,25 @@ import React from 'react'
 import Image from 'next/image'
 import MockupCarousel from './MockupCarousel';
 import { useState } from "react";
+import { motion } from 'framer-motion';
+
 
 
 const Wpproject = () => {
   return (
+    
     <div className='text-stone-800'>
       <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>{"Redesigning WealthyPlanet's Website"}</section>
 
       <section className='pt-8 pb-8 p-4'> 
+      <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}>
         <div className='text-l text-stone-800'>{"WealthyPlanet’s website struggled to connect with its core audience—middle-aged parents aiming to secure their financial future. Users found the platform confusing, lacked trust in its tools, and were overwhelmed by financial jargon, which hindered engagement."}</div>
         <div className='text-l text-stone-800 pt-2'>{"I led the end-to-end redesign of the website, creating a user-friendly, intuitive platform. After the redesign, users reported higher confidence in navigating their financial planning journey, leading to increased sign-ups and greater trust in WealthyPlanet's services."}</div>
+        </motion.div>
       </section>
+
 
       <section className='p-4 pb-8 border-b-2'>
 
@@ -90,7 +98,7 @@ const Wpproject = () => {
 
       </section>
       
-      <section className='w-auto h-auto flex justify-center'>
+      <section className='w-auto h-auto flex justify-center pt-24'>
       <Image
                 src="/wpcover.png" // The path to your image
                 alt="wealthyplanet landing page before vs after"
@@ -103,7 +111,7 @@ const Wpproject = () => {
       </section>
 
 
-      <section className='p-4 understanding users'>
+      <section className='p-4 understanding users pt-24'>
         <div className='text-xl font-semibold text-stone-800'>{"Research & Understanding the Users"}</div>
           <div className='text-l text-stone-800'>{"To ensure the redesign was user-focused, I identified a"} <strong>core persona</strong> {"that represented the target audience:"}</div>
 
@@ -141,12 +149,13 @@ const Wpproject = () => {
         />
       </section>
 
+      <div className='pt-24'></div>
       <section className='p-4 bg-stone-50 border-l-4 pt-8 pb-8'>
         <div className='text-xl font-semibold'>The Challenge</div>
         <div className='text-l italic font-thin pt-2'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
       </section>
 
-    <section className='p-4'>
+    <section className='p-4 pt-20'>
       <div className='text-xl font-semibold'>{"Design Process"}</div>
       <div className='text-l font-semibold italic'>Ideation</div>
        
@@ -306,7 +315,7 @@ const Wpproject = () => {
         </div>
     </section>
 
-    <section id="collaboration" className='pt-8'>
+    <section id="collaboration" className='pt-24 pb-24'>
       <div className='text-xl text-stone-800 font-semibold pb-2'>
         Collaboration and Implementation
       </div>
@@ -337,7 +346,7 @@ const Wpproject = () => {
     </section>
 
 
-    <section id="Results" className='pt-8 bg-stone-100 p-4 border-l-4'>
+    <section id="Results" className='bg-stone-100 p-4 border-l-4'>
 
     <div className='text-xl text-stone-800 font-semibold pb-2'>
         Results
@@ -369,7 +378,7 @@ const Wpproject = () => {
 
     </section>
 
-    <section className='pt-8 p-4'>
+    <section className='p-4 pt-20'>
       <div className='text-xl text-stone-800 font-semibold'>Conclusion and Learnings </div>
 
       <div className='pt-2'>{"Re-designing WealthyPlanet’s website was more than a design project—it was about creating a tool that empowers families to take control of their financial future. By focusing on the needs of Sarah and others like her, the redesign fostered trust, engagement, and meaningful action, ultimately bringing WealthyPlanet closer to its mission of helping families achieve financial wellness."}</div>
