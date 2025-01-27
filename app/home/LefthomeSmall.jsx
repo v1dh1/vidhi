@@ -81,7 +81,7 @@ const LefthomeSmall = () => {
               </p>
             </Link>
 
-            <Link href="/design/protectedPage">
+            <Link href="/design/tdbank">
               <p className="hover:text-pink-600 text-stone-800 hover:font-semibold">
                 {"TD Bank ⤞"}
               </p>

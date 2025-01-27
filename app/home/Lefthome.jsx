@@ -53,7 +53,7 @@ const Lefthome = () => {
 
           <div className='text-stone-600 text-sm'>
             <Link href="/design/wealthyplanet"><p className='hover:text-pink-600 hover:font-semibold pb-2'>{"WealthyPlanet ⤞"}</p></Link>
-            <Link href="/design/protectedPage"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
+            <Link href="/design/tdbank"><p className='hover:text-pink-600 hover:font-semibold'>{"TD Bank ⤞"}</p></Link>
           </div>
 
           <div className='px-3 py-2 border-b border-pink-200'></div>

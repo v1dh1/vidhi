@@ -11,7 +11,7 @@ const Trace = () => {
   return (
 <div className='pt-4'>
 
-  <Link href="/design/protectedPage">
+  <Link href="/design/tdbank">
 
     <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
               transition={{ duration: 0.2 }}>
