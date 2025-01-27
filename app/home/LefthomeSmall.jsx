@@ -36,7 +36,7 @@ const LefthomeSmall = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-opacity-95 flex flex-col p-4 bg-pink-50">
+        <div className="fixed inset-0 z-50 bg-opacity-95 flex flex-col p-4 md:pl-36 bg-pink-50">
           <div className="flex justify-between items-center mb-4">
             <Link href="/home" className="text-2xl font-semibold text-stone-800 font-garamond">
               {"Vidhi Gokani ★"}
