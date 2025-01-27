@@ -34,17 +34,7 @@ const Homecontent = () => {
 
     <div className="flex justify-center items-center gap-4 pt-8 pb-4">
 
-    <Link href="/design">
-      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none shadow-none">
-        View more design projects
-      </button>
-    </Link>
-
-    <Link href="/moreprojects">
-      <button className="btn bg-pink-100 hover:bg-pink-500 text-stone-800 text-xs border-none shadow-none">
-        View engineering projects
-      </button>
-      </Link>
+  
       
     </div>
 
