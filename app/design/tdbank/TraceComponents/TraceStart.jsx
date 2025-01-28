@@ -4,7 +4,7 @@ const TraceStart = () => {
   return (
     <>
     <div className='text-pink-400 font-semibold text-l pt-8 pb-2'>Overview</div>
-    <div className='text-stone-700 text-xl font-bold'>{"Trace is an app that promotes sustainable shopping practices while highlighting small businesses."}    </div>
+    <div className='text-stone-700 text-l'>{"Trace is an app that promotes sustainable shopping practices while highlighting small businesses."}    </div>
     <div className='text-stone-500 pt-2'>{"Trace is an app that is designed to promote sustainable shopping practices while highlighting small businesses, specifically B-corp businesses. Previously a standalone app, our team was tasked with integrating the core features of the app into TD's mobile banking app in the U.S. Through a unique rewards program, users earn points for their purchases, which can either be redeemed for cash back or donated to sustainable causes, aligning with Trace's mission to encourage conscious consumerism and community support."}</div>
     
     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>

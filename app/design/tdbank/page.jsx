@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 import Lefthome from '../../home/Lefthome';
 import LefthomeSmall from '../../home/LefthomeSmall';
-import TraceProject from '../protectedPage/TraceProject';
+import TraceProject from '../tdbank/TraceProject';
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },

@@ -71,6 +71,7 @@ const Wpproject = () => {
 
 </section>
 
+<div className='pt-24'></div>
 <section className='bg-stone-100 border-l-4 slate-200 p-4'>
     
     <div className='grid grid-cols-1 md:grid-cols-2'>

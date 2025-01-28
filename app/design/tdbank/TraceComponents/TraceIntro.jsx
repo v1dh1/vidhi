@@ -6,15 +6,15 @@ const TraceIntro = () => {
     <div>
 
 
-        <div className='text-stone-700 text-4xl pt-8 font-semibold'>Trace</div>
-        <div className='text-stone-500 text-2xl pt-4'>{"Integrating a standalone app into the existing TD Mobile Banking App"}</div>
+        <div className='text-stone-800 text-3xl pt-8 font-semibold'>Trace</div>
+        <div className='text-stone-600 text-xl pt-2'>{"Integrating a standalone app into the existing TD Mobile Banking App"}</div>
 
         <div className='text-stone-500 pt-2'> {"⚠️ Disclaimer: Due to intellectual property restrictions on this project, I am unable to publicly discuss all details, or include more pictures. For more details, you can reach out to me :)"}</div>
 
         <div className='flex flex-row gap-3 pt-4 '>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">UX Design</div>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">Research</div>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">Prototyping</div>
+                    <div className="badge badge-outline border-pink-800 text-pink-400">UX Design</div>
+                    <div className="badge badge-outline border-pink-800 text-pink-400">Research</div>
+                    <div className="badge badge-outline border-pink-800 text-pink-400">Prototyping</div>
         </div>
 
         <div className='flex flex-row gap-12 pt-4'>
