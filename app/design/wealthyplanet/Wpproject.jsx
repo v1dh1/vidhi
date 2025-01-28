@@ -10,15 +10,21 @@ const Wpproject = () => {
   return (
     
     <div className='text-stone-800'>
-      <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>{"Redesigning WealthyPlanet's Website"}</section>
+
+<motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
+      
+
+    <section className='text-3xl font-semibold pt-24 md:pt-12 p-4 border-b-2'>{"Redesigning WealthyPlanet's Website"}</section>
+
 
       <section className='pt-8 pb-8 p-4'> 
-      <motion.div
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}>
+    
         <div className='text-l text-stone-800'>{"WealthyPlanet’s website struggled to connect with its core audience—middle-aged parents aiming to secure their financial future. Users found the platform confusing, lacked trust in its tools, and were overwhelmed by financial jargon, which hindered engagement."}</div>
         <div className='text-l text-stone-800 pt-2'>{"I led the end-to-end redesign of the website, creating a user-friendly, intuitive platform. After the redesign, users reported higher confidence in navigating their financial planning journey, leading to increased sign-ups and greater trust in WealthyPlanet's services."}</div>
-        </motion.div>
       </section>
 
 
@@ -396,6 +402,7 @@ const Wpproject = () => {
     </section>
 
 
+    </motion.div>
 
 
 
