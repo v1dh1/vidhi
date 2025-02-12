@@ -51,7 +51,7 @@ const AboutMe = () => {
 
 </div>
 
-    <section className='bg-pink-100 rounded-xl pb-8'>
+    <section className='rounded-xl pb-8'>
 
     <div className='pt-8 pb-2 text-2xl text-stone-700 flex justify-center font-semibold'>{"My Design Philosophy"}</div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">

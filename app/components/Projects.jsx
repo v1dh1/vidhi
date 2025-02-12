@@ -23,9 +23,9 @@ const Projects = () => {
 
 
         <div className='pt-4'>
-        <Trace/>
         <Uxapp/>
         <Wealthyplanet/>
+        <Trace/>
 
        
         </div>
