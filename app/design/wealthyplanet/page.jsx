@@ -8,7 +8,9 @@ import LefthomeSmall from '../../home/LefthomeSmall';
 
 import React from 'react'
 import Wpproject from './Wpproject';
-
+import Wone from './Wone';
+import Wtwo from './Wtwo';
+import Wthree from './Wthree';
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
   animate: { opacity: 20, y: 0 },
@@ -35,7 +37,12 @@ const WealthyPlanet = () => {
         <div className="">
           <LefthomeSmall />
           <main className="bg-white overflow-y-auto"> {/*removed p-4*/}
-            <div className=' md:p-12'><Wpproject /></div>
+            <div className=''>
+              <Wone />
+              <Wtwo/>
+              <Wthree/>
+            
+            </div>
           </main>
         </div>
   

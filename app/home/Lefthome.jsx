@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Image from 'next/image'
-
+import Image from 'next/image';
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
@@ -10,83 +9,39 @@ const pageTransition = {
   exit: { opacity: 0, y: -10 },
 };
 
-
 const Lefthome = () => {
   return (
-
     <motion.div
-    initial="initial"
-    animate="animate"
-    exit="exit"
-    variants={pageTransition}
-  >
-    <div className=''>
-        <div className='p-4 '>
-        {/* name + title */}
-        <Link href="/home">
-        <p className='text-xl font-semibold text-stone-800'>{"Vidhi Gokani ★"}</p>
-          <p className='text-xs text-pink-800 font-semibold'>{"Product & Design"}</p>
-          <p className='text-xs text-stone-600 pt-2'>blending UX, code, and strategy across fintech, automotive, and defense.</p>
-          <div className='text-stone-800 pt-2'>₊✩‧₊˚౨ৎ˚₊✩‧₊</div>
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      variants={pageTransition}
+    >
+      <div className="navbar bg-stone-50 w-full fixed top-0 left-0 z-50 border-b-2 border-stone-100 flex items-center justify-between px-6 py-3 shadow-lg backdrop-blur-md">
+      {/* Left - Name */}
+        <div className="flex-shrink-0">
+          <Link href="/home" className="text-2xl text-stone-800 font-bold hover:text-pink-600">
+            Vidhi Gokani
           </Link>
-          {/* about me intro */}
-          
-          <Link href="/about">
-            <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
-              transition={{ duration: 0.2 }}>
-              <p className='pt-8 text-sm text-stone-800'> ☺ About ➜</p>
+        </div>
 
-            </motion.div>
+        {/* Center - Image */}
+        <div className="flex-grow flex justify-center">
+          <Image src="/menupic.png" alt="Menu Icon" width={40} height={40} className="cursor-pointer" />
+        </div>
+
+        {/* Right - Links */}
+        <div className="flex space-x-6">
+          <Link href="/about" className="text-stone-800 hover:text-pink-600 font-semibold">
+            About
           </Link>
-
-          {/* case studies layout */}
-        <Link href="/design">
-          <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
-              transition={{ duration: 0.2 }}>
-            <p className='pt-4 text-sm text-stone-800'>{"✎ Design Case Studies ➜ "}</p>
-          </motion.div>
+          <Link href="/design" className="text-stone-800 hover:text-pink-600 font-semibold">
+            Case Studies
           </Link>
-          
-         {/* engineering/other ventures */}
-         <Link href='/moreprojects'>
-         <motion.div whileHover={{ opacity: 0.8, scale: 0.95 }}
-              transition={{ duration: 0.2 }}>
-         <p className='pt-4 text-sm text-stone-800'>{"✄ More Projects ➜ "}</p>
-          </motion.div>
-          </Link>
-
-         {/* contact*/}
-
-         <div className='absolute bottom-10 left-0 w-full p-8'>
-         <p className='pt-8 text-sm text-stone-800 font-semibold'>☏ Contact</p>
-          <p className='text-xs text-stone-600 pb-4'>{"I am always looking to connect with new people, feel free to reach out."} <strong>Currently seeking Summer 2025 internships</strong></p>
-
-          <div className="flex space-x-4">
-
-          <motion.div whileHover={{scale: 0.95 }}
-              transition={{ duration: 0.2 }}>
-            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-400 border-pink-200 shadow-none">
-              <a href='mailto:vidhigokani1@gmail.com'>{"Let's Talk"}</a>
-            </button>
-            </motion.div>
-
-            <motion.div whileHover={{scale: 0.95 }}
-              transition={{ duration: 0.2 }}>
-            <button className="btn btn-sm text-stone-700 bg-pink-100 hover:bg-pink-400 border-pink-200 shadow-none">
-              <a href='https://drive.google.com/file/d/17yrjiXJH-UxOqY7wsYzWtKrc1H3WzCiG/view?usp=sharing'>{"Resume"}</a>
-            </button>
-            </motion.div>
-          </div>
-          </div>
-
-
-
-     </div>
-
-    </div>
+        </div>
+      </div>
     </motion.div>
+  );
+};
 
-  )
-}
-
-export default Lefthome
+export default Lefthome;

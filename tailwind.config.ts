@@ -27,6 +27,13 @@ const config: Config = {
         "messagewhite": "#CAEDFF",
         "white-200": "#FFFEF9",
 
+        "accentpink": "#C89EBB",
+        "accenttaupe": "#C4BAAE",
+        "babypink": "#FEEEF9",
+        "babytaupe": "#EFECE9",
+        "golden": "#C9B274",
+        "bgtaupe": "#FBF8F4",
+
       },
       dropShadow: {
         'xl': '0 35px 35px rgba(78,60,87)',
