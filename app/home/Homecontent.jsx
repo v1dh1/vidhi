@@ -14,6 +14,18 @@ const Homecontent = () => {
 
       {/* ✨ Foreground Content */}
       <div className="relative z-10 bg-gradient-to-bl">
+      <div className="pt-20 flex justify-center items-center">
+  <div className="indicator">
+    <span className="indicator-item badge bg-stone-300 border-none">👷🏽‍♀️</span>
+    <button className="btn bg-stone-200 text-stone-800 border-none text-md">
+      🚧 Under Renovation - More Changes Coming Soon
+    </button>
+  </div>
+</div>
+<div className="pb-8"></div>
+
+
+        
         <div className='grid grid-cols-1 md:grid-cols-12 pt-20'>
           <div className='col-span-1 md:col-span-3'></div>
           
