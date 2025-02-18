@@ -11,6 +11,7 @@ import Wpproject from './Wpproject';
 import Wone from './Wone';
 import Wtwo from './Wtwo';
 import Wthree from './Wthree';
+import Wfour from './Wfour';
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
   animate: { opacity: 20, y: 0 },
@@ -33,7 +34,6 @@ const WealthyPlanet = () => {
         >
   
   
-        {/* Small screens - LefthomeSmall as a top navbar */}
         <div className="">
           <LefthomeSmall />
           <main className="bg-white overflow-y-auto"> {/*removed p-4*/}
@@ -41,21 +41,13 @@ const WealthyPlanet = () => {
               <Wone />
               <Wtwo/>
               <Wthree/>
+              <Wfour/>
             
             </div>
           </main>
         </div>
   
-        {/* Medium and large screens - Lefthome and Projects side by side 
-        <div className="hidden md:grid grid-cols-1 md:grid-cols-4">
-          <aside className="bg-pink-50 md:col-span-1 sticky top-0 h-screen p-4 overflow-y-auto">
-            <Lefthome />
-          </aside>
-            <main className="bg-white md:col-span-3 overflow-y-auto">
-            <Wpproject />
-          </main>
-        </div>
-        */}
+       
         </motion.div>
   
       </div>

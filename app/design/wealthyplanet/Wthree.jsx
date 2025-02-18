@@ -201,7 +201,28 @@ const Wthree = () => {
             </section>
 
 
-    <section className='pt-24'></section>
+    <section className='pt-24'>
+    <div className='text-3xl text-stone-700 font-semibold'>
+                {"Iterating on the Final Design "}
+            </div>
+
+            <div id="figma link" className='pt-16'>
+
+                <div className='bg-babytaupe p-4 rounded-xl text-stone-900'>{"Figma Link Loading! Might take a few seconds"}</div>
+
+                <div className="h-screen w-full pt-8">
+                <iframe
+                src="https://embed.figma.com/design/rg2GXB0c4CLE37GFwnvAIL/WP-Design?node-id=132-2724&embed-host=sharee"
+                frameBorder="0"
+                className="w-full h-full"
+                allowFullScreen
+                ></iframe>
+                </div>
+                </div>
+
+            <div className='pt-8 text-stone-600'>{"With each design iteration, I focused on refining"} <strong>adding colour, refining sections such as the hero section and intro video, adding micro-animations where needed, and removing elements for a clean UI.</strong></div>
+
+    </section>
 
 
            
