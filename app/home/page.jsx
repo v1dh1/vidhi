@@ -15,7 +15,7 @@ const Home = () => {
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="">
         <LefthomeSmall />
-        <main className="bg-white p-4 overflow-y-auto">
+        <main className="bg-white overflow-y-auto">
         <Homecontent/>
         </main>
       </div>

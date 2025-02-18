@@ -7,6 +7,11 @@ import Uxapp from '../components/projects/Uxapp';
 
 const Homecontent = () => {
   return (
+
+    <div>
+
+
+
     
     <div className="relative min-h-screen overflow-hidden"> 
       {/* 🌟 Background Image */}
@@ -14,14 +19,7 @@ const Homecontent = () => {
 
       {/* ✨ Foreground Content */}
       <div className="relative z-10 bg-gradient-to-bl">
-      <div className="pt-20 flex justify-center items-center">
-  <div className="indicator">
-    <span className="indicator-item badge bg-stone-300 border-none">👷🏽‍♀️</span>
-    <button className="btn bg-stone-200 text-stone-800 border-none text-md">
-      🚧 Under Renovation - More Changes Coming Soon
-    </button>
-  </div>
-</div>
+
 <div className="pb-8"></div>
 
 
@@ -53,6 +51,7 @@ const Homecontent = () => {
 
         <div className="flex justify-center items-center gap-4 pt-8 pb-4"></div>
       </div>
+    </div>
     </div>
   );
 };

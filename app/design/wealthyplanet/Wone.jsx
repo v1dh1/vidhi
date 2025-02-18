@@ -7,13 +7,6 @@ const Wone = () => {
       {/* Mobile layout */}
       <div className="flex flex-col md:hidden h-full justify-center items-center bg-[url('/wpbg.png')] bg-cover bg-center">
 
-      <div className='pt-20'></div>
-<div className="indicator">
-  <span className="indicator-item badge bg-stone-300 border-none">🚧</span>
-  <button className="btn bg-stone-200 text-stone-800 border-none text-md">{"🚧 Under Renovation - More Changes Coming Soon"}</button>
-</div>
-<div className='pb-8'></div>
-
 
         <div className="p-4 text-stone-900 text-3xl">
           {"Redesigning WealthyPlanet's Website"}
@@ -49,11 +42,7 @@ const Wone = () => {
         {/* Left Column (3/4) */}
         <div className="p-4 pr-8 text-left text-stone-900 text-3xl md:text-7xl col-span-3 flex items-center">
           <div className=''>
-          <div className='pt-20'></div>
-<div className="indicator">
-  <span className="indicator-item badge bg-stone-300 border-none">👷🏽‍♀️</span>
-  <button className="btn bg-stone-200 text-stone-800 border-none text-md hover:bg-stone-200">{"🚧 Under Renovation - More Changes Coming Soon"}</button>
-</div>
+
 <div className='pb-8'></div>
           {"Redesigning WealthyPlanet's Website"}
           <button className="btn no-animation bg-white border-none shadow-none text-stone-800 hover:bg-pink-400">Skip To Takeaways</button>

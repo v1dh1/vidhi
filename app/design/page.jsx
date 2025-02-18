@@ -13,7 +13,7 @@ const Design = () => {
 
 <div>
       {/* Small screens - LefthomeSmall as a top navbar */}
-      <div className="md:hidden">
+      <div className="pt-20">
         <LefthomeSmall />
         <main className="bg-white p-4 overflow-y-auto">
           <Projects />
@@ -21,15 +21,7 @@ const Design = () => {
       </div>
 
       {/* Medium and large screens - Lefthome and Projects side by side */}
-      <div className="hidden md:grid grid-cols-1 md:grid-cols-4">
-        <aside className="bg-pink-50 md:col-span-1 sticky top-0 h-screen p-4 overflow-y-auto">
-          <Lefthome />
-        </aside>
 
-        <main className="bg-white md:col-span-3 p-4 overflow-y-auto">
-          <Projects />
-        </main>
-      </div>
     </div>
   );
 };
