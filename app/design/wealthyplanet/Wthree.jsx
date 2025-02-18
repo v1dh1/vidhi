@@ -5,14 +5,14 @@ const Wthree = () => {
   return (
     <div>
 
-<div>
+<div className='pt-24 md:pt-0'>
 
     
 
 <div className='p-4 md:p-20'>
     <div className='text-stone-900 text-5xl font-semibold pb-8'>Defining the Solution</div>
 
-    <section className='pt-24'>
+    <section className='pt-16'>
                     <div className='text-3xl font-semibold text-stone-900'>Site Audit </div>
                     
                     <div className='pt-16'>

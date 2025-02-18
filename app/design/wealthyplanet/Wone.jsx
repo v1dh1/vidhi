@@ -45,7 +45,6 @@ const Wone = () => {
 
 <div className='pb-8'></div>
           {"Redesigning WealthyPlanet's Website"}
-          <button className="btn no-animation bg-white border-none shadow-none text-stone-800 hover:bg-pink-400">Skip To Takeaways</button>
           </div>
         </div>
         
