@@ -31,7 +31,7 @@ const Wtwo = () => {
                 />
 
 
-            <section className='pt-16'>
+            <section className='pt-24'>
                 <div className='text-3xl font-semibold text-stone-900 pb-4'>Understanding the space</div>
                 
                 <div className='md:grid grid-cols-4 pt-16'>
@@ -78,67 +78,51 @@ const Wtwo = () => {
 
             </section>
 
-            <section className='pt-16'>
-                <div className='text-3xl font-semibold text-stone-900 pb-4'>Site Audit </div>
-
-                <div className='md:grid grid-cols-3 gap-8'>
+            <section className='pt-24'>
+                <div className='text-3xl font-semibold text-stone-900 pb-4'>Competitive Analysis </div>
+                
+                <div className='pt-16'>
+                    <div className='bg-babytaupe p-4 rounded-l text-stone-900'>{"I looked into research provided by WealthyPlanet to understand the problem to a deeper level. This made me realize this problem is bigger than anticipated, and how important user-centered design would be to help solve this problem."}</div>
+                </div>
+                <div className='md:grid grid-cols-3 gap-16 pt-16'>
 
                     <div id= "row1" className="">
 
                         <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
-                            {"🚩 Inconsistent spacing, fonts, and colours"}
+                            <div className='text-2xl font-bold text-stone-700'>{"48%"}</div>
+                            <div className='text-l text-stone-700 pt-4'>{"Of employees say they’ve lost sleep because of financial worries"}</div>
                         </div>
-                        
-                        <Image
-                            src="/wp1.png" // The path to your image
-                            alt="Descriptive text for the image"
-                            layout="fit" // This makes the image fill the container
-                            objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                            className="rounded-lg mx-auto pt-8" // Ensures the image has rounded corners like the container
-                            height={900}
-                            width={900}
-                            />
+
 
                     </div>
 
-                    <div id = "row2" className=''>
+                    <div id = "row2" className='pt-8 md:pt-0'>
                         <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
-                            {"🚩 Does not explain what the company/product is on landing page"}
+                            <div className='text-l text-stone-700'>{"Due to financial stress, employees are"}</div>
+                            <div className='text-2xl font-bold text-stone-700 pt-4'>{"2X"}</div>
+                            <div className='text-l text-stone-700 pt-4'>{"as likely to report poor overall health"}</div>
                         </div>
-
-                        <Image
-                            src="/wp2.png" // The path to your image
-                            alt="Descriptive text for the image"
-                            layout="fit" // This makes the image fill the container
-                            objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                            className="rounded-lg mx-auto pt-8" // Ensures the image has rounded corners like the container
-                            height={900}
-                            width={900}
-                            />
 
                     </div>
 
                     <div id = "row3" className='pt-8 md:pt-0'>
 
-                    <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700 '>
-                            {"🚩 Usability Issues and Poor Navigation"}
-                        </div>
-
-                        <div className='pt-8 text-stone-700'>
-                            {"Old site had buttons that lead to no where -> does not establish trust with site visitors."}                        
-                            </div>
-                        
-                        <div className='pt-4 text-stone-700'>
-                        {"Old site had a broken site for it’s mobile view"}
-
+                    <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
+                            <div className='text-2xl font-bold text-stone-700 '>{"82%"}</div>
+                            <div className='text-l text-stone-700 pt-4'>{"Of employees worry about money in the workplace"}</div>
                         </div>
 
                     </div>
 
                 </div>
+
+                <div className='text-md text-stone-600'>{"Source: Government of Canada"}</div>
             </section>
 
-            <div className='pt-16'></div>
+            
+
+            <div className='pt-24'></div>
+            <div className='text-3xl font-semibold text-stone-900 pb-16'>HMW Statement</div>
             <div className='text-xl text-stone-600 italic text-left border-l-4 pl-2 border-pink-500'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
 
 
