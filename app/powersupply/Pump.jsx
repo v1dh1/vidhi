@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Pump = () => {
   return (
-    <div className='container mx-auto w-11/12 pt-8'>
+    <div className='container mx-auto w-11/12 pt-20'>
         
         
         <div className='text-stone-900 text-3xl font-semibold pb-4'>Building an Electro-Mechanical Power Supply</div>
