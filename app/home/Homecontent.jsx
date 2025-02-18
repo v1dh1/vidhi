@@ -8,7 +8,7 @@ import Uxapp from '../components/projects/Uxapp';
 const Homecontent = () => {
   return (
 
-    <div>
+    <div className=''>
 
 
 
@@ -24,7 +24,7 @@ const Homecontent = () => {
 
 
         
-        <div className='grid grid-cols-1 md:grid-cols-12 pt-20'>
+        <div className='grid grid-cols-1 md:grid-cols-12 pt-20 p-4'>
           <div className='col-span-1 md:col-span-3'></div>
           
           <div className='col-span-1 md:col-span-6'>
