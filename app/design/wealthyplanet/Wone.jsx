@@ -26,7 +26,7 @@ const Wone = () => {
           <div className="mb-4">
             <div className="text-stone-900 font-semibold text-lg">Tasks</div>
             <div className="text-stone-700">
-              {"Product design, Usability testing, Storytelling, User research, XF collaboration"}
+              {"User research, Interaction + Visual design, Design Systems, Product thinking"}
             </div>
           </div>
 
@@ -65,7 +65,7 @@ const Wone = () => {
           <div className="mb-4">
             <div className="text-stone-900 font-semibold text-lg">Tasks</div>
             <div className="text-stone-700">
-              {"Product design, Usability testing, Storytelling, User research, XF collaboration"}
+              {"User research, Interaction + Visual design, Design Systems, Product thinking"}
             </div>
           </div>
 

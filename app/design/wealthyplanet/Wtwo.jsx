@@ -78,6 +78,66 @@ const Wtwo = () => {
 
             </section>
 
+            <section className='pt-16'>
+                <div className='text-3xl font-semibold text-stone-900 pb-4'>Site Audit </div>
+
+                <div className='md:grid grid-cols-3 gap-8'>
+
+                    <div id= "row1" className="">
+
+                        <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
+                            {"🚩 Inconsistent spacing, fonts, and colours"}
+                        </div>
+                        
+                        <Image
+                            src="/wp1.png" // The path to your image
+                            alt="Descriptive text for the image"
+                            layout="fit" // This makes the image fill the container
+                            objectFit="cover" // This makes the image cover the available space, you can adjust as needed
+                            className="rounded-lg mx-auto pt-8" // Ensures the image has rounded corners like the container
+                            height={900}
+                            width={900}
+                            />
+
+                    </div>
+
+                    <div id = "row2" className=''>
+                        <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
+                            {"🚩 Does not explain what the company/product is on landing page"}
+                        </div>
+
+                        <Image
+                            src="/wp2.png" // The path to your image
+                            alt="Descriptive text for the image"
+                            layout="fit" // This makes the image fill the container
+                            objectFit="cover" // This makes the image cover the available space, you can adjust as needed
+                            className="rounded-lg mx-auto pt-8" // Ensures the image has rounded corners like the container
+                            height={900}
+                            width={900}
+                            />
+
+                    </div>
+
+                    <div id = "row3" className='pt-8 md:pt-0'>
+
+                    <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700 '>
+                            {"🚩 Usability Issues and Poor Navigation"}
+                        </div>
+
+                        <div className='pt-8 text-stone-700'>
+                            {"Old site had buttons that lead to no where -> does not establish trust with site visitors."}                        
+                            </div>
+                        
+                        <div className='pt-4 text-stone-700'>
+                        {"Old site had a broken site for it’s mobile view"}
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
             <div className='pt-16'></div>
             <div className='text-xl text-stone-600 italic text-left border-l-4 pl-2 border-pink-500'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
 
