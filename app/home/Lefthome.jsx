@@ -37,7 +37,7 @@ const Lefthome = () => {
             Work
           </Link>
           <Link href="/about" className="text-stone-800 hover:text-pink-600">
-            About
+            About me
           </Link>
 
           
