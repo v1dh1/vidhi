@@ -17,27 +17,30 @@ const Lefthome = () => {
       exit="exit"
       variants={pageTransition}
     >
-      <div className="navbar bg-stone-50 w-full fixed top-0 left-0 z-50 border-b-2 border-stone-100 flex items-center justify-between px-6 py-3 shadow-lg backdrop-blur-md">
+      <div className="navbar bg-stone-50 w-full fixed top-0 left-0 z-50 border-b-2 border-stone-100 flex items-center justify-between px-6 py-3 backdrop-blur-md">
       {/* Left - Name */}
         <div className="flex-shrink-0">
-          <Link href="/home" className="text-2xl text-stone-800 font-bold hover:text-pink-600">
-            Vidhi Gokani
-          </Link>
+        <Image src="/menupic.png" alt="Menu Icon" width={40} height={40} className="cursor-pointer" />
+
         </div>
 
         {/* Center - Image */}
         <div className="flex-grow flex justify-center">
-          <Image src="/menupic.png" alt="Menu Icon" width={40} height={40} className="cursor-pointer" />
+          <Link href="/home" className="text-2xl text-stone-800 font-apple hover:text-pink-600">
+            Vidhi Gokani
+          </Link>
         </div>
 
         {/* Right - Links */}
-        <div className="flex space-x-6">
-          <Link href="/about" className="text-stone-800 hover:text-pink-600 font-semibold">
+        <div className="flex space-x-6 text-sm">
+        <Link href="/design" className="text-stone-800 hover:text-pink-600 ">
+            Work
+          </Link>
+          <Link href="/about" className="text-stone-800 hover:text-pink-600">
             About
           </Link>
-          <Link href="/design" className="text-stone-800 hover:text-pink-600 font-semibold">
-            Case Studies
-          </Link>
+
+          
         </div>
       </div>
     </motion.div>

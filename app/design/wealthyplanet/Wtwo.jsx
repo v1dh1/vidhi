@@ -20,15 +20,12 @@ const Wtwo = () => {
                 </div>
             </div>
 
-            <Image
-                src="/wpcover.png" // The path to your image
-                alt="Descriptive text for the image"
-                layout="fit" // This makes the image fill the container
-                objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                className="rounded-lg mx-auto" // Ensures the image has rounded corners like the container
-                height={900}
-                width={900}
-                />
+            <img 
+  src="/wpcover.png" 
+  alt="Descriptive text for the image" 
+  className="rounded-lg mx-auto object-cover w-[1000px] h-[700px]" 
+/>
+
 
 
             <section className='pt-24'>

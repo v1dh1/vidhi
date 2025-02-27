@@ -46,8 +46,11 @@ const Homecontent = () => {
           <div className='col-span-1 md:col-span-3'></div>
         </div>
 
+      <div className='p-16'>
         <WealthyPlanet />
+        <div className='pt-12'></div>
         <Uxapp />
+        </div>
 
         <div className="flex justify-center items-center gap-4 pt-8 pb-4"></div>
       </div>
