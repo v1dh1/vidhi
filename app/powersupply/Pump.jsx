@@ -25,7 +25,7 @@ const Pump = () => {
 
         <div className='text-stone-900 text-xl pt-8 font-semibold'>{"Designing the Experiment: Generator Output Characterization"}</div>
        
-        <div className='flex flex-col lg:flex-row gap-4 pt-2'>
+        <div className='flex flex-col md:flex-row gap-4 pt-2'>
           <div className='text-stone-800'>
             {"I took charge of designing experiments to understand the power-generating potential of our setup. Specifically, we needed to measure the current output from our generator under various conditions like voltage, RPM, and rotation methods. This was essential for crafting an efficient power circuit that could convert mechanical energy into usable electrical energy for the phone. I developed a detailed experimental plan to measure these parameters during the next lab session, laying the groundwork for what would become the core of our project."}
           </div>
@@ -33,9 +33,9 @@ const Pump = () => {
           <Image
             src="/graph1.png"
             alt="Graph of parameters tested."
-            className="w-auto h-50"
+            className="w-50 h-50"
             width={500}
-            height={500}
+            height={300}
           />
         </div>
 
