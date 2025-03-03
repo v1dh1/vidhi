@@ -24,11 +24,11 @@ const Homecontent = () => {
 
 
         
-        <div className='grid grid-cols-1 md:grid-cols-12 pt-20 p-4'>
-          <div className='col-span-1 md:col-span-3'></div>
+        <div className='p-4 md:p-16'>
           
-          <div className='col-span-1 md:col-span-6'>
-              <div className='text-3xl font-inter pt-12 text-stone-900'>{"Welcome, I'm Vidhi. Nice to meet you."}</div>
+          <div className='h-screen'>
+            <div className='pt-20 md:pt-32 text-left'>
+              <div className='text-5xl font-apple pt-12 text-stone-900'>{"Welcome, I'm Vidhi. Nice to meet you."}</div>
               <div className='text-l pt-4 text-stone-600'>{"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}</div>
               <div className='text-l pt-2 text-stone-600'>
                 {"Currently, I'm working at WealthyPlanet Financial as the lead product designer. I am "}
@@ -42,11 +42,12 @@ const Homecontent = () => {
               </div>
               <div className='text-l pt-8 pb-12 text-stone-800 font-semibold'>{"View my projects below"}</div>
           </div>
+          </div>
 
-          <div className='col-span-1 md:col-span-3'></div>
+
         </div>
 
-      <div className='p-16'>
+      <div className='p-4 md:p-16'>
         <WealthyPlanet />
         <div className='pt-12'></div>
         <Uxapp />

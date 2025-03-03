@@ -15,7 +15,6 @@ const Footer = () => {
         <p className=''>Vidhi Gokani - © 2025</p>
 
         <div className='flex flex-row'>
-          <Link href="/surprise/mywhy">☺ </Link>
         <p className='pl-1'> designed and developed with lots of love and sleepless nights ˚ʚ♡ɞ˚</p>
         </div>
 
