@@ -15,7 +15,7 @@ const Home = () => {
 <div>
       <div className="">
         <LefthomeSmall />
-        <main className="bg-stone-50 p-4 overflow-y-auto">
+        <main className="bg-stone-50 p-4 overflow-y-none">
         <Freehome/>
         </main>
       </div>

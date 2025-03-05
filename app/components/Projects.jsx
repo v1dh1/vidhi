@@ -14,15 +14,15 @@ const Projects = () => {
 
             {/* Grid Item 1 */}
             <div className="">
-            <h2 className="text-3xl md:text-3xl font-semibold text-stone-700 pt-16 md:pt-4">Case Studies</h2>
-            <p className='text-stone-700 text-lg pt-2'>{"I am passionate about finding the intersection between accessibility and design for growth."}</p>        </div>
+            <h2 className="text-3xl md:text-3xl font-semibold text-stone-700 pt-16 md:pt-4 font-apple">Case Studies</h2>
+            <p className='text-stone-700 text-sm pt-1'>{"I'm passionate about finding the intersection between accessibility and design for growth."}</p>        </div>
 
 
 
 
 
 
-        <div className='pt-4'>
+        <div className='pt-16'>
         <Uxapp/>
         <Wealthyplanet/>
         <Trace/>
