@@ -24,18 +24,20 @@ const Homecontent = () => {
 
 
         
-        <div className='p-4 md:p-16'>
+        <div className='p-8 md:p-16'>
           
           <div className='h-screen'>
             <div className='pt-20 md:pt-32 text-left'>
-              <div className='text-5xl font-apple pt-12 text-stone-900'>{"Welcome, I'm Vidhi. Nice to meet you."}</div>
-              <div className='text-l pt-4 text-stone-600'>{"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}</div>
-              <div className='text-l pt-2 text-stone-600'>
-                {"Currently, I'm working at WealthyPlanet Financial as the lead product designer. I am "}
-                <strong>seeking Summer 2025 internships</strong>
+              <div className='text-6xl font-apple pt-12 text-stone-900'>{"Welcome, I'm Vidhi! Nice to meet you."}</div>
+              <div className='text-xl pt-4 text-stone-600'>{"I’m a product enthusiast who loves turning ideas into thoughtful, intuitive experiences that make a real difference in people’s lives."}</div>
+              
+
+              <div className='text-xl pt-2 text-stone-600'>
+                {"Currently, I'm"}
+                <strong> seeking Summer 2025 internships</strong>
                 {" in product and/or design!"}
               </div>
-              <div className='pt-4'>
+              <div className='pt-16'>
                 <div className='bg-pink-100 pt-2 pb-2 rounded-lg'>
                   <Headingscroll />
                 </div>
