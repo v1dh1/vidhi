@@ -15,7 +15,7 @@ const Homecontent = () => {
       {/* 🌸 Foreground Content */}
       <div className="relative pt-40 z-10 bg-gradient-to-bl h-full">
         <div className="p-8 md:p-16">
-          <div className='text-center text-2xl font-garamond text-stone-800 italic'>Hello I'm Vidhi! and I enjoy</div>
+          <div className='text-center text-2xl font-garamond text-stone-800 italic'>{"Hello I'm Vidhi! and I enjoy"}</div>
 
           <div className="h-full flex justify-center items-center relative">
             {/* Rotating Images on the Sides (Only on Medium+ Screens) */}
@@ -67,7 +67,7 @@ const Homecontent = () => {
           animate={{ y: [0, -5, 0] }} 
           transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }} // Smooth looping animation
         >
-          Scroll to Explore
+          {"Scroll to Explore"}
         </motion.button>
       </div>
 

@@ -7,7 +7,7 @@ const Smallabout = () => {
         <div className='md:grid grid-cols-2 gap-16'>
 
             <div className='text-purple-200 text-5xl font-garamond italic'>
-            Hello, I'm Vidhi
+            {"Hello, I'm Vidhi"}
             </div>
 
             <div className='text-purple-50 text-xl pt-8 md:pt-0'>
