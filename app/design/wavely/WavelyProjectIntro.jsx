@@ -14,9 +14,9 @@ const WavelyProjectIntro = () => {
                 <div className='text-4xl text-stone-700 pt-2'>{"Sourcing hobby materials sustainably."}</div>
 
                 <div className='flex flex-row gap-3 pt-4 '>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">Product Design</div>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">Branding</div>
-                    <div className="badge badge-outline border-pink-400 text-pink-400">End to End</div>
+                    <div className="badge badge-outline border-purple-400 text-purple-400">Product Design</div>
+                    <div className="badge badge-outline border-purple-400 text-purple-400">Branding</div>
+                    <div className="badge badge-outline border-purple-400 text-purple-400">End to End</div>
                 </div>
 
                 <div className='text-stone-700 pt-4'>10 min read</div>
@@ -32,7 +32,7 @@ const WavelyProjectIntro = () => {
                 </div>
 
                 <div className='pt-4'>
-                    <button className="btn btn-xs text-stone-900 bg-pink-100 hover:bg-pink-300 sm:btn-sm md:btn-md lg:btn-md"><a href='https://www.figma.com/proto/klRcf3GeY1OJfcTpiTqPx3/Weavely-App-Design?type=design&node-id=0-1&viewport=-1327%2C-997%2C0.13&t=91XcLNpExsXGVDmd-0&scaling=scale-down&starting-point-node-id=334%3A4698'>View Figma File</a></button>
+                    <button className="btn btn-xs text-stone-900 bg-purple-100 hover:bg-purple-300 sm:btn-sm md:btn-md lg:btn-md"><a href='https://www.figma.com/proto/klRcf3GeY1OJfcTpiTqPx3/Weavely-App-Design?type=design&node-id=0-1&viewport=-1327%2C-997%2C0.13&t=91XcLNpExsXGVDmd-0&scaling=scale-down&starting-point-node-id=334%3A4698'>View Figma File</a></button>
                 </div>
 
             </div>

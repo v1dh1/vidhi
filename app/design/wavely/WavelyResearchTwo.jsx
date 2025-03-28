@@ -9,15 +9,15 @@ const WavelyResearchTwo = () => {
 
 <div className='pt-32 container mx-auto w-11/12'>
 
-<div className='text-pink-400 font-semibold pt-4'>PART 2</div>
+<div className='text-purple-400 font-semibold pt-4'>PART 2</div>
 <div className='text-stone-700 text-3xl pt-2'>Understanding the Problem</div>
 
-<div className='pt-2 text-pink-400'>{'Methods: Competitor Analysis, User Persona'}</div>
+<div className='pt-2 text-purple-400'>{'Methods: Competitor Analysis, User Persona'}</div>
 <div className='pt-4 pb-8 text-stone-700'>{"Now that I’ve established that the problem really exists, I did more research into the way people are currently sourcing products."}</div>
 
 <div className='text-stone-600 font-semibold pb-2'>Competitor Analysis</div>
 
-<div className='bg-pink-50 rounded-xl p-4'>
+<div className='bg-purple-50 rounded-xl p-4'>
 
   <div className='text-stone-700 text-xl'>Direct Competitors</div>
   
@@ -42,7 +42,7 @@ const WavelyResearchTwo = () => {
 
     <div className='pb-8'></div>
 
-<div className='bg-pink-50 rounded-xl p-4'>
+<div className='bg-purple-50 rounded-xl p-4'>
 
   <div className='text-stone-700 text-xl'>Indirect Competitors</div>
   
@@ -86,7 +86,7 @@ const WavelyResearchTwo = () => {
 </div>
 
 <div className='pb-8'></div>
-<div className='bg-pink-50 rounded-xl p-4'>
+<div className='bg-purple-50 rounded-xl p-4'>
 
   <div className='text-stone-700 text-xl'>Emerging Competitors</div>
   
@@ -120,7 +120,7 @@ const WavelyResearchTwo = () => {
 
 <div className='pb-8'></div>
 
-<div className='bg-pink-50 rounded-xl p-4'>
+<div className='bg-purple-50 rounded-xl p-4'>
 
   <div className='text-stone-700 text-xl'>Market Opportunities</div>
   

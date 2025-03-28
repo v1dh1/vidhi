@@ -14,7 +14,15 @@ const Home = () => {
 
 <div>
       <div className="">
+        {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
+      </div>
+
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
         <LefthomeSmall />
+      </div>
         <main className="bg-stone-50 p-4 overflow-y-none">
         <Freehome/>
         </main>

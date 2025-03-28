@@ -30,7 +30,15 @@ const Tdbank = () => {
 
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="">
+        {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
+      </div>
+
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
         <LefthomeSmall />
+      </div>
         <main className="bg-white pt-16 p-4 md:p-16 overflow-y-auto">
           <TraceProject />
         </main>

@@ -10,12 +10,24 @@ import ScrollingBanner from '../components/scrolls/Headingscroll';
 
 const AboutMe = () => {
   return (
-    <div className='container mx-auto p-16 pt-4 md:pt-20'>
+    <div className='container mx-auto md:p-16 pt-4 md:pt-20'>
     
-    <div className="flex items-center space-x-2 p-4">
-  <div className="text-stone-800 font-semibold text-3xl font-apple">About  Vidhi</div>
-  
-</div>
+    <motion.div className="text-center italic text-6xl md:text-8xl font-garamond text-stone-800 pt-12">
+  {"About Vidhi".split("").map((char, i) => (
+    <motion.span
+      key={i}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: i * 0.1 }}
+    >
+      {char}
+    </motion.span>
+  ))}
+</motion.div>
+
+
+
+
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 pb-8">
 

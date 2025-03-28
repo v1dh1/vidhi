@@ -17,29 +17,27 @@ const Lefthome = () => {
       exit="exit"
       variants={pageTransition}
     >
-      <div className="navbar bg-stone-50 w-full fixed top-0 left-0 z-50 border-b-2 border-stone-100 flex items-center justify-between px-6 py-3 backdrop-blur-md">
-      {/* Left - Name */}
+      <div className="navbar bg-stone-50 w-full fixed top-0 left-0 z-50 border-b-2 border-purple-100 flex items-center justify-between px-6 py-3 backdrop-blur-md">
+        <Link href="/">{/* Left - Name */}
         <div className="flex-shrink-0">
-        <Image src="/menupic.png" alt="Menu Icon" width={40} height={40} className="cursor-pointer" />
-
+        <Image src="/vidhisignature.png" alt="Menu Icon" width={150} height={150} className="cursor-pointer" />
         </div>
+        </Link>
 
-        {/* Center - Image */}
-        <div className="flex-grow flex justify-center">
-          <Link href="/home" className="text-2xl text-stone-800 font-apple hover:text-pink-600">
-            Vidhi Gokani
-          </Link>
-        </div>
+
+
 
         {/* Right - Links */}
-        <div className="flex space-x-6 text-sm">
+        <div className="flex space-x-12 text-sm">
         <Link href="/design" className="text-stone-800 hover:text-pink-600 ">
             Work
           </Link>
           <Link href="/about" className="text-stone-800 hover:text-pink-600">
-            About me
+            About
           </Link>
-
+          <Link href="/about" className="text-stone-800 hover:text-pink-600">
+            Resume
+          </Link>
           
         </div>
       </div>

@@ -29,7 +29,15 @@ const About = () => {
   >
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="">
+        {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
+      </div>
+
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
         <LefthomeSmall />
+      </div>
         <main className="bg-white p-4 overflow-y-auto">
           <AboutMe />
         </main>

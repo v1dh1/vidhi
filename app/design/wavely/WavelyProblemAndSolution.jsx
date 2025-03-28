@@ -5,7 +5,7 @@ const WavelyProblemAndSolution = () => {
   return (
     <div className='container mx-auto w-11/12'>
 
-        <div className='pt-32 text-pink-400 font-semibold'>Problem</div>
+        <div className='pt-32 text-purple-400 font-semibold'>Problem</div>
         <div className='pt-4 text-stone-700 text-2xl'>{"Crafting materials can often be expensive, hard to find, and unsustainable."} </div>
         <div className='pt-4 text-stone-600 text-l'>{"Crafters want more materials for their projects, but they can be expensive and hard to find. It's difficult to get the products you need, without spending more money than desired, or pick the most sustainable option."}</div>
         <div className='pt-5 text-stone-500'>{"There is a big misconception that crafting supplies are all easily found at your local dollar store, which may be true to a degree, but hobbyists often want a more unique selection, a curation of materials other than those sold to them by mainstream stores."}</div>
@@ -28,7 +28,7 @@ const WavelyProblemAndSolution = () => {
             </div>
             
             <div className="">
-              <div className='text-pink-400 font-semibold'>Solution</div>
+              <div className='text-purple-400 font-semibold'>Solution</div>
               <div className='text-2xl pt-4 text-stone-700'>{"Wavely: Barter for your hobby materials instead of spending."}</div>
               <div className='text-stone-600 pt-4'>{"Wavely is an innovative app designed to revolutionize the way crafters source their materials. By facilitating the exchange of goods, our platform enables users to find exactly what they need for their projects by trading items with others. This approach not only fosters a sense of community among crafters but also promotes sustainable practices by reducing waste. With Wavely, the age-old tradition of bartering is modernized, providing crafters everywhere with a resourceful way to pursue their passions more sustainably and affordably."}</div>
             </div>

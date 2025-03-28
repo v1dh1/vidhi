@@ -5,20 +5,20 @@ const WavelyResearchOne = () => {
   return (
     <div className='pt-32 container mx-auto w-11/12'>
 
-        <div className='text-pink-400 font-semibold'>Research</div>
+        <div className='text-purple-400 font-semibold'>Research</div>
         <div className='text-stone-700 pt-4'>PART 1</div>
         <div className='text-stone-700 text-3xl pt-2'>Identifying Opportunity</div>
 
-        <div className='pt-4 text-pink-400'>{'Method: Survey'}</div>
+        <div className='pt-4 text-purple-400'>{'Method: Survey'}</div>
 
         <div className='pt-4 text-stone-700'>{"From personal experience with crafting, I knew this problem existed, but I conducted a survey to further confirm my suspicions. "}</div>
         <div className='pt-4 pb-4 text-stone-600'>{"To explore whether other crafters shared my concerns about sampling different crafts or acquiring small, specific pieces of materials, I devised a set of questions aimed at understanding their experiences with sourcing materials. "}</div>
         <div className='text-stone-600 pb-8'>{"I surveyed 25 people, and in the mix was anyone who enjoyed crafting as a hobby, to people who run crafting businesses. All participants had some experience in the field. "}</div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
-        <div class="bg-pink-50 text-stone-700 rounded-xl p-4">{"How much on average do you spend on craft supplies in a year?"}</div>
-        <div class="bg-pink-50 text-stone-700 rounded-xl p-4">{"Have you ever struggled to find just a small amount of a particular crafting material for your projects?"}</div>
-        <div class="bg-pink-50 text-stone-700 rounded-xl p-4">{"How do you deal with having too much of one material?"}</div>
+        <div class="bg-purple-50 text-stone-700 rounded-xl p-4">{"How much on average do you spend on craft supplies in a year?"}</div>
+        <div class="bg-purple-50 text-stone-700 rounded-xl p-4">{"Have you ever struggled to find just a small amount of a particular crafting material for your projects?"}</div>
+        <div class="bg-purple-50 text-stone-700 rounded-xl p-4">{"How do you deal with having too much of one material?"}</div>
       </div>
 
       <div className='text-stone-700 pt-2'>   {"Here, the focus shifts to understanding how crafters currently handle the issue of excess materials or the need for small quantities of specific items. The aim is to learn about their approaches and identify any existing solutions they use, revealing potential gaps in the market."}</div>
@@ -54,8 +54,8 @@ const WavelyResearchOne = () => {
 
         <div className='pt-8'></div>
 
-        <div className='bg-pink-50 rounded-3xl px-6 pt-4'>
-            <div className=' text-pink-400 font-semibold'>Findings</div>
+        <div className='bg-purple-50 rounded-3xl px-6 pt-4'>
+            <div className=' text-purple-400 font-semibold'>Findings</div>
 
             <div className='text-stone-700 text-xl pt-4 font-semibold'>{"The crafting community navigates a paradoxical challenge, balancing the boundless potential of creativity with the practical limitations of material cost, accessibility, and sustainability."}</div>
 

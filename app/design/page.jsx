@@ -14,15 +14,39 @@ const Design = () => {
 <div>
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="">
-        <LefthomeSmall />
-        <main className="bg-white p-4 overflow-y-auto">
-          <Projects />
-        </main>
+
+        
+        {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
       </div>
 
-      {/* Medium and large screens - Lefthome and Projects side by side */}
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
+        <LefthomeSmall />
+      </div>
 
-    </div>
+        <div className=''>
+          
+        </div>
+        
+        
+
+
+        <main className="bg-stone-50 p-4 overflow-y-auto">
+          <Projects />
+
+        </main>
+
+
+
+
+
+      </div>
+
+
+
+  </div>
   );
 };
 

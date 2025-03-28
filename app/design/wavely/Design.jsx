@@ -115,7 +115,7 @@ const Design = () => {
 
         <div className='text-stone-700 pt-4 pb-4'>{"At this stage, I wanted to make sure my designs were intuitive for my prospective users. I conducted usability testing through the pen and paper method, where I asked 2 people to go through a printed version of my low fidelity screens, and gauged their experiences with the app's anticipated interactions. "}</div>
         
-        <div className='bg-pink-50 rounded-xl'>
+        <div className='bg-purple-50 rounded-xl'>
             <div className='text-stone-700 p-4 text-xl'>{"Findings"}</div>
             <div className='text-stone-600 px-4'>{"Based on the usability testing, the app was simple enough to navigate. There were a couple points that came up on improving the UI aspect of the app. "}</div>
 

@@ -38,7 +38,7 @@ const Wtwo = () => {
                         <div className='bg-babytaupe p-4 rounded-lg'>
                         <div className="flex text-l pt-2 text-stone-900">
                             <span>WealthyPlanet had a</span>
-                            <span className="italic text-pink-500 px-2 font-semibold">{"relatability problem."}</span>
+                            <span className="italic text-purple-500 px-2 font-semibold">{"relatability problem."}</span>
                         </div>
                         <div className='text-stone-900'>
                             {"The existing website lacked clarity, engaging content, and essential functionality."}
@@ -120,7 +120,7 @@ const Wtwo = () => {
 
             <div className='pt-24'></div>
             <div className='text-3xl font-semibold text-stone-900 pb-16'>HMW Statement</div>
-            <div className='text-xl text-stone-600 italic text-left border-l-4 pl-2 border-pink-500'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
+            <div className='text-xl text-stone-600 italic text-left border-l-4 pl-2 border-purple-500'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
 
 
 

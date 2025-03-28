@@ -35,7 +35,16 @@ const WealthyPlanet = () => {
   
   
         <div className="">
-          <LefthomeSmall />
+          {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
+      </div>
+
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
+        <LefthomeSmall />
+      </div>
+      
           <main className="bg-white overflow-y-auto"> {/*removed p-4*/}
             <div className=''>
               <Wone />

@@ -31,7 +31,15 @@ const Moreprojects = () => {
 
       {/* Small screens - LefthomeSmall as a top navbar */}
       <div className="pt-16">
+       {/* Medium and larger screens - Show Lefthome */}
+      <div className="hidden md:block">
+        <Lefthome />
+      </div>
+
+      {/* Small screens - Show LefthomeSmall */}
+      <div className="block md:hidden">
         <LefthomeSmall />
+      </div>
         <main className="bg-white p-4 overflow-y-auto">
           <EngineeringProjects />
         </main>

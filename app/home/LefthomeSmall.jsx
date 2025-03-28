@@ -26,9 +26,13 @@ const LefthomeSmall = () => {
     >
       <div className="navbar bg-stone-50 w-full fixed top-0 z-50 border-b-2 border-stone-100">
         <div className="flex-1">
-          <Link href="/home" className="btn btn-ghost text-xl text-stone-800 font-apple">
-            {"Vidhi Gokani"}
-          </Link>
+       
+        <Link href="/">{/* Left - Name */}
+        <div className="flex-shrink-0">
+        <Image src="/vidhisignature.png" alt="Menu Icon" width={150} height={150} className="cursor-pointer" />
+        </div>
+        </Link>
+
         </div>
         <div className="flex-none">
         <button onClick={toggleDropdown} className="btn bg-stone-50 border-none shadow-none text-stone-900 hover:bg-stone-50">
@@ -40,9 +44,12 @@ const LefthomeSmall = () => {
       {isOpen && (
         <div className="fixed inset-0 z-50 bg-opacity-95 flex flex-col p-4 md:pl-36 bg-stone-50">
           <div className="flex justify-between items-center mb-4">
-            <Link href="/home" className="text-2xl text-stone-800 font-apple">
-              {"Vidhi Gokani"}
-            </Link>
+          
+          <Link href="/">{/* Left - Name */}
+        <div className="flex-shrink-0">
+        <Image src="/vidhisignature.png" alt="Menu Icon" width={150} height={150} className="cursor-pointer" />
+        </div>
+        </Link>
 
             <div className="flex-none">
               <button onClick={toggleDropdown} className="btn bg-stone-50 border-none shadow-none text-stone-900 hover:bg-stone-50">

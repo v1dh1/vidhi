@@ -7,7 +7,7 @@ const Footer = () => {
     <div >
         
 
-    <footer className="footer items-center p-4 bg-stone-200 text-stone-900">
+    <footer className="footer items-center p-4 bg-purple-100 text-stone-900 border-t-2 border-stone-50">
     <div className='w-full p-4 mx-auto flex flex-col md:flex-row justify-between items-center'>
 
     <aside className="items-center grid-flow-col">
@@ -15,7 +15,7 @@ const Footer = () => {
         <p className=''>Vidhi Gokani - © 2025</p>
 
         <div className='flex flex-row'>
-        <p className='pl-1'> designed and developed with lots of love and sleepless nights ˚ʚ♡ɞ˚</p>
+        <p className=''>designed and coded with lots of love and sleepless nights ˚ʚ♡ɞ˚</p>
         </div>
 
     </aside> 

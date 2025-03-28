@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 import Lefthome from './home/Lefthome';
 import LefthomeSmall from './home/LefthomeSmall'
 import Homecontent from './home/Homecontent';
+import Smallabout from './home/Smallabout';
+import Projectsdisplay from './home/Projectsdisplay';
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
@@ -25,15 +27,26 @@ export default function Home() {
     exit="exit"
     variants={pageTransition}
   >
-      {/* Small screens - LefthomeSmall as a top navbar */}
-      <div className="">
-        <LefthomeSmall />
-        <main className="bg-white p-4 overflow-y-auto">
-          <Homecontent />
-        </main>
-      </div>
-
-      {/* Medium and large screens - Lefthome and Projects side by side */}
+      return (
+          <div>
+            {/* Medium and larger screens - Show Lefthome */}
+            <div className="hidden md:block">
+              <Lefthome />
+            </div>
+      
+            {/* Small screens - Show LefthomeSmall */}
+            <div className="block md:hidden">
+              <LefthomeSmall />
+            </div>
+      
+            <main className="bg-stone-50 overflow-y-auto">
+              <Homecontent />
+              <Smallabout />
+              <Projectsdisplay />
+            </main>
+          </div>
+        
+      
       </motion.div>
     </div>
 

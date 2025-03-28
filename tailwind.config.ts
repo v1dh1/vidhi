@@ -18,9 +18,7 @@ const config: Config = {
       },
 
       colors: {
-        "purple-100": "#CEC6DB",
         "black-100": "#050505",
-        "purple-200": "#4E3C57",
         "messageblue": "#1484FE",
         "messagegrey": "#E9E9EB",
         "messageblack": "#212123",
