@@ -20,15 +20,20 @@ const WealthyPlanet = () => {
 
           <div className='flex justify-center'>
 
-          <Image
-                src="/wpcover.png" // The path to your image
-                alt="Descriptive text for the image"
-                layout="fit" // This makes the image fill the container
-                objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-                className="rounded-lg" // Ensures the image has rounded corners like the container
-                height={400}
-                width={400}
-            />
+                                 <div className=''>
+                      <div>
+  <video
+    width="100%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+<source src="/wpscrollvid.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+  </video>
+</div>
+            </div>
 
           </div>
 
@@ -37,10 +42,10 @@ const WealthyPlanet = () => {
             <p className='text-stone-700'>{"Case Study | WealthyPlanet | 2024"}</p>
 
             <div className='flex flex-wrap gap-2 pt-4'>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">UI Design</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">UX Design</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">Design Systems</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">Research</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">UI Design</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">UX Design</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">Design Systems</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">Research</div>
 
             </div>
 

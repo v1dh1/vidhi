@@ -4,32 +4,58 @@ import Uxapp from './projects/Uxapp';
 import Trace from './projects/Trace';
 import Goco from './projects/Goco';
 import Wealthyplanet from './projects/Wealthyplanet';
+import Projectcard from './Projectcard';
+import ProjectCardPic from './Projectcardpic';
+import Link from 'next/link';
 const Projects = () => {
   return (
 
     <div className='relative z-20 flex justify-center w-full'>
       <div className="w-full md:px-16 py-16 p-4"> {/*removed p-4*/}
 
-
-
-            {/* Grid Item 1 */}
-            <div className="">
-            <h2 className="text-6xl md:text-6xl font-garamond text-stone-700 md:pt-4">Case Studies</h2>
-            <p className='text-stone-700 text-sm pt-1'>{"I'm passionate about finding the intersection between accessibility and design for growth."}</p>        </div>
+                    <div className='text-2xl pt-16 text-red-900 font-custom pb-16'>{"Hello! I'm Vidhi, a product designer with 2 years of experience in"} <strong>enterprise</strong> {" and"} <strong>fintech</strong>{" design."}</div>
 
 
 
+<div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+  <Link href="/design/wealthyplanet">
+  
+      <ProjectCardPic
+    title="Redesigning WealthyPlanet's Website"
+    info="Increasing conversion rates"
+    tag="Desktop Design"
+    videoSrc="/wpvid.mp4"
+    alt="video of wealthyplanet demo"
+  />
+  </Link>
+
+<Link href="/design/wavely">
+  <ProjectCardPic
+    title="Wavely"
+    info="Sourcing hobby materials sustainably."
+    tag="Mobile Design"
+    imageSrc="./WavelyCover.png"
+    alt="wavely screenshot"
+  />
+</Link>
+
+<Link href="/design/tdbank">
+  <ProjectCardPic
+    title="TD Bank"
+    info="Integrating a standalone app into the existing TD Mobile Banking App."
+    tag="Mobile Design"
+    imageSrc="./trace-after.png"
+    alt="Screenshot of TD Bank work"
+  />
+  </Link>
+</div>
 
 
 
-        <div className='pt-8'>
-        <div className='pt-8'><Uxapp/></div>
-        
-        <div className='py-8'><Wealthyplanet/></div>
-        <Trace/>
+
+
 
        
-        </div>
 
 
     </div>

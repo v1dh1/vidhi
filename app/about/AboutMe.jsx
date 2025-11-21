@@ -1,99 +1,81 @@
 'use client';
-import React from 'react'
-import Image from 'next/image';
-import { motion } from 'framer-motion';
+import Currentlyabout from './Currentlyabout';
+import Values from './Values';
+import Gallery from './Gallery';
 
 
-import ScrollingBanner from '../components/scrolls/Headingscroll';
-
+import React, { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
+import Scrapbook from '../sticker/Scrapbook';
+import ShinyText from '../components/ShinyText';
+import Link from 'next/link';
+import { motion } from "framer-motion";
 
 
 const AboutMe = () => {
+
+    const { ref, inView } = useInView({
+      threshold: 0.9,
+      triggerOnce: false,
+    });
+  
+  
+    useEffect(() => {
+      console.log('Scrapbook inView:', inView);
+    }, [inView]);
+  
+
+
   return (
-    <div className='container mx-auto md:p-16 pt-4 md:pt-20'>
-    
-    <motion.div className="text-center italic text-6xl md:text-8xl font-garamond text-stone-800 pt-12">
-  {"About Vidhi".split("").map((char, i) => (
-    <motion.span
-      key={i}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: i * 0.1 }}
-    >
-      {char}
-    </motion.span>
-  ))}
-</motion.div>
 
+    <div className=' bg-stone-50 pt-20 md:pt-0'>
 
+      <div className='h-9/10 flex flex-row p-4 md:p-16'>
 
-
-
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 pb-8">
-
-    {/* Text Section */}
-    <div className="flex flex-col justify-center items-center text-left">
-        <div className="text-l p-4 text-stone-700">
-        {"Hello! I'm Vidhi, a passionate product designer currently studying "}
-        <strong>Systems Design Engineering at the University of Waterloo.</strong>
-        {" My approach to design is deeply rooted in "}
-        <strong>empathy</strong>
-        {", as I believe in creating products that not only look good but also cater to the diverse needs of users. My dedication to "}
-        <strong>accessibility</strong>
-        {" drives me to design inclusive solutions that empower everyone to engage with technology effortlessly."}
-        </div>
-        <div className="text-l p-4 text-stone-700">
-        {"Outside of design, you'll often find me immersed in my hobbies, whether I'm crocheting intricate patterns, or delving into a captivating book. I thrive on the intersection of creativity and problem-solving, and I'm excited to continue shaping meaningful experiences through design."}
-        </div>
-    </div>
-
-    {/* Image Section */}
-    <div className="flex items-center justify-center rounded-lg p-4 border-3 border-pink-100">
-        <Image
-        src="/vidhigokani.png" // The path to your image
-        alt="Descriptive text for the image"
-        layout="fit" // This makes the image fill the container
-        objectFit="cover" // This makes the image cover the available space, you can adjust as needed
-        className="rounded-lg" // Ensures the image has rounded corners like the container
-        height={400}
-        width={400}
-        />
-    </div>
-
+<div class="flex flex-col md:flex-row w-full gap-4">
+  <div class="md:w-1/3 w-full text-sm text-stone-700 md:pr-16">
+    <div className=''>{"I have 2 years of design & product experience in fintech, logistics, and defense."}</div>
+    <div className='pt-2'>{"I'm currently in my 4th year of Systems Design Engineering at the University of Waterloo."}</div>
+    <div className='pt-8'>{"I’ve always been drawn to creating, whether it was doodling, building, or experimenting with different crafts. Over the years, exploring a wide variety of hands-on projects helped me realize that crafting isn’t just a hobby, it’s what I’m meant to do."}</div>
+    <div className='pt-8'>{"I love turning ideas into tangible, thoughtful creations that spark joy and curiosity. Every piece I make is infused with intention, creativity, and a little bit of fun, because I believe that great design isn’t just seen; it’s felt."}</div>
+  </div>
+  
+<div class="md:w-2/3 w-full h-96 bg-stone-200 rounded-lg border-2 border-stone-300 pl-0 md:pl-4 overflow-hidden">
+   <img src="wallpic.png" alt="description"
+       class="w-full h-full object-cover" />
 </div>
 
-    <section className='rounded-xl pb-8'>
+</div> 
+      </div>
 
-    <div className='pt-8 pb-2 text-2xl text-stone-700 flex justify-center font-semibold'>{"My Design Philosophy"}</div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
-        <div class="bg-stone-50 rounded-lg flex justify-center flex-col p-4">
-            
-            <div className='text-stone-700 text-xl flex justify-center pb-4 font-semibold'>{"Accessibility"}</div>
-            <div className='text-stone-600 text-l flex justify-center'>{"I believe design is for everyone. It's about breaking down barriers and creating experiences that are open and usable for people with all abilities. My approach prioritizes accessibility from the ground up, ensuring that each product I design can be easily navigated and enjoyed by as wide an audience as possible."}</div>
-            
-        </div>
+    <Currentlyabout/> 
+    <div className='p-4 md:p-16'><Values/></div>
+    <Gallery/>
 
-        <div class="bg-stone-50 rounded-lg flex justify-center flex-col p-4">
-            
-            <div className='text-stone-700 text-xl flex justify-center pb-4 font-semibold'>{"Problem Passionate"}</div>
-            <div className='text-stone-600 text-l flex justify-center'>{"My drive comes from tackling challenges head-on. I'm passionate about diving deep into problems, understanding their roots, and crafting innovative solutions. The thrill of turning complex issues into seamless experiences fuels my design process, pushing me to think creatively and empathetically."}</div>
-            
-        </div>
+  
 
-        <div class="bg-stone-50 rounded-lg flex justify-center flex-col p-4">
-            
-            <div className='text-stone-700 text-xl flex justify-center pb-4 font-semibold'>{"Simplicity"}</div>
-            <div className='text-stone-600 text-l flex justify-center'>{"My design philosophy revolves around stripping away the unnecessary, focusing on what truly matters. By championing simplicity, I aim to deliver designs that are not only elegant but also remarkably user-friendly, making every interaction straightforward and enjoyable."}</div>
-            
-        </div>
 
+
+
+              {/* Foreground content */}
+        
+<div
+  ref={ref}
+  className="absolute bottom-8 left-8 z-10 pointer-events-none px-4 md:px-16 pt-40 md:pt-52"
+>
+  {inView && (
+    <div className="pointer-events-auto">
+      <Scrapbook />
     </div>
-    </section>
+  )}
+</div>
 
+        
+        
 
-    </div>
+        </div>
 
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

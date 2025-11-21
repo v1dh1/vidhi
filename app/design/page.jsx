@@ -6,6 +6,7 @@ import Projects from '../components/Projects';
 
 import Lefthome from '../home/Lefthome';
 import LefthomeSmall from '../home/LefthomeSmall';
+import ProjectCard from '../components/Projectcard';
 
 const Design = () => {
   return (

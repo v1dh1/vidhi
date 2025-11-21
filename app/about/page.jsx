@@ -31,14 +31,18 @@ const About = () => {
       <div className="">
         {/* Medium and larger screens - Show Lefthome */}
       <div className="hidden md:block">
-        <Lefthome />
+<div className="relative z-20">
+  <Lefthome />
+</div>
       </div>
 
       {/* Small screens - Show LefthomeSmall */}
       <div className="block md:hidden">
-        <LefthomeSmall />
+<div className="relative z-20">
+  <Lefthome />
+</div>
       </div>
-        <main className="bg-white p-4 overflow-y-auto">
+        <main className="bg-stone-50 overflow-y-auto">
           <AboutMe />
         </main>
       </div>

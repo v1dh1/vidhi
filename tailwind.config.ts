@@ -9,13 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        inter: ['"Inter"', 'sans-serif'],
         "potta": ["Potta One", "system-ui"], 
         "apple": ["Homemade Apple", "cursive"],
         "sofia": ["Princess Sofia", "cursive"],
         "serifDisplay": ["DM Serif Text", "serif"],
-        "garamond": ["Cormorant Garamond", "serif"]
+        "garamond": ["Cormorant Garamond", "serif"],
+        "space": ["Space Grotesk", "sans-serif"],
+        custom: ["Gambarino-Regular", "sans-serif"],
+      "melodrama": ["Melodrama-Regular", "sans-serif"],
+
+        
+
 
       },
+
+
 
       colors: {
         "black-100": "#050505",
@@ -31,6 +40,12 @@ const config: Config = {
         "babytaupe": "#EFECE9",
         "golden": "#C9B274",
         "bgtaupe": "#FBF8F4",
+        "maroon-100": '#811F1F',
+        "background": '#fcf8f7',
+
+        "gra-end": '#6C1919',
+        "gra-start": '#FFEBEB',
+        "gra-text": '#C59A9A',
 
       },
       dropShadow: {

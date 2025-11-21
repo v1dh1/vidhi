@@ -3,10 +3,8 @@
 import React from 'react';
 import Lefthome from './Lefthome';
 import LefthomeSmall from './LefthomeSmall';
-import Projects from '../components/Projects';
+
 import Homecontent from './Homecontent';
-import Smallabout from './Smallabout';
-import Projectsdisplay from './Projectsdisplay';
 
 const Home = () => {
   return (
@@ -18,13 +16,11 @@ const Home = () => {
 
       {/* Small screens - Show LefthomeSmall */}
       <div className="block md:hidden">
-        <LefthomeSmall />
+        <Lefthome />
       </div>
 
       <main className="bg-stone-50 overflow-y-auto">
         <Homecontent />
-        <Smallabout />
-        <Projectsdisplay />
       </main>
     </div>
   );

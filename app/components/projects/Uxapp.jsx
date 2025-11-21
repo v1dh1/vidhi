@@ -37,10 +37,10 @@ const Uxapp = () => {
             <p className='text-stone-700'>{"Case Study | Personal Project | 2024"}</p>
 
             <div className='flex flex-wrap gap-2 pt-4'>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">UI Design</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">UX Design</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">Design Thinking</div>
-            <div className="badge badge-md badge-outline border-purple-800 text-purple-800">Research</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">UI Design</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">UX Design</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">Design Thinking</div>
+            <div className="badge badge-md badge-outline border-red-800 text-red-800">Research</div>
 
             </div>
 

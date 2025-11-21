@@ -1,84 +1,167 @@
-import React from 'react';
-import Image from 'next/image';
+'use client';
+
+import React, { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
+import Scrapbook from '../sticker/Scrapbook';
+import ShinyText from '../components/ShinyText';
+import Link from 'next/link';
 import { motion } from "framer-motion";
 
-const imageAnimation = {
-  initial: { rotate: 0 },
-  animate: { rotate: [-5, 5, -5], transition: { repeat: Infinity, duration: 3, ease: "easeInOut" } },
-};
+
 
 const Homecontent = () => {
-  const text = "Designing for Joy and Impact"; 
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: false,
+  });
+
+
 
   return (
-    <div className="relative h-screen overflow-hidden">
-      {/* 🌸 Foreground Content */}
-      <div className="relative pt-40 z-10 bg-gradient-to-bl h-full">
-        <div className="p-8 md:p-16">
-          <div className='text-center text-2xl font-garamond text-stone-800 italic'>{"Hello I'm Vidhi! and I enjoy"}</div>
+    <div className="relative overflow-hidden ">
+      {/* Background Video */}
 
-          <div className="h-full flex justify-center items-center relative">
-            {/* Rotating Images on the Sides (Only on Medium+ Screens) */}
-            <motion.div
-              className="absolute left-10 top-1/3 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 hidden md:block"
-              variants={imageAnimation}
-              initial="initial"
-              animate="animate"
-            >
-              <Image src="/star1.png" alt="Left Decorative Image" width={80} height={80} />
-            </motion.div>
 
-            <motion.div className="text-center italic text-7xl md:text-8xl font-garamond text-stone-800 pt-12">
-              {text.split("").map((char, i) => (
-                <motion.span
-                  key={i}
-                  initial={{
-                    x: Math.random() * 100 - 50, // Random horizontal scatter
-                    opacity: 0,
-                  }}
-                  animate={{
-                    x: 0, // Final position is centered
-                    opacity: 1,
-                  }}
-                  transition={{
-                    delay: i * 0.05, // Stagger the appearance of each letter
-                    duration: 0.5,
-                  }}
-                >
-                  {char}
-                </motion.span>
-              ))}
-            </motion.div>
+<div className="pt-20 md:pt-8">
 
-            <motion.div
-              className="absolute right-10 top-1/3 transform -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 hidden md:block"
-              variants={imageAnimation}
-              initial="initial"
-              animate="animate"
-            >
-              <Image src="/star2.png" alt="Right Decorative Image" width={80} height={80} />
-            </motion.div>
-          </div>
-        </div>
+  <div className='p-8 md:p-16 text-stone-700 text-lg'>
+      <div className='text-stone-400'>Designer based in Toronto</div>
+      <div className=''>{"Passionate about Fintech 🏦 and Enterprise 🏢 Design"}</div>
+      <div className=''>{"Systems Design Engineering @UWaterloo"}</div>
+      <div className=''>{"Currently Seeking 2026 New Grad Design & Product Roles"}</div>
+  </div>
 
-        <div className='pt-20'></div>
-        <motion.button
-          className="btn rounded-full text-sm bg-purple-50 text-stone-900 border-2 border-dotted border-purple-950 hover:bg-purple-50 mx-auto block px-6 py-2"
-          animate={{ y: [0, -5, 0] }} 
-          transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }} // Smooth looping animation
-        >
-          {"Scroll to Explore"}
-        </motion.button>
+
+<div className='p-4 md:px-16'>
+  <div className='border-t-2 border-b-2 border-stone-200'>
+
+    <motion.div
+      className='border-none shadow-none'
+      whileHover={{
+        scale: 0.95,
+        y: -5,
+        shadow: "none"
+      }}
+      transition={{
+        type: "spring",
+        stiffness: 300,
+        damping: 15,
+      }}
+    >
+
+    <Link href="/design/wealthyplanet">
+  <div className="flex flex-col md:flex-row w-full">
+    <div className="md:w-1/3 w-full py-4">
+      <div className="text-lg font-semibold text-stone-700">
+        {"Web Redesign & Onboarding Experience"}
+      </div>
+      <div className="text-sm text-stone-400">
+        {"WealthyPlanet | Fall 2024"}
+      </div>
+    </div>
+
+    <div className="md:w-2/3 w-full py-4">
+      <div className="text-sm text-stone-500">
+        {"Built a unified design system and led a full website redesign for WealthyPlanet’s AI-driven financial platform. Delivered a cohesive experience that increased sign-ups 270% and session time 20%, from research to launch."}
+      </div>
+    </div>
+  </div>
+
+  {/* Centered video */}
+  <div className="w-full flex justify-center mt-4">
+    <video
+      className="w-3/4 lg:w-1/2 h-full object-cover"
+      src="/wpvid.mp4"
+      autoPlay
+      muted
+      loop
+      playsInLine
+    ></video>
+  </div>
+</Link>
+
+</motion.div>
+  </div>
+</div>
+
+
+
+
+
+
+<div className='px-4 md:px-16'>
+  <div className='border-b-2 border-stone-200'>
+
+    <motion.div
+      className='border-none shadow-none'
+      whileHover={{
+        scale: 0.95,
+        y: -5,
+        shadow: "none"
+      }}
+      transition={{
+        type: "spring",
+        stiffness: 300,
+        damping: 15,
+      }}
+    >
+
+    <Link href="/design/tdbank">
+
+
+    <div className="flex flex-col md:flex-row w-full">
+      {/* Left column - 1/3 width on medium+ screens */}
+      <div className="md:w-1/3 w-full py-4">
+        <div className="text-lg font-semibold text-stone-700">{"Trace"}</div>
+        <div className='text-sm text-stone-400'>{"TD Bank | Winter 2024"}</div>
       </div>
 
-      <div 
-        className="absolute bottom-0 left-0 w-full h-80 pointer-events-none"
-        style={{
-          background: "linear-gradient(to top, rgba(216, 180, 254, 0.8), rgba(216, 180, 254, 0))",
-          WebkitMaskImage: "radial-gradient(ellipse at bottom, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%)",
-          maskImage: "radial-gradient(ellipse at bottom, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%)",
-        }}
-      />
+      {/* Right column - 2/3 width on medium+ screens */}
+      <div className="md:w-2/3 w-full py-4">
+        <div className="text-sm text-stone-500">{"Integrated a standalone app into TD Bank’s mobile banking ecosystem for the US market, creating a seamless, trust-driven experience. Led the product from concept through prototyping and design thinking workshops, aligned multi-disciplinary teams, and delivered a scalable UI framework to support future integrations."}</div>
+      </div>
+    </div>
+
+<div className="flex flex-col md:flex-row w-full overflow-hidden gap-2 pt-8 pb-8">
+  <img
+    src="/trace-before.png"
+    alt="Before"
+    className="w-full md:w-1/2 object-cover rounded-xl"
+  />
+
+  <img
+    src="/trace-after.png"
+    alt="After"
+    className="w-full md:w-1/2 object-cover rounded-xl"
+  />
+</div>
+
+</Link>
+</motion.div>
+
+  </div>
+</div>
+
+
+
+<div className='p-4 md:p-16'>
+
+  <div className='text-stone-900 text-lg'>{"liked what you saw? "}</div>
+
+  <div className='text-stone-500 text-sm'>{"learn more about me and how i approach design"}</div>
+
+
+
+</div>
+
+
+
+
+  </div>
+
+
+
+
     </div>
   );
 };

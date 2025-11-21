@@ -27,7 +27,7 @@ export default function Home() {
     exit="exit"
     variants={pageTransition}
   >
-      return (
+      
           <div>
             {/* Medium and larger screens - Show Lefthome */}
             <div className="hidden md:block">
@@ -36,13 +36,11 @@ export default function Home() {
       
             {/* Small screens - Show LefthomeSmall */}
             <div className="block md:hidden">
-              <LefthomeSmall />
+              <Lefthome />
             </div>
       
             <main className="bg-stone-50 overflow-y-auto">
               <Homecontent />
-              <Smallabout />
-              <Projectsdisplay />
             </main>
           </div>
         

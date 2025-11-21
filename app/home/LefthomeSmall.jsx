@@ -24,18 +24,18 @@ const LefthomeSmall = () => {
       exit="exit"
       variants={pageTransition}
     >
-      <div className="navbar bg-stone-50 w-full fixed top-0 z-50 border-b-2 border-stone-100">
+      <div className="navbar bg-background w-full fixed top-0 z-50 border-b-2 border-stone-100">
         <div className="flex-1">
        
         <Link href="/">{/* Left - Name */}
         <div className="flex-shrink-0">
-        <Image src="/vidhisignature.png" alt="Menu Icon" width={150} height={150} className="cursor-pointer" />
+          <div className='text-red-950 font-custom text-xl p-4'>Vidhi Gokani</div>
         </div>
         </Link>
 
         </div>
         <div className="flex-none">
-        <button onClick={toggleDropdown} className="btn bg-stone-50 border-none shadow-none text-stone-900 hover:bg-stone-50">
+        <button onClick={toggleDropdown} className="btn bg-background border-none shadow-none text-stone-900 hover:bg-stone-50">
     <Image src="/menupic.png" alt="Menu" width={72} height={72} />
   </button>
         </div>
