@@ -69,7 +69,7 @@ const Lefthome = () => {
         <div className="md:hidden mt-4 flex flex-col gap-3">
           <NavButton href="/" label="work" icon="/work.png" />
           <NavButton href="/about" label="about" icon="/aboutv.png" />
-          <NavButton href="/resume.pdf" label="resume" icon="/work.png" />
+          <NavButton href="https://drive.google.com/file/d/1Atf03cruBvciRvUdbc4U_Gk8IvlwPQ--/view?usp=sharing" label="resume" icon="/work.png" />
           <ActionButton label="let's talk" icon="/phone.png" href="mailto:vidhigokani1@gmail.com" />
         </div>
       )}
