@@ -24,7 +24,7 @@ const Design = () => {
 
       {/* Small screens - Show LefthomeSmall */}
       <div className="block md:hidden">
-        <LefthomeSmall />
+        <Lefthome />
       </div>
 
         <div className=''>

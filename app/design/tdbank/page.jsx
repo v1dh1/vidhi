@@ -37,7 +37,7 @@ const Tdbank = () => {
 
       {/* Small screens - Show LefthomeSmall */}
       <div className="block md:hidden">
-        <LefthomeSmall />
+        <Lefthome />
       </div>
         <main className="bg-white pt-16 p-4 md:p-16 overflow-y-auto">
           <TraceProject />
