@@ -144,15 +144,28 @@ const Homecontent = () => {
 
 
 
-<div className='p-4 md:p-16'>
+<div className="p-4 md:p-16 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 
-  <div className='text-stone-900 text-lg'>{"liked what you saw? "}</div>
+  {/* Left side text */}
+  <div>
+    <div className="text-stone-900 text-lg">
+      liked what you saw?
+    </div>
+    <div className="text-stone-500 text-sm">
+      learn more about me and how i approach design
+    </div>
+  </div>
 
-  <div className='text-stone-500 text-sm'>{"learn more about me and how i approach design"}</div>
-
-
+  {/* Right side button */}
+  <a
+    href="/about"
+    className="inline-block px-6 py-3 rounded-lg bg-red-50 border-2 border-red-100 text-red-950 text-sm hover:bg-red-200 transition"
+  >
+    About Me
+  </a>
 
 </div>
+
 
 
 
