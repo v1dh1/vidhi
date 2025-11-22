@@ -42,7 +42,7 @@ const WealthyPlanet = () => {
 
       {/* Small screens - Show LefthomeSmall */}
       <div className="block md:hidden">
-        <LefthomeSmall />
+        <Lefthome />
       </div>
       
           <main className="bg-white overflow-y-auto"> {/*removed p-4*/}
