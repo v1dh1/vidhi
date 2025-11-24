@@ -11,18 +11,18 @@ const TraceDesign = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 pt-4'>
 
-        <div className='bg-pink-50 p-4 rounded-xl'>
+        <div className='bg-red-50 p-4 rounded-xl'>
             <div className='text-stone-700 text-xl font-bold'>{"Gathering Assets to Easily Maintain Brand Consistency"}</div>
             <div className='text-stone-500'>{"● I scoped and collected visual assets from the standalone app, ensuring seamless integration into the TD mobile app while maintaining brand consistency and visual coherence. "}</div>
             <div className='text-stone-500'>{"● I also organized and cataloged assets which matched the existing TD mobile banking app to streamline the design process"}</div>
         </div>
 
-        <div className='bg-pink-50 p-4 rounded-xl'>
+        <div className='bg-red-50 p-4 rounded-xl'>
             <div className='text-stone-700 text-xl font-bold'>{"User Flow Creation for Open-Banking and No-Open Banking Scenarios"}</div>
             <div className='text-stone-500'>{"● I developed two distinct user flows for both the MVP and future state version to accommodate different user scenarios and interactions within the integrated app. The MVP version did not have the open banking flow, due to technical and financial constraints. The future state version included the open banking flow, which was rigorously tested and liked by users, but will require more technical deep dives and time."}</div>
         </div>
 
-        <div className='bg-pink-50 p-4 rounded-xl'>
+        <div className='bg-red-50 p-4 rounded-xl'>
 
             <div className='text-stone-700 text-xl font-bold'>{"UI Design"}</div>
             <div className='text-stone-500'>{"● After creating the assets, I used them to design high fidelity screens of the app post-integration. The mapping of user flows and the component audit expedited this process, and helped ensure brand consistency."}</div>
@@ -30,7 +30,7 @@ const TraceDesign = () => {
 
         </div>
 
-        <div className='text-pink-400 font-semibold pt-8 pb-4'>The Design Process</div>
+        <div className='text-red-400 font-semibold pt-8 pb-4'>The Design Process</div>
 
         <div className='grid grid-cols-1 md:grid-cols-2'>
         
@@ -174,12 +174,12 @@ const TraceDesign = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 pt-4'>
 
-            <div className='bg-pink-50 p-4 rounded-xl text-stone-600'>
+            <div className='bg-red-50 p-4 rounded-xl text-stone-600'>
             {"Carousels optimize space. Especially when you have 3+ cards to show, carousels allow for chunks of information to be displayed in a concise form, allowing other crucial information to also be shown on the page"}</div>
 
-            <div className='bg-pink-50 p-4 rounded-xl text-stone-600'>{"Focus on individual items. Carousels help users focus on one card at a time, which is useful to not confuse one card with the other."}</div>
+            <div className='bg-red-50 p-4 rounded-xl text-stone-600'>{"Focus on individual items. Carousels help users focus on one card at a time, which is useful to not confuse one card with the other."}</div>
 
-            <div className='bg-pink-50 p-4 rounded-xl text-stone-600'>{"Carousels are scalable. In the event a user wants to link even 5 cards, carousels provide the space to do so."}</div>
+            <div className='bg-red-50 p-4 rounded-xl text-stone-600'>{"Carousels are scalable. In the event a user wants to link even 5 cards, carousels provide the space to do so."}</div>
 
         </div>
 

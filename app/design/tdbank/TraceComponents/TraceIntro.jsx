@@ -12,9 +12,9 @@ const TraceIntro = () => {
         <div className='text-stone-500 pt-2'> {"⚠️ Disclaimer: Due to intellectual property restrictions on this project, I am unable to publicly discuss all details, or include more pictures. For more details, you can reach out to me :)"}</div>
 
         <div className='flex flex-row gap-3 pt-4 '>
-                    <div className="badge badge-outline border-pink-800 text-pink-400">UX Design</div>
-                    <div className="badge badge-outline border-pink-800 text-pink-400">Research</div>
-                    <div className="badge badge-outline border-pink-800 text-pink-400">Prototyping</div>
+                    <div className="badge badge-outline border-red-800 text-red-400">UX Design</div>
+                    <div className="badge badge-outline border-red-800 text-red-400">Research</div>
+                    <div className="badge badge-outline border-red-800 text-red-400">Prototyping</div>
         </div>
 
         <div className='flex flex-row gap-12 pt-4'>

@@ -4,7 +4,7 @@ const TraceProblemAndUsers = () => {
   return (
     <div>
 
-        <div className='text-pink-400 font-semibold text-l pt-8 pb-2'>Problem and Users</div>
+        <div className='text-red-400 font-semibold text-l pt-8 pb-2'>Problem and Users</div>
 
         <div className='text-stone-700 text-xl font-bold'>{"Shifting Toward a 'Local-First' Focus: Empowering Sustainable Shopping and Small Businesses in the TD Ecosystem"}</div>
         <div className='text-stone-600 pt-2'>{"Initially conceived as a sustainability-focused project, the purpose of this initiative was to tackle the challenge of promoting sustainability and supporting small businesses within the TD ecosystem. However, after conducting comprehensive user interviews, we recognized the need to pivot towards a local-first approach, aiming to inclusively address all user demographics. It was also found that TD’s US presence was not strong enough, which led to creating this product which falls outside of traditional banking. The primary goal remained consistent: to develop an app that incentivizes users to engage in sustainable shopping practices while highlighting the significance of local businesses and B-Corps."}</div>
@@ -13,7 +13,7 @@ const TraceProblemAndUsers = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
 
-            <div className='bg-pink-50 p-4 rounded-xl '>
+            <div className='bg-red-50 p-4 rounded-xl '>
 
                 <div className='text-stone-700 text-xl font-bold'>{"TD Customers interested in sustainable living"}</div>
                 <div className='text-stone-500'>
@@ -22,7 +22,7 @@ const TraceProblemAndUsers = () => {
 
             </div>
 
-            <div className='bg-pink-50 p-4 rounded-xl '>
+            <div className='bg-red-50 p-4 rounded-xl '>
 
                 <div className='text-stone-700 text-xl font-bold'>{"Internal Stakeholders to obtain buy-in from"}</div>
                     <div className='text-stone-500'>
@@ -31,7 +31,7 @@ const TraceProblemAndUsers = () => {
 
             </div>
 
-            <div className='bg-pink-50 p-4 rounded-xl '>
+            <div className='bg-red-50 p-4 rounded-xl '>
 
                 <div className='text-stone-700 text-xl font-bold'>{"Local-Oriented Individuals who value community connection"}</div>
                     <div className='text-stone-500'>

@@ -243,18 +243,18 @@ const Wpproject = () => {
         <div className='pt-8 pb-2'>Key Feedback from Stakeholders</div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
 
               <p>{"Knowing how the steps work should be expanded out, embedding chatbot onto the site"}</p>
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               <p>{"Matching the brand colors and colors of the app - needed to create and implement a design system."}</p>
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               {"Using language to convey information to B2B2C stakeholders."}
             </div>
         </div>
@@ -306,17 +306,17 @@ const Wpproject = () => {
       <div className='pt-8 pb-2'>{"Key Design Changes"}</div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               {"Human centered design. Ensured all elements of the website was accessible, used simple language and was easy to navigate."}
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               {"Established a robust and scalable design system, and ensured the website redesign was consistent with existing design of the app."}
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
                 {"Addition of more pages, such as About, Contact, Product and more."}
             </div>
         </div>
@@ -330,19 +330,19 @@ const Wpproject = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               <div className='text-l font-semibold'>Stakeholders</div>
               {"Worked closely with leadership to ensure alignment with brand identity and user needs."}
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               <div className='text-l font-semibold'>Developers</div>
               {"Partnered with 8 developers to implement a responsive design using modern web technologies."}
 
             </div>
 
-            <div className='bg-purple-100 p-4 rounded-md'>
+            <div className='bg-red-100 p-4 rounded-md'>
               <div className='text-l font-semibold'>Launch</div>
               {"Conducted a smooth handoff by providing detailed documentation and assets."}
 
