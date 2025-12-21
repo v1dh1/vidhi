@@ -15,7 +15,7 @@ const Wone = () => {
         <div className="p-4">
           <div className="mb-4">
             <div className="text-stone-900 font-semibold text-lg">Role</div>
-            <div className="text-stone-700">Lead Product Designer</div>
+            <div className="text-stone-700">Product Designer Intern</div>
           </div>
 
           <div className="mb-4">
@@ -53,7 +53,7 @@ const Wone = () => {
         <div className="p-4 flex flex-col justify-center">
           <div className="mb-4">
             <div className="text-stone-900 font-semibold text-lg">Role</div>
-            <div className="text-stone-700">Lead Product Designer</div>
+            <div className="text-stone-700"> Product Designer Intern</div>
           </div>
 
           <div className="mb-4">

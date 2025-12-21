@@ -25,12 +25,13 @@ const Homecontent = () => {
 <div className="pt-20 md:pt-8">
 
   <div className='p-8 md:p-16 text-stone-700 text-lg'>
-      <div className='text-stone-400'>Designer based in Toronto</div>
+      <div className='text-red-800 text-4xl pb-8'><span className=''>{"Vidhi"}</span> {"is a designer"} <span className='text-red-900 text-lg'>{"(and aspiring design engineer ;)"}</span>  {" who crafts intuitive experiences backed by research, systems thinking, and cross-functional prototyping."}</div>
       <div className=''>{"Passionate about Fintech 🏦 and Enterprise 🏢 Design"}</div>
       <div className=''>{"Systems Design Engineering @UWaterloo"}</div>
       <div className=''>{"Currently Seeking 2026 New Grad Design & Product Roles"}</div>
   </div>
 
+  <div className='md:pb-32'></div>
 
 <div className='p-4 md:px-16'>
   <div className='border-t-2 border-b-2 border-stone-200'>
@@ -113,7 +114,7 @@ const Homecontent = () => {
       {/* Left column - 1/3 width on medium+ screens */}
       <div className="md:w-1/3 w-full py-4">
         <div className="text-lg font-semibold text-stone-700">{"Trace"}</div>
-        <div className='text-sm text-stone-400'>{"TD Bank | Winter 2024"}</div>
+        <div className='text-sm text-stone-400'>{"Toronto-Dominion Bank | Winter 2024"}</div>
       </div>
 
       {/* Right column - 2/3 width on medium+ screens */}
@@ -149,10 +150,10 @@ const Homecontent = () => {
   {/* Left side text */}
   <div>
     <div className="text-stone-900 text-lg">
-      liked what you saw?
+      {"liked what you saw?"}
     </div>
     <div className="text-stone-500 text-sm">
-      learn more about me and how i approach design
+      {"learn more about me and how i approach design"}
     </div>
   </div>
 

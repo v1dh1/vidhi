@@ -5,6 +5,15 @@ const Wtwo = () => {
   return (
     <div>
 
+    <section className='p-4 md:p-16'>
+        <div className='h-screen rounded-xl bg-red-900 text-stone-200 p-4 md:p-16'>
+
+            <div className='text-4xl text-center font-bold'>TLDR</div>
+            <div className='text-center pt-4 text-l  text-stone-200'>{"Redesigned WealthyPlanet's website to enhance user experience and boost conversions by creating a user-friendly, intuitive platform that increased sign-ups and built trust with users."}</div>
+
+        </div>
+    </section>
+
         <div className='p-4 md:p-16'>
             <div className='text-stone-900 text-5xl font-semibold pb-8'>Overview</div>
             <div className=' text-stone-900 text-l bg-babytaupe rounded-lg p-4'>In Fall 2024, I joined WealthyPlanet, an early-stage fintech startup as their sole designer</div>
@@ -22,9 +31,10 @@ const Wtwo = () => {
 
             <img 
   src="/wpcover.png" 
-  alt="Descriptive text for the image" 
+  alt="A preview of the WealthyPlanet website redesign" 
   className="rounded-lg mx-auto object-cover w-[1000px] h-[700px]" 
 />
+<div className='text-center text-stone-600'>{"A before and after of the WealthyPlanet website redesign"}</div>
 
 
 
