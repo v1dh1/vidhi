@@ -5,14 +5,6 @@ const Wtwo = () => {
   return (
     <div>
 
-    <section className='p-4 md:p-16'>
-        <div className='h-screen rounded-xl bg-red-900 text-stone-200 p-4 md:p-16'>
-
-            <div className='text-4xl text-center font-bold'>TLDR</div>
-            <div className='text-center pt-4 text-l  text-stone-200'>{"Redesigned WealthyPlanet's website to enhance user experience and boost conversions by creating a user-friendly, intuitive platform that increased sign-ups and built trust with users."}</div>
-
-        </div>
-    </section>
 
         <div className='p-4 md:p-16'>
             <div className='text-stone-900 text-5xl font-semibold pb-8'>Overview</div>
