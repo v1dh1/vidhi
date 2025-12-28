@@ -11,7 +11,7 @@ const config: Config = {
   	extend: {
   		fontFamily: {
   			inter: [
-  				'Inter"',
+  				'Inter',
   				'sans-serif'
   			],
   			'potta': [
