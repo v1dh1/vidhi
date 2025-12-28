@@ -65,7 +65,6 @@ const config: Config = {
   			'gra-end': '#6C1919',
   			'gra-start': '#FFEBEB',
   			'gra-text': '#C59A9A',
-  			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
