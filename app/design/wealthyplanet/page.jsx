@@ -50,7 +50,6 @@ const WealthyPlanet = () => {
               <Wone />
               <Wtwo/>
               <Wthree/>
-              <Wfour/>
             
             </div>
           </main>

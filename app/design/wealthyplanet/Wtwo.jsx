@@ -1,132 +1,190 @@
 import React from 'react'
 import Image from 'next/image'
+import { motion } from "framer-motion"
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const Wtwo = () => {
   return (
     <div>
 
+{/*tldr section*/}
+<div className="w-full md:w-1/2 mx-auto p-8 md:p-0">
 
-        <div className='p-4 md:p-16'>
-            <div className='text-stone-900 text-5xl font-semibold pb-8'>Overview</div>
-            <div className=' text-stone-900 text-l bg-babytaupe rounded-lg p-4'>In Fall 2024, I joined WealthyPlanet, an early-stage fintech startup as their sole designer</div>
+    <div className="pt-16 md:pt-32 font-semibold text-3xl text-stone-800">TLDR</div>
+    <div className='text-stone-600 text-base pt-8'>{"Designed the primary acquisition and onboarding experience for an AI fintech during a critical pivot. Focused on trust, clarity, and guided activation and stronger early user engagement."}</div>
 
-
-            <div className='md:grid grid-cols-2 gap-4 pt-16 pb-8'>
-                <div className='text-left align-middle text-3xl font-semibold text-stone-900'>Context</div>
-
-                <div className='pt-4 md:pt-none'>
-                        <div className='text-left text-l text-stone-600'>{"When I first joined WealthyPlanet, I had no clue on what to expect. This was the first time I would be a designer with no one else guiding me! I worked on a small team with developers as we all worked together on the same mission, to grow the company. "}</div>
-                        <div className='text-left text-l text-stone-600 pt-2'>{"I arrived to a backlog of design work to be done, with existing files being poorly documented and a non-existent design system. I led the end-to-end redesign of the website, creating a user-friendly, intuitive platform. After the redesign, users reported higher confidence in navigating their financial planning journey, leading to increased sign-ups and greater trust in WealthyPlanet's services."}</div>
-
+    <div className='flex flex-col md:flex-row pt-16 gap-8'>
+        
+        <div className='md:w-1/2'>
+            <div className='text-base font-bold text-red-700'>
+                <motion.span
+                    initial={{ scale: 0.4, opacity: 0 }}
+                    whileInView={{ scale: 1, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.7, ease: "easeOut" }}
+                    className="text-2xl font-bold inline-block"
+                    >
+                {"+ 62%"}
+                </motion.span>
                 </div>
-            </div>
+            <div className='text-base text-stone-700'>{"Increased user sign-ups in the first month post-launch."}</div>
+        </div>
 
-            <img 
-  src="/wpcover.png" 
-  alt="A preview of the WealthyPlanet website redesign" 
-  className="rounded-lg mx-auto object-cover w-[1000px] h-[700px]" 
-/>
-<div className='text-center text-stone-600'>{"A before and after of the WealthyPlanet website redesign"}</div>
-
-
-
-            <section className='pt-24'>
-                <div className='text-3xl font-semibold text-stone-900 pb-4'>Understanding the space</div>
+        <div className='md:w-1/2'>
+            <div className='text-2xl font-bold text-red-700'>
+                <motion.span
+                    initial={{ scale: 0.4, opacity: 0 }}
+                    whileInView={{ scale: 1, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.7, ease: "easeOut" }}
+                    className="text-2xl font-bold inline-block"
+                    >
+                {"+ 20%"}</motion.span>
                 
-                <div className='md:grid grid-cols-4 pt-16'>
-  
-                    {/* First Column (3/4 of the space) */}
-                    <div className='col-span-3 md:pr-24'>
-                        <div className='bg-babytaupe p-4 rounded-lg'>
-                        <div className="flex text-l pt-2 text-stone-900">
-                            <span>WealthyPlanet had a</span>
-                            <span className="italic text-red-500 px-2 font-semibold">{"relatability problem."}</span>
-                        </div>
-                        <div className='text-stone-900'>
-                            {"The existing website lacked clarity, engaging content, and essential functionality."}
-                        </div>
-                        </div>
+                </div>
+            <div className='text-base text-stone-700'>{"Users time spent time on the website."}</div>
+        </div>
 
-                        <div className='pt-8 text-stone-600'>
-                        {"WealthyPlanet struggled to attract investors and clients after pivoting to an AI-powered financial planning product. Their website lacked clarity, engaging content, and interactive tools, making it hard for their core audience—middle-aged parents focused on retirement—to trust and engage with the platform."}
-                        </div>
-                    </div>
+    </div>
 
-                    {/* Second Column (1/4 of the space) */}
-                    <div className='col-span-1 pt-4 md:pt-0'>
-                        <div className='text-stone-900 font-semibold pb-4'>{"Issues:"}</div>
-
-                        <div className='border-2 border-babytaupe rounded-xl mb-4'>
-                            <div className='p-2 text-stone-600'>📉 Low User Conversion</div>
-                        </div>
-
-                        <div className='border-2 border-babytaupe rounded-xl mb-4'>
-                            <div className='p-2 text-stone-600'>🕰️ Outdated Design</div>
-                        </div>
-
-                        <div className='border-2 border-babytaupe rounded-xl'>
-                            <div className='p-2 text-stone-600'>🚫 Business Goals not Being Met</div>
-                        </div>
+    <div className="rounded-lg bg-red-800 border-2 border-stone-300 text-stone-100 
+                    w-48 h-12 md:w-64 md:h-12 mt-16 mx-auto
+                    flex items-center justify-center
+                    shadow-lg">
+    {"Skip to Takeaways"}
+    </div>
 
 
-                        
-                    </div>
+</div>
+
+<div className='pt-16 md:pt-32'></div>
+
+{/*overview section*/}
+
+
+<div className="w-full md:w-1/2 mx-auto p-8 md:p-0">
+     <div className='text-stone-900 text-3xl font-semibold pb-8'>Overview</div>
+
+     <div className='text-red-800 text-2xl pb-4'>Context</div>
+     <div className='text-stone-700 text-base'>{"I joined WealthyPlanet as the sole designer during a critical pivot to an AI-powered financial planning product. I partnered directly with developers and leadership to define the website experience, create an onboarding flow, and improve user trust and conversion."}</div>
+    <div className='text-stone-700 text-base pt-2'>{"I arrived to a backlog of design work to be done, with existing files being poorly documented and a non-existent design system. I led the end-to-end redesign of the website, creating a user-friendly, intuitive platform. After the redesign, users reported higher confidence in navigating their financial planning journey, leading to increased sign-ups and greater trust in WealthyPlanet's services."}</div>
 </div>
 
 
 
-            </section>
-
-            <section className='pt-24'>
-                <div className='text-3xl font-semibold text-stone-900 pb-4'>Competitive Analysis </div>
-                
-                <div className='pt-16'>
-                    <div className='bg-babytaupe p-4 rounded-l text-stone-900'>{"I looked into research provided by WealthyPlanet to understand the problem to a deeper level. This made me realize this problem is bigger than anticipated, and how important user-centered design would be to help solve this problem."}</div>
-                </div>
-                <div className='md:grid grid-cols-3 gap-16 pt-16'>
-
-                    <div id= "row1" className="">
-
-                        <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
-                            <div className='text-2xl font-bold text-stone-700'>{"48%"}</div>
-                            <div className='text-l text-stone-700 pt-4'>{"Of employees say they’ve lost sleep because of financial worries"}</div>
-                        </div>
+<div className='w-full md:w-1/2 mx-auto pt-8 md:pt-16 p-8 md:p-0'>
+    <img 
+  src="/wpcover.png" 
+  alt="A preview of the WealthyPlanet website redesign" 
+  className="rounded-lg mx-auto object-cover w-[500px] h-[350px]" 
+/>
+<div className='text-center text-stone-600 pb-16'>{"A before and after of the WealthyPlanet website redesign"}</div>
+</div>
 
 
-                    </div>
+{/*understanding the space section*/}
 
-                    <div id = "row2" className='pt-8 md:pt-0'>
-                        <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
-                            <div className='text-l text-stone-700'>{"Due to financial stress, employees are"}</div>
-                            <div className='text-2xl font-bold text-stone-700 pt-4'>{"2X"}</div>
-                            <div className='text-l text-stone-700 pt-4'>{"as likely to report poor overall health"}</div>
-                        </div>
+<div className='w-full md:w-1/2 mx-auto pt-8 md:pt-16 p-8 md:p-0'>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* column 1 */}
+        <div>
 
-                    </div>
-
-                    <div id = "row3" className='pt-8 md:pt-0'>
-
-                    <div className='border-2 border-babytaupe rounded-xl p-2 text-stone-700'>
-                            <div className='text-2xl font-bold text-stone-700 '>{"82%"}</div>
-                            <div className='text-l text-stone-700 pt-4'>{"Of employees worry about money in the workplace"}</div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div className='text-md text-stone-600'>{"Source: Government of Canada"}</div>
-            </section>
-
-            
-
-            <div className='pt-24'></div>
-            <div className='text-3xl font-semibold text-stone-900 pb-16'>HMW Statement</div>
-            <div className='text-xl text-stone-600 italic text-left border-l-4 pl-2 border-red-500'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
-
-
+            <div className='text-red-800 text-2xl pb-4'>Understanding the Space</div>
+            <div className='text-stone-700 text-base'>{"WealthyPlanet had a"} <span className='text-red-700 font-bold'>trustability</span> {"problem. The existing website lacked clarity, engaging content, and essential functionality."}</div>
 
         </div>
+
+        {/* column 2 */}
+        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+
+            <div className='text-red-800 text-base pb-4 font-semibold'>Clarity</div>
+            <div className='text-stone-700 text-base'>{"Users couldn’t quickly explain what the product does which translated to users were not converting; first impressions didn’t build confidence."}</div>
+        </div>
+        </div>
+
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
+        {/* column 1 */}
+        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+
+            <div className='text-red-800 text-base pb-4 font-semibold'>{"Engagement & Guidance Weakness"}</div>
+            <div className='text-stone-700 text-base'>{"No structured pathway for users to take meaningful action, from landing → sign-up → onboarding. Users dropped off immediately after signing up; the platform wasn’t guiding them toward activation."}</div>
+        </div>
+
+        {/* column 2 */}
+        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+
+            <div className='text-red-800 text-base pb-4 font-semibold'>Trust Deficit</div>
+            <div className='text-stone-700 text-base'>{"Early-stage fintechs are judged heavily by interface stability and transparency. Broken links, inconsistent UI, and missing social proof made the site feel untrustworthy."}</div>
+        </div>
+        </div>
+    
+
+</div>
+
+{/*competitive analysis section*/}
+<div className="w-full md:w-1/2 mx-auto pt-8 md:pt-24 p-8 md:p-0">
+
+     <div className='text-red-800 text-2xl pb-4'>Competitive Analysis</div>
+        <div className='text-stone-700 text-base'>{"Thorough competitive analysis was provided to me by WealthyPlanet, using which I further compiled my own research to understand how fintechs build credibility and simplify complex financial products. "}</div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
+
+            <div className='text-red-700 text-xl'>Insight</div>
+
+            <div className='text-red-700 text-xl'>Design Implication</div>
+        </div>
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
+
+            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='text-stone-700 text-base'>{"Competitors often lead with trust signals (stats, testimonials, data points) before features."}</div>
+            </div>
+
+            <div className='text-stone-700 text-base'>{"Make the core value and product purpose immediately understandable."}</div>
+        </div>
+
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
+
+            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='text-stone-700 text-base'>{"Visual and textual consistency across web and mobile is key for credibility and ease of use."}</div>
+            </div>
+
+            <div className='text-stone-700 text-base'>{"Consistent UI, brand alignment, and subtle proof points to reduce anxiety."}</div>
+        </div>
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
+
+            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='text-stone-700 text-base'>{"Progressive onboarding flows are critical to guide new users through first actions."}</div>
+            </div>
+
+            <div className='text-stone-700 text-base'>{"Design the first user journey from landing → sign-up → onboarding with minimal friction."}</div>
+        </div>
+    </div>
+
+{/*hmw section*/}
+<div className="w-full md:w-1/2 mx-auto pt-8 md:pt-24 p-8 md:p-0">
+    <div className='text-red-800 text-2xl pb-4'>HMW Statement</div>
+
+    <div className='text-stone-700 text-base font-semibold italic border-l-8 border-red-800 p-4'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
+</div>
+
+
+
+
 
     </div>
   )

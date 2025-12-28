@@ -12,7 +12,7 @@ const Footer = () => {
 
     <aside className="items-center grid-flow-col">
 
-        <p className=''>{"Vidhi Gokani - © 2025"}</p>
+        <p className=''>{"Vidhi Gokani - © 2026"}</p>
 
         <div className='flex flex-row'>
         <p className=''>{"designed and developed by me with lots of love and sleepless nights ˚ʚ♡ɞ˚"}</p>
