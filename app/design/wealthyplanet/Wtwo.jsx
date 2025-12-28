@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
+import Link from "next/link"
+
 
 import {
   Card,
@@ -55,12 +57,15 @@ const Wtwo = () => {
 
     </div>
 
-    <div className="rounded-lg bg-red-800 border-2 border-stone-300 text-stone-100 
-                    w-48 h-12 md:w-64 md:h-12 mt-16 mx-auto
-                    flex items-center justify-center
-                    shadow-lg">
-    {"Skip to Takeaways"}
-    </div>
+<a
+  href="#takeaways"
+  className="rounded-lg bg-red-800 border-2 border-stone-300 text-stone-100 
+             w-48 h-12 md:w-64 md:h-12 mt-16 mx-auto
+             flex items-center justify-center shadow-lg"
+>
+  Skip to Takeaways
+</a>
+
 
 
 </div>

@@ -294,7 +294,7 @@ const Wthree = () => {
 
 <div className='pt-16 md:pt-32'></div>
 
-<div className="w-full md:w-1/2 mx-auto p-8 md:p-0">    
+<section id="takeaways" className="w-full md:w-1/2 mx-auto p-8 md:p-0 ">    
     
     <div className='text-stone-800 font-semibold text-3xl pb-4 pt-2'>Results and Takeaways</div>
     
@@ -351,7 +351,7 @@ const Wthree = () => {
 
 
 
-</div>
+</section>
 
 
 
