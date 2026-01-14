@@ -27,8 +27,8 @@ export default function Scrapbook() {
     <div className="fixed inset-0 z-50">
       {/* Sticker Options */}
       <div className="absolute bottom-16 right-16 space-x-2">
-        <div className='text-stone-700 p-2 border-2 border-stone-300 bg-slate-50 rounded-md text-base'>{"decorate my scrapbook!"}</div>
-        <div className='text-stone-800 font-inter pb-4 text-sm'>{"click and drag the stickers!"}</div>
+        <div className='text-stone-700 p-2 border-2 border-stone-300 bg-slate-50 rounded-md text-base'>{"decorate my page!"}</div>
+        <div className='text-stone-800 font-inter pb-4 pt-2 text-sm'>{"click and drag the stickers!"}</div>
         {stickerList.map((sticker, index) => (
           <button
             key={index}

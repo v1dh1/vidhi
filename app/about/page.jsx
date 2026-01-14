@@ -2,12 +2,15 @@
 
 import React from 'react'
 import AboutMe from './AboutMe'
+import Aboutintro from './Aboutintro'
+import Aboutcurr from './Aboutcurr'
+import Currentlyabout from './Currentlyabout'
 
 
 import Lefthome from '../home/Lefthome'
-import LefthomeSmall from '../home/LefthomeSmall'
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Gallery from './Gallery'
 
 const pageTransition = {
   initial: { opacity: 0, y: -10 },
@@ -43,7 +46,9 @@ const About = () => {
 </div>
       </div>
         <main className="bg-stone-50 overflow-y-auto">
-          <AboutMe />
+          <Aboutcurr/>
+          <Currentlyabout/>
+          <Gallery/>
         </main>
       </div>
 
