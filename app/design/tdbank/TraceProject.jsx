@@ -16,15 +16,14 @@ const TraceProject = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <div className='container mx-auto w-11/12'>
+      <div className=''>
 
 
         <TraceIntro/>
         <TraceStart/>
         <TraceProblemAndUsers/>
         <TraceRoles/>
-        <TraceDesign/>
-        <TraceOutcomes/>
+
     </div>
     </motion.div>
 

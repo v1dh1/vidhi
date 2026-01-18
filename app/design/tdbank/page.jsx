@@ -39,7 +39,7 @@ const Tdbank = () => {
       <div className="block md:hidden">
         <Lefthome />
       </div>
-        <main className="bg-white pt-16 p-4 md:p-16 overflow-y-auto">
+        <main className="bg-stone-50 pt-16 overflow-y-auto">
           <TraceProject />
         </main>
       </div>
