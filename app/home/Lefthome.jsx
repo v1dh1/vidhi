@@ -86,7 +86,7 @@ function NavButton({ href, label, icon }) {
     <Link href={href}>
       <button
         className="
-        flex items-center gap-2 rounded-xl border-2 border-red-100
+        flex items-center gap-2 rounded-xl border-2 border-red-800
         px-3 py-1.5 text-stone-700 text-sm 
         hover:bg-red-50 active:bg-red-100
         transition-all
@@ -104,7 +104,7 @@ function ActionButton({ href, label, icon }) {
     <Link href={href}>
       <button
         className="
-        flex items-center gap-2 rounded-xl border-2 border-red-100
+        flex items-center gap-2 rounded-xl border-2 border-red-700
         px-3 py-1.5 text-stone-700 text-sm 
         hover:bg-red-100 active:bg-red-200
         transition-all
