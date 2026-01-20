@@ -34,7 +34,7 @@ const Homecontent = () => {
   <div className='md:pb-32'></div>
 
 <div className='p-4 md:px-16'>
-  <div className='border-t-2 border-b-2 border-stone-200'>
+  <div className='border-t-2 border-b-2 border-stone-200 pb-8 pt-4'>
 
     <motion.div
       className='border-none shadow-none'
