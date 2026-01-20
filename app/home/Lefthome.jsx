@@ -30,8 +30,8 @@ const Lefthome = () => {
           </Link>
           <div className="text-sm text-stone-500">
             designer focused on{" "}
-            <span className="text-red-900">product</span> and{" "}
-            <span className="text-red-900">prototyping</span>
+            <span className="text-red-900">fintech</span> and{" "}
+            <span className="text-red-900">enterprise design</span>
           </div>
         </div>
 
