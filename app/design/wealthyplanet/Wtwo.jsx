@@ -4,14 +4,6 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 
 const Wtwo = () => {
   return (
