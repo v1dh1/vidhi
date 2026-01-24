@@ -26,7 +26,7 @@ const Homecontent = () => {
 
   <div className='p-8 md:p-16 text-stone-700 text-lg lg:pr-80'>
       <div className='text-red-800 text-4xl pb-8'><span className=''>{"Vidhi"}</span> {"is a designer"}  {" who crafts intuitive experiences backed by research, systems thinking, and cross-functional prototyping."}</div>
-      <div className=''>{"Passionate about Fintech 🏦 and Enterprise 🏢 Design"}</div>
+      <div className=''>{"Passionate about Fintech and Enterprise Design"}</div>
       <div className=''>{"Systems Design Engineering @UWaterloo"}</div>
       <div className=''>{"Currently Seeking 2026 New Grad Design & Product Roles"}</div>
   </div>
@@ -91,7 +91,7 @@ const Homecontent = () => {
 
 
 <div className='px-4 md:px-16'>
-  <div className='border-b-2 border-stone-200'>
+  <div className=''>
 
     <motion.div
       className='border-none shadow-none'
@@ -145,27 +145,6 @@ const Homecontent = () => {
 
 
 
-<div className="p-4 md:p-16 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-
-  {/* Left side text */}
-  <div>
-    <div className="text-stone-900 text-lg">
-      {"liked what you saw?"}
-    </div>
-    <div className="text-stone-500 text-sm">
-      {"learn more about me and how i approach design"}
-    </div>
-  </div>
-
-  {/* Right side button */}
-  <a
-    href="/about"
-    className="inline-block px-6 py-3 rounded-lg bg-red-50 border-2 border-red-100 text-red-950 text-sm hover:bg-red-200 transition"
-  >
-    About Me
-  </a>
-
-</div>
 
 
 

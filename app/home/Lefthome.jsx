@@ -24,24 +24,19 @@ const Lefthome = () => {
       <nav className="grid grid-cols-2 md:grid-cols-3 items-center w-full">
         {/* LEFT */}
         <div className="flex flex-col justify-self-start">
-          <Link href="/" className="text-lg text-stone-800 font-medium">
-            Vidhi Gokani
+          <Link href="/" className="text-lg text-red-900">
+              ★ vidhi gokani   ★
           </Link>
-          <div className="text-sm text-stone-500">
-            designer focused on{" "}
-            <span className="text-red-900">fintech</span> and{" "}
-            <span className="text-red-900">enterprise design</span>
-          </div>
         </div>
 
         {/* CENTER (desktop only) */}
         <div className="hidden md:flex items-center gap-4 justify-self-center">
-          <NavButton href="/" label="work" icon="/work.png" />
-          <NavButton href="/about" label="about" icon="/aboutv.png" />
+          <NavButton href="/" label="work" icon="/pin.png" />
+          <NavButton href="/about" label="about" icon="/strawberry.png" />
           <NavButton
             href="https://drive.google.com/file/d/1Atf03cruBvciRvUdbc4U_Gk8IvlwPQ--/view?usp=sharing"
             label="resume"
-            icon="/work.png"
+            icon="/fuzzystar.png"
           />
         </div>
 
@@ -49,7 +44,7 @@ const Lefthome = () => {
         <div className="hidden md:block justify-self-end">
           <ActionButton
             label="let's talk"
-            icon="/phone.png"
+            icon="/redphone.png"
             href="mailto:vidhigokani1@gmail.com"
           />
         </div>

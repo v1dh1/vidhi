@@ -16,6 +16,7 @@ const Footer = () => {
 
         <div className='flex flex-row'>
         <p className=''>{"designed and developed by me with lots of love and sleepless nights ˚ʚ♡ɞ˚"}</p>
+
         </div>
 
     </aside> 
