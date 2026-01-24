@@ -98,7 +98,7 @@ const Lefthome = () => {
 function NavButton({ href, label, icon }) {
   return (
     <Link href={href}>
-      <button className="flex items-center gap-2 rounded-xl border-2 border-red-800 px-3 py-1.5 text-stone-700 text-sm hover:bg-red-50 active:bg-red-100 transition-all">
+      <button className="flex items-center gap-2 rounded-xl border border-red-800 px-3 py-1.5 text-stone-700 text-sm hover:bg-red-50 active:bg-red-100 transition-all">
         <img src={icon} className="w-6 h-6" alt="" />
         {label}
       </button>
@@ -109,7 +109,7 @@ function NavButton({ href, label, icon }) {
 function ActionButton({ href, label, icon }) {
   return (
     <Link href={href}>
-      <button className="flex items-center gap-2 rounded-xl border-2 border-red-800 px-3 py-1.5 text-stone-700 text-sm hover:bg-red-100 active:bg-red-200 transition-all">
+      <button className="flex items-center gap-2 rounded-xl border border-red-800 px-3 py-1.5 text-stone-700 text-sm hover:bg-red-100 active:bg-red-200 transition-all">
         <img src={icon} className="w-6 h-6" alt="" />
         {label}
       </button>
