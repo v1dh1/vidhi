@@ -14,12 +14,12 @@ const Footer = () => {
     rounded-t-3xl
     ">
 
-      <div className='pl-4 md:pl-16 py-6 text-left text-6xl'>
+      <div className='pl-4 md:pl-16 md:py-6 pt-6 text-left text-6xl'>
         <div className=''>Vidhi</div>
         <div className=''>Gokani</div>
       </div>
     
-<div id="footer middle" className='flex flex-row gap-16 pl-4 md:pl-16 py-6 '>
+<div id="footer middle" className='flex flex-row gap-16 pl-4 md:pl-16 md:py-6 '>
 
   <div class="text-stone-300">
     PAGES
@@ -59,7 +59,7 @@ const Footer = () => {
 </div>
 
 
-<div id="footer right side" className='pr-4 pl-4 md:pr-16 py-6'>
+<div id="footer right side" className='pr-4 pl-4 md:pr-16 md:py-6 pb-4 md:pb-0'>
 
   <div className='pb-4'>
     {"Built with Next.js, TypeScript, and Tailwind"}

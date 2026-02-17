@@ -18,14 +18,14 @@ const Homecontent = () => {
 
 
   return (
-    <div className="relative overflow-hidden ">
+    <div className="relative overflow-hidden">
       {/* Background Video */}
 
 
 <div className="pt-20 md:pt-8">
 
   <div className='p-8 md:p-16 text-stone-700 text-lg lg:pr-80'>
-      <div className='text-red-800 text-4xl pb-8'><span className=''>{"Vidhi"}</span> {"is a designer"}  {" who crafts intuitive experiences backed by research, systems thinking, and cross-functional prototyping."}</div>
+      <div className='text-red-900 font-medium text-4xl pb-8'><span className=''>{"Vidhi"}</span> {"is a designer"}  {" who crafts intuitive experiences backed by research, systems thinking, and cross-functional prototyping."}</div>
       <div className=''>{"Passionate about Fintech and Enterprise Design"}</div>
       <div className=''>{"Systems Design Engineering @UWaterloo"}</div>
       <div className=''>{"Currently Seeking 2026 New Grad Design & Product Roles"}</div>
