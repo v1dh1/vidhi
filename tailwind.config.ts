@@ -45,7 +45,10 @@ const config: Config = {
   			'melodrama': [
   				'Melodrama-Regular',
   				'sans-serif'
-  			]
+  			],
+			 'instrument': [
+				"Instrument Sans", 'sans-serif'
+  			],
   		},
   		colors: {
   			'black-100': '#050505',
