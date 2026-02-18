@@ -27,7 +27,7 @@ export default function Scrapbook() {
     <div className="fixed inset-0 z-50">
       {/* Sticker Options */}
       <div className="absolute bottom-16 right-16 space-x-2">
-        <div className='text-stone-700 p-2 border border-stone-300 bg-stone-50 rounded-md text-base'>{"decorate my page!"}</div>
+        <div className='text-stone-700 p-2 border border-stone-200 bg-white rounded-md text-base'>{"decorate my page!"}</div>
         <div className='text-stone-800 font-inter pb-4 pt-2 text-sm'>{"click and drag the stickers!"}</div>
         {stickerList.map((sticker, index) => (
           <button
@@ -41,7 +41,7 @@ export default function Scrapbook() {
 
 <button
   onClick={() => setPlacedStickers([])}
-  className="border rounded-lg px-2 py-1 bg-stone-50"
+  className="border rounded-lg px-2 py-1 bg-white"
 >
   <div className='text-fuchsia-900 text-sm'>{"clear stickers"}</div>
 </button>

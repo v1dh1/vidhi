@@ -124,6 +124,8 @@ const config: Config = {
 		fontS: {
 			headingToSub: '32px',
 		}
+		
+
   	}
   },
   plugins: [require("daisyui"), require("tailwindcss-animate")],

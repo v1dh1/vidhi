@@ -28,14 +28,21 @@ const Aboutcurr = () => {
         </div>
 
         <div className="p-4">
-            <div className='text-sm text-stone-600'>{"I have 2 years of design and product experience in fintech, logistics, and defence. I'm currently in my 4th year of Systems Design Engineering at the University of Waterloo. I’ve always been drawn to creating, whether it was doodling, building, or experimenting with different crafts. Over the years, exploring a wide variety of hands-on projects helped me realize that crafting isn’t just a hobby, it’s what I’m meant to do. I love turning ideas into tangible, thoughtful creations that spark joy and curiosity. Every piece I make is infused with intention, creativity, and a little bit of fun, because I believe that great design isn’t just seen; it’s felt."}</div>
+          <Image
+                      src="/recwnt.jpg" // The path to your image
+                      alt="Vidhi Gokani"
+                      layout="fit" // This makes the image fill the container
+                      objectFit="cover" // This makes the image cover the available space, you can adjust as needed
+                      className="rounded-lg mx-auto" // Ensures the image has rounded corners like the container
+                      height={600}
+                      width={600}
+                      />
         </div>
 
         <div className="p-4 text-sm text-stone-600">
 
-
+            <div className='pb-2'>{"I have 2 years of design and product experience in fintech, logistics, and defence. I'm currently in my 4th year of Systems Design Engineering at the University of Waterloo. "}</div>
             <div className=''>{"I designed and built this site end-to-end. The technical choices reflect the same principles I care about in products: fast load times, readable structure, and minimal abstraction. The stack is modern but boring on purpose."}</div>
-            <div className='pt-2'>{"Built with Next.js, TypeScript, and Tailwind."}</div>
         </div>
         </div>
 </div>
