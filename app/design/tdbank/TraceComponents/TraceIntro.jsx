@@ -6,7 +6,7 @@ const TraceIntro = () => {
     <div>
  
  
-     <div className="bg-gradient-to-t from-accenttaupe to-white h-screen pt-8 p-4 md:p-16">
+     <div className="bg-gradient-to-t from-accenttaupe to-white h-screen px-4 md:p-16">
  
        {/* Mobile layout */}
        <div className="flex flex-col md:hidden h-full justify-center items-center bg-[url('/trace-bg.png')] bg-cover bg-center">

@@ -46,7 +46,7 @@ const TraceStart = () => {
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Habit Driven Banking Behaviour</div>
             <div className='text-stone-700 text-base'>{"TD mobile users open the app with specific goals (check balances, move money). Any new feature needed to respect these routines rather than compete with them."}</div>
@@ -56,14 +56,14 @@ const TraceStart = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
         {/* column 1 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Discoverability Without Disruption"}</div>
             <div className='text-stone-700 text-base'>{"Trace needed to be visible enough to drive engagement, but subtle enough to avoid overwhelming or confusing users."}</div>
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Multiple Stakeholders, Multiple Incentives"}</div>
             <div className='text-stone-700 text-base'>{"The experience needed to resonate with TD customers interested in rewards and local spending, non-TD users who could be converted through Trace, internal lines of business evaluating ROI, risk, and brand alignment"}</div>

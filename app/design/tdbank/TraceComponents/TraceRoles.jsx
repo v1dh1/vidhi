@@ -12,7 +12,7 @@ const TraceRoles = () => {
         {/* column 1 */}
         <div>
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Clear MVP Defintion</div>
             <div className='text-stone-700 text-base'>{"Established a well-scoped MVP that balanced sustainability goals with technical and regulatory constraints."}</div>
@@ -21,9 +21,9 @@ const TraceRoles = () => {
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
-            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Improved Discoverability Without Disruption</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold '>Improved Discoverability Without Disruption</div>
             <div className='text-stone-700 text-base'>{"Reduced friction by allowing users to explore Trace features before committing to open-banking flows."}</div>
         </div>
         </div>
@@ -31,7 +31,7 @@ const TraceRoles = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
         {/* column 1 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Strong Cross-Functional Alignment"}</div>
             <div className='text-stone-700 text-base'>{"User flows and high-fidelity prototypes served as shared artifacts across design, product, and engineering."}</div>

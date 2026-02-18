@@ -13,7 +13,7 @@ const TraceProblemAndUsers = () => {
     <div className='text-fuchsia-800 text-2xl pb-4'>Defining the MVP</div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
         {/* column 1 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Included in MVP"}</div>
             <div className='text-stone-700 text-base'>
@@ -28,7 +28,7 @@ const TraceProblemAndUsers = () => {
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Deferred to Future State"}</div>
             <div className='text-stone-700 text-base'>
@@ -162,7 +162,7 @@ const TraceProblemAndUsers = () => {
         {/* column 1 */}
         <div>
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Optimized use of space</div>
             <div className='text-stone-700 text-base'>{"Carousels allow multiple cards to be displayed within a constrained mobile viewport, preserving space for supporting content such as point balances and redemption actions."}</div>
@@ -171,7 +171,7 @@ const TraceProblemAndUsers = () => {
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Focused attention</div>
             <div className='text-stone-700 text-base'>{"Showing one card at a time reduces visual clutter and helps users clearly associate rewards with the correct card, minimizing confusion."}</div>
@@ -181,7 +181,7 @@ const TraceProblemAndUsers = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
         {/* column 1 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Scalability"}</div>
             <div className='text-stone-700 text-base'>{"The pattern scales naturally as users link additional cards, without requiring structural changes to the page layout."}</div>
