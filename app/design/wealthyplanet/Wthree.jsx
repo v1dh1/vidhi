@@ -233,18 +233,18 @@ const Wthree = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 pt-8'>
 
                 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
-                        <div className='text-stone-700 text-base font-semibold'>{"Users wanted clearer expectations before starting"}</div>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
+                        <div className='text-stone-700 text-base'>{"Users wanted clearer expectations before starting"}</div>
                         <div className='text-stone-700 text-base pt-2'>{"→ Expanded the “How It Works” explanation and set clearer expectations during onboarding"}</div>
                 </div>
 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
-                        <div className='text-stone-700 text-base font-semibold'>{"Trust cues were most effective when introduced early"}</div>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
+                        <div className='text-stone-700 text-base '>{"Trust cues were most effective when introduced early"}</div>
                         <div className='text-stone-700 text-base pt-2'>{"→ Moved statistics and credibility signals higher in the flow"}</div>
                 </div>
 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
-                        <div className='text-stone-700 text-base font-semibold'>{"Language needed to work for both individual users and B2B2C stakeholders"}</div>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
+                        <div className='text-stone-700 text-base '>{"Language needed to work for both individual users and B2B2C stakeholders"}</div>
                         <div className='text-stone-700 text-base pt-2'>{"→ Simplified copy and avoided internal or technical terminology"}</div>
                 </div>
             
