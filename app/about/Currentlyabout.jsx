@@ -13,10 +13,10 @@ const Currentlyabout = () => {
 
     <WorkHistoryTable/>
 
-    <div className='pt-16 pb-4 text-stone-800 text-xl'>What Drew Me to Design?</div>
+    <div className='pt-16 pb-4 text-stone-800 text-xl'>{"What Drew Me to Design?"}</div>
     <div className='text-sm text-stone-500 md:pr-64'>{"I’ve always been drawn to creating, whether it was doodling, building, or experimenting with different crafts. Over the years, exploring a wide variety of hands-on projects helped me realize that crafting isn’t just a hobby, it’s what I’m meant to do. I love turning ideas into tangible, thoughtful creations that spark joy and curiosity. Every piece I make is infused with intention, creativity, and a little bit of fun, because I believe that great design isn’t just seen; it’s felt."}</div>
 
-    <div className='pt-16 pb-4 text-stone-800 text-xl'>Outside of design, you'll find me</div>
+    <div className='pt-16 pb-4 text-stone-800 text-xl'>{"Outside of design, you'll find me"}</div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
@@ -53,7 +53,7 @@ const Currentlyabout = () => {
     </div>
 
     <div className="text-center text-sm text-stone-500 pt-2 pb-6 md:pb-0">
-      Designing and implementing hardware for a dental patient communication device
+      {"Designing and implementing hardware for a dental patient communication device"}
     </div>
   </div>
 
@@ -70,7 +70,7 @@ const Currentlyabout = () => {
     </div>
 
     <div className="text-center text-sm text-stone-500 pt-2">
-      Trying another cookie recipe 
+      {"Trying another cookie recipe "}
     </div>
   </div>
 
