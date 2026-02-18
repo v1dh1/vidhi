@@ -6,7 +6,7 @@ const Currentlyabout = () => {
         
 <div className='p-4 md:p-24'>
 
-    <div className='text-red-800 text-3xl'>{"my experience,"} <span className="text-stone-800">in detail</span></div>
+    <div className='text-fuchsia-800 text-3xl'>{"my experience,"} <span className="text-stone-800">in detail</span></div>
 
     <div class="flex flex-col md:flex-row w-full gap-4 pt-4 md:pt-16">
       <div className='md:w-1/3 border border-stone-300 bg-stone-100 rounded-md p-4'>

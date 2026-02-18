@@ -43,7 +43,7 @@ export default function Scrapbook() {
   onClick={() => setPlacedStickers([])}
   className="border rounded-lg px-2 py-1 bg-stone-50"
 >
-  <div className='text-red-900 text-sm'>{"clear stickers"}</div>
+  <div className='text-fuchsia-900 text-sm'>{"clear stickers"}</div>
 </button>
 
       </div>

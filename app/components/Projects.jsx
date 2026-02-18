@@ -13,7 +13,7 @@ const Projects = () => {
     <div className='relative z-20 flex justify-center w-full'>
       <div className="w-full md:px-16 py-16 p-4"> {/*removed p-4*/}
 
-                    <div className='text-2xl pt-16 text-red-900 font-custom pb-16'>{"Hello! I'm Vidhi, a product designer with 2 years of experience in"} <strong>enterprise</strong> {" and"} <strong>fintech</strong>{" design."}</div>
+                    <div className='text-2xl pt-16 text-fuchsia-900 font-custom pb-16'>{"Hello! I'm Vidhi, a product designer with 2 years of experience in"} <strong>enterprise</strong> {" and"} <strong>fintech</strong>{" design."}</div>
 
 
 

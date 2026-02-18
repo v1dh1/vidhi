@@ -16,12 +16,12 @@ const Values = () => {
       <motion.div
   whileHover={{ rotate: 2, scale: 1.03 }}
   transition={{ type: "spring", stiffness: 150, damping: 12 }}
-  className='border-white bg-red-900 border-6 rounded-xl p-4'
+  className='border-white bg-fuchsia-900 border-6 rounded-xl p-4'
 >
 
 
 
-<div className=' border-white bg-red-900 border-6 rounded-xl'>
+<div className=' border-white bg-fuchsia-900 border-6 rounded-xl'>
   <div className='text-lg text-stone-100 p-4'>
     {"how does my personality fit into design?"}
   </div>

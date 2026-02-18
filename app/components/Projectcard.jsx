@@ -27,10 +27,10 @@ const ProjectCard = ({ title, info, tag1, tag2, videoSrc }) => {
 
         {/* Tags on bottom-left */}
         <div className="absolute bottom-0 left-0 flex gap-2 p-4">
-          <span className="px-4 py-1 bg-red-800/70 text-stone-50 text-sm rounded-md backdrop-blur-sm">
+          <span className="px-4 py-1 bg-fuchsia-800/70 text-stone-50 text-sm rounded-md backdrop-blur-sm">
             {tag1}
           </span>
-          <span className="px-4 py-1 bg-red-800/70 text-stone-50 text-sm rounded-md backdrop-blur-sm">
+          <span className="px-4 py-1 bg-fuchsia-800/70 text-stone-50 text-sm rounded-md backdrop-blur-sm">
             {tag2}
           </span>
         </div>

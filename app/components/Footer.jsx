@@ -7,7 +7,7 @@ const Footer = () => {
     <div >
         
 
-    <footer className="footer items-center p-4 bg-red-900 text-stone-100 font-instrument bg-[url('/footer-star-group.png')]
+    <footer className="footer items-center p-4 bg-fuchsia-900 text-stone-100 font-instrument bg-[url('/footer-star-group.png')]
     bg-no-repeat
     bg-right
     bg-[length:40%]

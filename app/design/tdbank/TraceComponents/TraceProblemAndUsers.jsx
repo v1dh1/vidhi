@@ -10,12 +10,12 @@ const TraceProblemAndUsers = () => {
     <div className="pt-16 md:pt-32 font-semibold text-3xl text-stone-800">Defining the Solution</div>
     <div className='text-stone-600 text-base pt-8 pb-8'>{"The experience needed to resonate with TD customers interested in rewards and local spending, non-TD users who could be converted through Trace, internal lines of business evaluating ROI, risk, and brand alignment"}</div>
 
-    <div className='text-red-800 text-2xl pb-4'>Defining the MVP</div>
+    <div className='text-fuchsia-800 text-2xl pb-4'>Defining the MVP</div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
         {/* column 1 */}
         <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
 
-            <div className='text-red-800 text-base pb-4 font-semibold'>{"Included in MVP"}</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Included in MVP"}</div>
             <div className='text-stone-700 text-base'>
                 <ul className="text-stone-700 text-base space-y-1">
                     <li>{"• Discover local and small businesses"}</li>
@@ -30,7 +30,7 @@ const TraceProblemAndUsers = () => {
         {/* column 2 */}
         <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
 
-            <div className='text-red-800 text-base pb-4 font-semibold'>{"Deferred to Future State"}</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Deferred to Future State"}</div>
             <div className='text-stone-700 text-base'>
                 <ul className="text-stone-700 text-base space-y-1">
                     <li>{"• Full open-banking account linking"}</li>
@@ -44,7 +44,7 @@ const TraceProblemAndUsers = () => {
 
 {/*entry point strategy*/}
     <div className='pt-16'>
-        <div className='text-red-800 text-2xl pb-4'>Entry Point Strategy</div>
+        <div className='text-fuchsia-800 text-2xl pb-4'>Entry Point Strategy</div>
         <div className='text-stone-700 text-base'>{"A critical design challenge was deciding where Trace should live within TD’s mobile app."}</div>
         <div className='text-stone-700 text-base pt-2'>{"Because TD users typically open the app with a specific task in mind, introducing Trace required a balance between visibility and non-disruption."}</div>
 
@@ -60,7 +60,7 @@ const TraceProblemAndUsers = () => {
 
         <div className='text-stone-700 text-base text-center pt-4'>{"After exploring multiple entry-point concepts, two locations emerged as the most viable"}</div>
 
-        <div className='text-red-900 text-lg font-semibold pt-8 pb-4'>{"Accounts Page (Just For You section)"}</div>
+        <div className='text-fuchsia-900 text-lg font-semibold pt-8 pb-4'>{"Accounts Page (Just For You section)"}</div>
         <ul className='list-disc list-inside text-stone-700 text-base'>
             <li>{"Default landing view for most users"}</li>
             <li>{"High visibility without requiring active intent"}</li>
@@ -78,7 +78,7 @@ const TraceProblemAndUsers = () => {
             />
         
         {/*menu page section*/}
-        <div className='text-red-900 text-lg font-semibold pt-8 pb-4'>{"Menu Page"}</div>
+        <div className='text-fuchsia-900 text-lg font-semibold pt-8 pb-4'>{"Menu Page"}</div>
         <ul className='list-disc list-inside text-stone-700 text-base'>
             <li>{"Used for exploratory and secondary tasks"}</li>
             <li>{"Allowed Trace to exist as a dedicated experience"}</li>
@@ -108,7 +108,7 @@ const TraceProblemAndUsers = () => {
         <div className='text-stone-700 text-base text-center pb-16'>{"This dual-entry strategy supported both passive discovery and intent-driven engagement."}</div>
 
         
-    <div className='text-red-800 text-2xl pt-16 pb-4'>{"Rewards and Insights Experience"}</div>
+    <div className='text-fuchsia-800 text-2xl pt-16 pb-4'>{"Rewards and Insights Experience"}</div>
     <div className='text-stone-700 text-base'>{"As a focused design task within the larger integration effort, I was responsible for redesigning key components of the Rewards and Insights experience to better surface user value and reduce cognitive load."}</div>
     <div className='text-stone-700 text-base pt-2'>{"The primary challenge was presenting reward information across multiple linked cards in a way that felt intuitive, scannable, and scalable within a mobile banking context."}</div>
 
@@ -155,7 +155,7 @@ const TraceProblemAndUsers = () => {
             width={400}
             />
 
-    <div className='text-stone-700 text-base pt-4 pb-4'>{"After iteration and review, I selected a"} <span className='font-semibold text-red-800'> {"carousel-based card layout"}</span> {"to represent each linked credit card."}</div>
+    <div className='text-stone-700 text-base pt-4 pb-4'>{"After iteration and review, I selected a"} <span className='font-semibold text-fuchsia-800'> {"carousel-based card layout"}</span> {"to represent each linked credit card."}</div>
 
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,7 +164,7 @@ const TraceProblemAndUsers = () => {
 
             <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
 
-            <div className='text-red-800 text-base pb-4 font-semibold'>Optimized use of space</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Optimized use of space</div>
             <div className='text-stone-700 text-base'>{"Carousels allow multiple cards to be displayed within a constrained mobile viewport, preserving space for supporting content such as point balances and redemption actions."}</div>
         </div>
 
@@ -173,7 +173,7 @@ const TraceProblemAndUsers = () => {
         {/* column 2 */}
         <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
 
-            <div className='text-red-800 text-base pb-4 font-semibold'>Focused attention</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Focused attention</div>
             <div className='text-stone-700 text-base'>{"Showing one card at a time reduces visual clutter and helps users clearly associate rewards with the correct card, minimizing confusion."}</div>
         </div>
         </div>
@@ -183,7 +183,7 @@ const TraceProblemAndUsers = () => {
         {/* column 1 */}
         <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
 
-            <div className='text-red-800 text-base pb-4 font-semibold'>{"Scalability"}</div>
+            <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Scalability"}</div>
             <div className='text-stone-700 text-base'>{"The pattern scales naturally as users link additional cards, without requiring structural changes to the page layout."}</div>
         </div>
 

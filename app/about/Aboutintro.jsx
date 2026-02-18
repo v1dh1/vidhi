@@ -5,7 +5,7 @@ const Aboutintro = () => {
     <div className=''>
     <div className='text-center pt-20 [text-shadow:2px_2px_0_#000,-2px_-2px_0_#000,2px_-2px_0_#000,-2px_2px_0_#000] shadow-black'>
 
-        <div className='text-7xl stroke-red-200 text-red-800'>
+        <div className='text-7xl stroke-fuchsia-200 text-fuchsia-800'>
             
             <span className=' font-custom'>V</span>
             <span className=' font-serifDisplay'>i</span>

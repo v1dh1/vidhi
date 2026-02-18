@@ -50,7 +50,7 @@ const Projectsdisplay = () => {
 
     <div className='pt-8 pb-16'>
         <Link href="/design" ><motion.button
-      className="btn rounded-full text-sm bg-red-800 hover:bg-red-800 text-stone-50 border-2 border-dotted border-red-950 mx-auto block px-6 py-2"
+      className="btn rounded-full text-sm bg-fuchsia-800 hover:bg-fuchsia-800 text-stone-50 border-2 border-dotted border-red-950 mx-auto block px-6 py-2"
       animate={{ y: [0, -5, 0] }} 
       transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }} // Smooth looping animation
     >

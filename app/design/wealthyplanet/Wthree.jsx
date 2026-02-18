@@ -13,7 +13,7 @@ const Wthree = () => {
     <div className="pt-16 md:pt-32 font-semibold text-3xl text-stone-800">Defining the Solution</div>
     
     
-    <div className='text-red-800 text-2xl pb-4 pt-8'>Site Audit</div>
+    <div className='text-fuchsia-800 text-2xl pb-4 pt-8'>Site Audit</div>
      <div className='text-stone-700 text-base'>{"To understand the problem to a deeper level, I conducted a site audit of the old website to highlight areas that needed to be fixed."}</div>
      
      
@@ -64,7 +64,7 @@ const Wthree = () => {
 
     </div>
 
-    <div className='text-base text-red-700 font-semibold text-center pt-16 pb-16'>{"In a trust-sensitive space like fintech, these issues compounded quickly, users interpreted instability as risk."}</div>
+    <div className='text-base text-fuchsia-700 font-semibold text-center pt-16 pb-16'>{"In a trust-sensitive space like fintech, these issues compounded quickly, users interpreted instability as risk."}</div>
 
 
 
@@ -73,7 +73,7 @@ const Wthree = () => {
 
 <div className="w-full md:w-1/2 mx-auto p-8 md:p-0">    
     
-    <div className='text-red-800 text-2xl pb-4 pt-2'>Mapping the User Journey</div>
+    <div className='text-fuchsia-800 text-2xl pb-4 pt-2'>Mapping the User Journey</div>
 
      <Image
                                     src="/wpuserjourney.png" // The path to your image
@@ -107,7 +107,7 @@ const Wthree = () => {
 
 <div className="w-full md:w-1/2 mx-auto p-8 md:p-0">    
     
-    <div className='text-red-800 text-2xl pb-4 pt-2'>Low and Medium Fidelity Prototypes</div>
+    <div className='text-fuchsia-800 text-2xl pb-4 pt-2'>Low and Medium Fidelity Prototypes</div>
     <div className='text-stone-700 text-base'>{"Early prototypes focused on information hierarchy and content clarity rather than aesthetics."}</div>
      <Image
                                     src="/lowmid.png" // The path to your image
@@ -136,7 +136,7 @@ const Wthree = () => {
 
 <div className="w-full md:w-1/2 mx-auto p-8 md:p-0">    
     
-    <div className='text-red-800 text-2xl pb-4 pt-2'>Designing the Onboarding Flow</div>
+    <div className='text-fuchsia-800 text-2xl pb-4 pt-2'>Designing the Onboarding Flow</div>
     <div className='text-stone-700 text-base pb-4'>{"Users who signed up often felt overwhelmed and unsure how to begin their financial planning journey."}</div>
     
         <Image
@@ -149,12 +149,12 @@ const Wthree = () => {
                                     width={900}
                                     />
 
-    <div className='text-red-600 text-xl pt-8'>Goal</div>
+    <div className='text-fuchsia-600 text-xl pt-8'>Goal</div>
     <div className='text-stone-700 text-base pt-2'>{"Guide users toward their first meaningful action while reducing cognitive and emotional load."}</div>
 
 
 
-    <div className='text-red-600 text-xl pt-8'>Key Design Decisions</div>
+    <div className='text-fuchsia-600 text-xl pt-8'>Key Design Decisions</div>
 
     <div className='text-stone-700 text-base pt-4 pb-2'>{"Progressive disclosure: Introduce information in manageable steps"}</div>
         <Image
@@ -181,7 +181,7 @@ const Wthree = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-8'>
 
-            <div className='text-red-600 text-xl'>
+            <div className='text-fuchsia-600 text-xl'>
                 Tradeoffs Considered
             </div>
 
@@ -206,7 +206,7 @@ const Wthree = () => {
 
 <div className="w-full md:w-1/2 mx-auto p-8 md:p-0">    
     
-    <div className='text-red-800 text-2xl pb-4 pt-2'>{"Validation & Iteration"}</div>
+    <div className='text-fuchsia-800 text-2xl pb-4 pt-2'>{"Validation & Iteration"}</div>
     <div className='text-stone-700 text-base'>{"To validate the onboarding and website experience, I conducted usability testing on mid-fidelity prototypes with a small set of target users. The goal was to ensure the experience felt clear, trustworthy, and guided, especially for users unfamiliar with financial planning tools."}</div>
 
 
@@ -214,7 +214,7 @@ const Wthree = () => {
             <div className='pt-6 text-stone-700 text-base font-semibold pb-4'>{"Iterations on the final design through each stage for the landing page. Take a look if curious :)"}</div>
 
 
-                <div className='text-red-600 text-md'>{"Figma Link Loading! Might take a few seconds"}</div>
+                <div className='text-fuchsia-600 text-md'>{"Figma Link Loading! Might take a few seconds"}</div>
 
                 <div className="h-screen w-full pt-8">
                 <iframe
@@ -227,7 +227,7 @@ const Wthree = () => {
                 </div>
 
 
-    <div className='text-red-600 text-xl pt-4'>{"Key Findings → Design Iteration"}s</div>
+    <div className='text-fuchsia-600 text-xl pt-4'>{"Key Findings → Design Iteration"}s</div>
 
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 pt-8'>
@@ -301,7 +301,7 @@ const Wthree = () => {
     <div className='flex flex-col md:flex-row pt-8 gap-8'>
         
         <div className='md:w-1/2'>
-            <div className='text-base font-bold text-red-700'>
+            <div className='text-base font-bold text-fuchsia-700'>
                 <motion.span
                     initial={{ scale: 0.4, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
@@ -316,7 +316,7 @@ const Wthree = () => {
         </div>
 
         <div className='md:w-1/2'>
-            <div className='text-2xl font-bold text-red-700'>
+            <div className='text-2xl font-bold text-fuchsia-700'>
                 <motion.span
                     initial={{ scale: 0.4, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
@@ -339,7 +339,7 @@ const Wthree = () => {
             
         </div>
 
-        <div className='text-red-600 text-xl pt-8'>{"What This Project Taught Me"}</div>
+        <div className='text-fuchsia-600 text-xl pt-8'>{"What This Project Taught Me"}</div>
         <div className='text-base text-stone-700 pt-2'>{"This project strengthened my ability to operate as a designer in ambiguity, balancing business goals, technical constraints, and user trust without relying on established systems."}</div>
 
         <div className='flex flex-col md:flex-row pt-8 gap-8 pb-32'>
