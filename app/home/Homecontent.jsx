@@ -49,10 +49,10 @@ const Homecontent = () => {
     >
 
     <Link href="/design/wealthyplanet">
-  <div className="flex flex-col md:flex-row w-full">
+  <div className="flex flex-col md:flex-row w-full ">
     <div className="md:w-1/3 w-full py-4">
-      <div className="text-lg text-stone-700">
-        {"Onboarding and Web Redesign"}
+      <div className="text-lg text-stone-700 pb-2">
+        {"Designing Acquisition + Onboarding During a Fintech Pivot"}
       </div>
       <div className="text-sm text-stone-400">
         {"WealthyPlanet | Fall 2024"}
@@ -61,7 +61,7 @@ const Homecontent = () => {
 
     <div className="md:w-2/3 w-full py-4">
       <div className="text-sm text-stone-500">
-        {"Built a unified design system and led a full website redesign for WealthyPlanet’s AI-driven financial platform. Delivered a cohesive experience that increased sign-ups 270% and session time 20%, from research to launch."}
+        {"Led a full website redesign for WealthyPlanet’s AI-driven financial platform. Delivered a cohesive experience that increased sign-ups 270% and session time 20%, from research to launch."}
       </div>
     </div>
   </div>
@@ -108,10 +108,10 @@ const Homecontent = () => {
     <Link href="/design/tdbank">
 
 
-    <div className="flex flex-col md:flex-row w-full">
+    <div className="flex flex-col md:flex-row w-full ">
       {/* Left column - 1/3 width on medium+ screens */}
-      <div className="md:w-1/3 w-full py-4">
-        <div className="text-lg text-stone-700">{"Trace"}</div>
+      <div className="md:w-1/3 w-full py-4 md:pr-4">
+        <div className="text-lg text-stone-700 pb-2">{"Integrating a Sustainability Rewards Platform Into Mobile Banking"}</div>
         <div className='text-sm text-stone-400'>{"Toronto-Dominion Bank | Winter 2024"}</div>
       </div>
 
