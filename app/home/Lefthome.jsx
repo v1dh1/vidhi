@@ -72,15 +72,15 @@ const Lefthome = () => {
       {/* MOBILE DROPDOWN */}
       {open && (
         <div className="md:hidden mt-4 flex flex-col gap-3">
-          <NavButton href="/" label="work" icon="/work.png" />
-          <NavButton href="/about" label="about" icon="/aboutv.png" />
+          <NavButton href="/" label="WORK" icon="/work.png" />
+          <NavButton href="/about" label="ABOUT" icon="/aboutv.png" />
           <NavButton
             href="https://drive.google.com/file/d/1Atf03cruBvciRvUdbc4U_Gk8IvlwPQ--/view?usp=sharing"
-            label="resume"
+            label="RESUME"
             icon="/work.png"
           />
           <ActionButton
-            label="let's talk"
+            label="LET'S TALK"
             icon="/phone.png"
             href="mailto:vidhigokani1@gmail.com"
           />

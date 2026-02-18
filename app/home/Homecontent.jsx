@@ -25,14 +25,12 @@ const Homecontent = () => {
 <div className="pt-20 md:pt-8">
 
   <div className='p-8 md:p-16 text-stone-700 text-lg lg:pr-80'>
-      <div className='text-fuchsia-900 font-medium text-4xl pb-8'><span className=''>{"Vidhi"}</span> {"is a designer"}  {" who crafts intuitive experiences backed by research, systems thinking, and cross-functional prototyping."}</div>
-      <div className=''>{"Passionate about Fintech and Enterprise Design"}</div>
-      <div className=''>{"Systems Design Engineering @UWaterloo"}</div>
-      <div className=''>{"Currently Seeking 2026 New Grad Design & Product Roles"}</div>
+      <div className='text-fuchsia-900 font-medium text-5xl pb-8 leading-none selection:bg-fuchsia-900 selection:text-fuchsia-50'>{"Vidhi Gokani is a fintech and enterprise designer, Systems Design Engineering student, building thoughtful products where design, systems, and storytelling meet."}</div>
   </div>
 
   <div className='md:pb-32'></div>
 
+<div className='text-stone-400 text-sm font-medium px-4 md:px-16'>SELECTED WORK</div>
 <div className='p-4 md:px-16'>
   <div className='border-t border-b border-stone-200 pb-8 pt-4'>
 
