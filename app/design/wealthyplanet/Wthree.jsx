@@ -31,7 +31,7 @@ const Wthree = () => {
                                     width={900}
                                     />
                 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                     <div className='text-stone-700 text-base'>{"🚩 The landing page failed to explain the product clearly"}</div>
                 </div>
             </div>
@@ -54,17 +54,17 @@ const Wthree = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                     <div className='text-stone-700 text-base'>{"🚩 Inconsistent spacing, typography, and color usage created visual noise"}</div>
             </div>
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                     <div className='text-stone-700 text-base'>{"🚩 The mobile experience was partially broken"}</div>
             </div>
 
     </div>
 
-    <div className='text-base text-fuchsia-700 font-semibold text-center pt-16 pb-16'>{"In a trust-sensitive space like fintech, these issues compounded quickly, users interpreted instability as risk."}</div>
+    <div className='text-base text-fuchsia-900 text-center pt-16 pb-16'>{"In a trust-sensitive space like fintech, these issues compounded quickly, users interpreted instability as risk."}</div>
 
 
 
@@ -149,12 +149,12 @@ const Wthree = () => {
                                     width={900}
                                     />
 
-    <div className='text-fuchsia-600 text-xl pt-8'>Goal</div>
+    <div className='text-fuchsia-800 text-xl pt-8'>Goal</div>
     <div className='text-stone-700 text-base pt-2'>{"Guide users toward their first meaningful action while reducing cognitive and emotional load."}</div>
 
 
 
-    <div className='text-fuchsia-600 text-xl pt-8'>Key Design Decisions</div>
+    <div className='text-fuchsia-800 text-xl pt-8'>Key Design Decisions</div>
 
     <div className='text-stone-700 text-base pt-4 pb-2'>{"Progressive disclosure: Introduce information in manageable steps"}</div>
         <Image
@@ -181,18 +181,18 @@ const Wthree = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 pt-8'>
 
-            <div className='text-fuchsia-600 text-xl'>
+            <div className='text-fuchsia-800 text-xl'>
                 Tradeoffs Considered
             </div>
 
             <div className='space-y-4'>
                 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                         <div className='text-stone-700 text-base font-semibold'>{"Speed vs. Confidence"}</div>
                         <div className='text-stone-700 text-base pt-2'>{"I chose a slightly longer onboarding flow to ensure users understood how the product worked before taking action, prioritizing trust over raw speed."}</div>
                 </div>
 
-                <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+                <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                         <div className='text-stone-700 text-base font-semibold'>{"Personalization vs. Cognitive Load"}</div>
                         <div className='text-stone-700 text-base pt-2'>{"Rather than collecting detailed financial information upfront, I deferred personalization to later steps to reduce early friction."}</div>
                 </div>
@@ -214,7 +214,7 @@ const Wthree = () => {
             <div className='pt-6 text-stone-700 text-base font-semibold pb-4'>{"Iterations on the final design through each stage for the landing page. Take a look if curious :)"}</div>
 
 
-                <div className='text-fuchsia-600 text-md'>{"Figma Link Loading! Might take a few seconds"}</div>
+                <div className='text-fuchsia-800 text-md'>{"Figma Link Loading! Might take a few seconds"}</div>
 
                 <div className="h-screen w-full pt-8">
                 <iframe
@@ -227,7 +227,7 @@ const Wthree = () => {
                 </div>
 
 
-    <div className='text-fuchsia-600 text-xl pt-4'>{"Key Findings → Design Iteration"}s</div>
+    <div className='text-fuchsia-800 text-xl pt-4'>{"Key Findings → Design Iteration"}s</div>
 
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 pt-8'>
@@ -339,7 +339,7 @@ const Wthree = () => {
             
         </div>
 
-        <div className='text-fuchsia-600 text-xl pt-8'>{"What This Project Taught Me"}</div>
+        <div className='text-fuchsia-800 text-xl pt-8'>{"What This Project Taught Me"}</div>
         <div className='text-base text-stone-700 pt-2'>{"This project strengthened my ability to operate as a designer in ambiguity, balancing business goals, technical constraints, and user trust without relying on established systems."}</div>
 
         <div className='flex flex-col md:flex-row pt-8 gap-8 pb-32'>

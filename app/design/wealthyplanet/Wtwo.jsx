@@ -100,7 +100,7 @@ const Wtwo = () => {
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Clarity</div>
             <div className='text-stone-700 text-base'>{"Users couldn’t quickly explain what the product does which translated to users were not converting; first impressions didn’t build confidence."}</div>
@@ -110,14 +110,14 @@ const Wtwo = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
         {/* column 1 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>{"Engagement & Guidance Weakness"}</div>
             <div className='text-stone-700 text-base'>{"No structured pathway for users to take meaningful action, from landing → sign-up → onboarding. Users dropped off immediately after signing up; the platform wasn’t guiding them toward activation."}</div>
         </div>
 
         {/* column 2 */}
-        <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+        <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
 
             <div className='text-fuchsia-800 text-base pb-4 font-semibold'>Trust Deficit</div>
             <div className='text-stone-700 text-base'>{"Early-stage fintechs are judged heavily by interface stability and transparency. Broken links, inconsistent UI, and missing social proof made the site feel untrustworthy."}</div>
@@ -143,7 +143,7 @@ const Wtwo = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                 <div className='text-stone-700 text-base'>{"Competitors often lead with trust signals (stats, testimonials, data points) before features."}</div>
             </div>
 
@@ -154,7 +154,7 @@ const Wtwo = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                 <div className='text-stone-700 text-base'>{"Visual and textual consistency across web and mobile is key for credibility and ease of use."}</div>
             </div>
 
@@ -164,7 +164,7 @@ const Wtwo = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 items-center">
 
-            <div className='bg-stone-100 border-2 border-stone-200 shadow-lg rounded-lg p-4'>
+            <div className='bg-white border-2 border-stone-200 rounded-lg p-4'>
                 <div className='text-stone-700 text-base'>{"Progressive onboarding flows are critical to guide new users through first actions."}</div>
             </div>
 
@@ -176,7 +176,7 @@ const Wtwo = () => {
 <div className="w-full md:w-1/2 mx-auto pt-8 md:pt-24 p-8 md:p-0">
     <div className='text-fuchsia-800 text-2xl pb-4'>HMW Statement</div>
 
-    <div className='text-stone-700 text-base font-semibold italic border-l-8 border-fuchsia-800 p-4'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
+    <div className='text-stone-700 text-base italic border-l-8 border-fuchsia-800 p-4'>{"How might we design a website that simplifies financial planning and builds trust with middle-aged parents seeking financial security for their family’s future?"}</div>
 </div>
 
 
