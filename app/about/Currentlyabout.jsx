@@ -8,7 +8,7 @@ const Currentlyabout = () => {
 <div className='p-4 md:p-24'>
 
 
-    <div className='text-stone-900 text-xl'>{"My Experience"} </div>
+    <div className='text-stone-400 text-sm'>{"EXPERIENCE"} </div>
 
     <WorkHistoryTable/>
 
