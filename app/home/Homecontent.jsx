@@ -106,8 +106,6 @@ const Homecontent = () => {
     >
 
     <Link href="/design/tdbank">
-
-
     <div className="flex flex-col md:flex-row w-full ">
       {/* Left column - 1/3 width on medium+ screens */}
       <div className="md:w-1/3 w-full py-4 md:pr-4">
