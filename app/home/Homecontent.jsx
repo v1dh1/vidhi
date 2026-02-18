@@ -25,7 +25,7 @@ const Homecontent = () => {
 <div className="pt-20 md:pt-8">
 
   <div className='p-8 md:p-16 text-stone-700 text-lg lg:pr-80'>
-      <div className='text-fuchsia-900 font-medium text-5xl pb-8 leading-none selection:bg-fuchsia-900 selection:text-fuchsia-50'>{"Vidhi Gokani is a fintech and enterprise designer, Systems Design Engineering student, building thoughtful products where design, systems, and storytelling meet."}</div>
+      <div className='text-fuchsia-900 font-medium text-3xl md:text-5xl pb-8 leading-none selection:bg-fuchsia-900 selection:text-fuchsia-50'>{"Vidhi Gokani is a fintech and enterprise designer, Systems Design Engineering student, building thoughtful products where design, systems, and storytelling meet."}</div>
   </div>
 
   <div className='md:pb-32'></div>
@@ -51,8 +51,8 @@ const Homecontent = () => {
     <Link href="/design/wealthyplanet">
   <div className="flex flex-col md:flex-row w-full">
     <div className="md:w-1/3 w-full py-4">
-      <div className="text-lg font-semibold text-stone-700">
-        {"Web Redesign & Onboarding Experience"}
+      <div className="text-lg text-stone-700">
+        {"Onboarding and Web Redesign"}
       </div>
       <div className="text-sm text-stone-400">
         {"WealthyPlanet | Fall 2024"}
@@ -111,7 +111,7 @@ const Homecontent = () => {
     <div className="flex flex-col md:flex-row w-full">
       {/* Left column - 1/3 width on medium+ screens */}
       <div className="md:w-1/3 w-full py-4">
-        <div className="text-lg font-semibold text-stone-700">{"Trace"}</div>
+        <div className="text-lg text-stone-700">{"Trace"}</div>
         <div className='text-sm text-stone-400'>{"Toronto-Dominion Bank | Winter 2024"}</div>
       </div>
 
