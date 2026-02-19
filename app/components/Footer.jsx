@@ -27,7 +27,7 @@ const Footer = () => {
     <div className='text-stone-100' id="pages col">
       <ul className='flex flex-col gap-2 mt-4'>
         <li>
-          <Link href="/" className='hover:underline'>Home</Link>
+          <Link href="/" className='hover:underline'>Work</Link>
         </li>
         <li>
           <Link href="/about" className='hover:underline'>About</Link>
@@ -60,9 +60,11 @@ const Footer = () => {
 </div>
 
 
-<div id="footer right side" className='pr-4 pl-4 md:pr-16 md:py-6 pb-4 md:pb-0'>
-
-  <div className='pb-4'>
+<div id="footer right side" className='pr-4 pl-4 md:pr-16 pb-4 md:pb-0'>
+    <Link             href="https://drive.google.com/file/d/1Atf03cruBvciRvUdbc4U_Gk8IvlwPQ--/view?usp=sharing"
+><div className='pb-2 hover:underline'>{"See my Resume :)"}</div>
+  </Link>
+  <div className='pb-2'>
     {"Built with Next.js, TypeScript, and Tailwind"}
     <div className=''>    {" with lots of love and sleepless nights"}</div>
   </div>
