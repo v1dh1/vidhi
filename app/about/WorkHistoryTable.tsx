@@ -2,7 +2,7 @@ const experiences = [
   {
     image: "/purolator.jpg",
     company: "Purolator",
-    role: "Product Management Intern",
+    role: "Product Manager Intern",
     date: "2025",
   },  
 {
@@ -14,7 +14,7 @@ const experiences = [
 {
     image: "/openlane.png",
     company: "Openlane",
-    role: "Product Designer Intern",
+    role: "Product Manager Intern",
     date: "2023",
   },
 {
@@ -37,7 +37,7 @@ export default function WorkHistoryTable() {
       {/* Title */}
 
       {/* Header */}
-      <div className="hidden md:grid grid-cols-12 gap-6 border-b border-neutral-200 pb-3 text-xs uppercase tracking-wide text-neutral-500">
+      <div className="hidden md:grid grid-cols-12 gap-6 pb-3 text-xs uppercase tracking-wide text-neutral-500">
         <div className="col-span-2"></div>
         <div className="col-span-4"></div>
         <div className="col-span-4"></div>
@@ -45,11 +45,11 @@ export default function WorkHistoryTable() {
       </div>
 
       {/* Rows */}
-      <div className="divide-y divide-neutral-200">
+      <div className="">
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 py-5 px-2 rounded-2xl hover:bg-neutral-50 transition"
+            className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 py-3 px-2 rounded-2xl hover:bg-neutral-50 transition"
           >
             {/* Logo */}
             <div className="col-span-2 flex items-center">
