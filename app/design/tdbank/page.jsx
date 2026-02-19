@@ -45,7 +45,7 @@ const Tdbank = () => {
           <div className="w-full p-4 md:p-0 md:w-1/2 md:mx-auto">
   <NextCaseCTA
     title="Designing Acquisition + Onboarding During a Fintech Pivot"
-    description="Integrated a standalone app into TD Bank’s mobile banking ecosystem for the US market, creating a seamless, trust-driven experience. Aligned multi-disciplinary teams, and delivered a scalable UI framework to support future integrations."
+    description="Designed the primary acquisition and onboarding experience for an AI fintech during a critical pivot. Focused on trust, clarity, and guided activation and stronger early user engagement."
     href="/design/wealthyplanet"
   />
 </div>
