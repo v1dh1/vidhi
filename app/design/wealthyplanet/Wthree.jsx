@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from "framer-motion"
+import Link from 'next/link'
+import NextCaseCTA from '../../components/NextCaseCTA'
 
 
 
@@ -348,10 +350,19 @@ const Wthree = () => {
             <div className='text-base text-stone-700'>{"Clear communication often matters more than feature depth"}</div>
         </div>
 
+<NextCaseCTA
+  title="Integrating a Sustainability Rewards Platform Into Mobile Banking"
+  description="A cross-functional product integration project within TD Bank’s mobile ecosystem, focused on trust, scalability, and seamless adoption."
+  href="/design/tdbank"
+/>
 
 
 
 </section>
+
+
+
+
 
 
 

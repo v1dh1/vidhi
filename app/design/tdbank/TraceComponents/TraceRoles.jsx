@@ -1,4 +1,5 @@
 import React from 'react'
+import NextCaseCTA from '../../../components/NextCaseCTA';
 
 const TraceRoles = () => {
   return (
@@ -44,6 +45,7 @@ const TraceRoles = () => {
         <div className='text-base text-stone-700 pt-10'>{"This project strengthened my ability to design within complex systems, collaborate across disciplines, and make thoughtful tradeoffs under real-world constraints. It reinforced the value of adaptability, clarity, and user-centred decision-making when working on enterprise-scale products. "}</div>
         <div className='text-base text-stone-700 pt-4 pb-16'>{"A special thanks to Meghna Bellani for guiding me through this project <3"}</div>
     </div>
+
 
         
     </div>
