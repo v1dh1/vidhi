@@ -15,15 +15,16 @@ const Footer = () => {
     rounded-t-3xl
     ">
 
-      <div className='pl-4 md:pl-16 md:py-6 pt-6 text-left text-6xl'>
+     <Link href="/"> <div className='pl-4 md:pl-16 md:py-6 pt-6 text-left text-6xl'>
         <div className=''>Vidhi</div>
         <div className=''>Gokani</div>
       </div>
+      </Link>
     
 <div id="footer middle" className='flex flex-row gap-16 pl-4 md:pl-16 md:py-6 '>
 
   <div class="text-stone-300">
-    PAGES
+    <div className=''>PAGES</div>
     <div className='text-stone-100' id="pages col">
       <ul className='flex flex-col gap-2 mt-4'>
         <li>
@@ -62,16 +63,16 @@ const Footer = () => {
 
 <div id="footer right side" className='pr-4 pl-4 md:pr-16 pb-4 md:pb-0'>
     <Link             href="https://drive.google.com/file/d/1Atf03cruBvciRvUdbc4U_Gk8IvlwPQ--/view?usp=sharing"
-><div className='pb-2 hover:underline'>{"See my Resume :)"}</div>
+><div className='pb-2 hover:underline text-lg'>{"See my Resume :) →"}</div>
   </Link>
-  <div className='pb-2'>
+  <div className='pb-2 text-stone-300'>
     {"Built with Next.js, TypeScript, and Tailwind"}
     <div className=''>    {" with lots of love and sleepless nights"}</div>
   </div>
 
 
-  <div className=''>
-    <p className=''>{"© VIDHI GOKANI 2026"}</p>
+  <div className='text-stone-300'>
+    <p className=''>{"© Vidhi Gokani 2026"}</p>
 
 
   </div>

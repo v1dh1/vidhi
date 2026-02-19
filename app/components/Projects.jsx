@@ -17,41 +17,6 @@ const Projects = () => {
 
 
 
-<div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-  <Link href="/design/wealthyplanet">
-  
-      <ProjectCardPic
-    title="Redesigning WealthyPlanet's Website"
-    info="Increasing conversion rates"
-    tag="Desktop Design"
-    videoSrc="/wpvid.mp4"
-    alt="video of wealthyplanet demo"
-  />
-  </Link>
-
-<Link href="/design/wavely">
-  <ProjectCardPic
-    title="Wavely"
-    info="Sourcing hobby materials sustainably."
-    tag="Mobile Design"
-    imageSrc="./WavelyCover.png"
-    alt="wavely screenshot"
-  />
-</Link>
-
-<Link href="/design/tdbank">
-  <ProjectCardPic
-    title="TD Bank"
-    info="Integrating a standalone app into the existing TD Mobile Banking App."
-    tag="Mobile Design"
-    imageSrc="./trace-after.png"
-    alt="Screenshot of TD Bank work"
-  />
-  </Link>
-</div>
-
-
-
 
 
 
