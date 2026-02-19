@@ -62,14 +62,14 @@ export default function WorkHistoryTable() {
 
             {/* Company Name */}
             <div className="col-span-4 flex items-center">
-              <p className="text-sm text-neutral-900">
+              <p className="text-sm text-neutral-900 font-medium">
                 {exp.company}
               </p>
             </div>
 
             {/* Role */}
             <div className="col-span-4 flex items-center">
-              <p className="text-sm text-neutral-600">{exp.role}</p>
+              <p className="text-sm text-neutral-500">{exp.role}</p>
             </div>
 
             {/* Date */}

@@ -25,6 +25,7 @@ const Aboutcurr = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="p-4">
             <div className='text-stone-800 text-3xl'> <span className=' text-fuchsia-800'>Designer</span> who enjoys working with code</div>
+            <div className='text-sm text-stone-400 pt-4'>{"(design engineer ;) )"}</div>
         </div>
 
         <div className="p-4">
