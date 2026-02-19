@@ -70,7 +70,7 @@ const Homecontent = () => {
   </div>
 
   {/* Centered video */}
-  <div className="w-full flex justify-center">
+  <div className="w-full flex justify-center pt-4">
     <video
       className="w-3/4 lg:w-1/2 h-full object-cover"
       src="/vpsmallerbid.mp4"
