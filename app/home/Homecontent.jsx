@@ -28,6 +28,8 @@ const Homecontent = () => {
       <div className='text-fuchsia-900 font-medium text-3xl md:text-5xl pb-8 leading-none selection:bg-fuchsia-900 selection:text-fuchsia-50'>{"Vidhi Gokani is a fintech and enterprise designer, Systems Design Engineering student, building thoughtful products where design, systems, and storytelling meet."}</div>
   </div>
 
+
+
   <div className='md:pb-32'></div>
 
 <div className='text-stone-800 text-sm font-medium px-4 md:px-16'>SELECTED WORK</div>

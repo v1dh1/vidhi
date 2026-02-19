@@ -3,25 +3,34 @@ import { useState } from 'react';
 import { DraggableSticker } from './DraggableSticker';
 
 const stickerList = [
-  { src: './coffee.png', alt: 'Sticker 1' },
-  { src: './cat.png', alt: 'Sticker 2' },
-  {src: './violin.png', alt: 'Sticker 3'},
-  {src: './stars.png', alt: 'Sticker 3'},
-  {src: './basket.png', alt: 'Sticker 3'}
+  { src: './mybottle.png', alt: 'Water Bottle', description: 'My Water Bottle!!!' },
+  { src: './sydegrad.png', alt: 'Cat', description: 'The sticker I designed for my class :)' },
+  { src: './violin.png', alt: 'Violin', description: 'I used to be a violinist' },
+  { src: './digicam.webp', alt: 'Digicam', description: 'i loveeee taking photos' },
+  { src: './basket.png', alt: 'Basket', description: 'i love picnics!' }
 ];
+
 
 export default function Scrapbook() {
   const [placedStickers, setPlacedStickers] = useState<
-    { id: number; src: string; x: number; y: number }[]
+    { id: number; src: string; description: string; x: number; y: number }[]
   >([]);
 
-  const addSticker = (src: string) => {
-    const id = Date.now();
-    setPlacedStickers((prev) => [
-      ...prev,
-      { id, src, x: Math.random() * 400, y: Math.random() * 400 },
-    ]);
-  };
+
+  const addSticker = (sticker: { src: string; description: string }) => {
+  const id = Date.now();
+  setPlacedStickers((prev) => [
+    ...prev,
+    {
+      id,
+      src: sticker.src,
+      description: sticker.description,
+      x: Math.random() * 400,
+      y: Math.random() * 400,
+    },
+  ]);
+};
+
 
   return (
     <div className="fixed inset-0 z-50">
@@ -36,7 +45,7 @@ export default function Scrapbook() {
         {stickerList.map((sticker, index) => (
           <button
             key={index}
-            onClick={() => addSticker(sticker.src)}
+            onClick={() => addSticker(sticker)}
             className="border rounded-lg px-2 py-1 bg-white"
           >
             <img src={sticker.src} alt={sticker.alt} className="w-8 h-8" />
@@ -54,12 +63,13 @@ export default function Scrapbook() {
 
       {/* Placed Stickers */}
       {placedStickers.map((sticker) => (
-        <DraggableSticker
-          key={sticker.id}
-          src={sticker.src}
-          x={sticker.x}
-          y={sticker.y}
-        />
+          <DraggableSticker
+            key={sticker.id}
+            src={sticker.src}
+            x={sticker.x}
+            y={sticker.y}
+            description={sticker.description}
+          />
       ))}
     </div>
   );
