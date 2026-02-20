@@ -37,11 +37,12 @@ const Homecontent = () => {
   <div className='border-t border-b border-stone-200 pb-8 pt-4'>
 
     <motion.div
-      className='border-none shadow-none'
+      className='border-none shadow-none '
       whileHover={{
         scale: 0.95,
         y: -5,
-        shadow: "none"
+        shadow: "none",
+        
       }}
       transition={{
         type: "spring",
@@ -54,7 +55,7 @@ const Homecontent = () => {
   <div className="flex flex-col md:flex-row w-full ">
 
     <div className="md:w-2/6 w-full py-4">
-      <div className="text-lg text-stone-700 pb-2">
+      <div className="text-lg text-stone-700 pb-2 ">
         {"Designing Acquisition + Onboarding During a Fintech Pivot"}
       </div>
       <div className="text-sm text-stone-400">
@@ -73,9 +74,9 @@ const Homecontent = () => {
 
 <div className="flex flex-col md:flex-row w-full overflow-hidden gap-2 pt-4">
   <img
-    src="/wpmock1.png"
+    src="/wpmock.png"
     alt="Before"
-    className="w-full md:w-1/2 object-cover rounded-xl"
+    className="w-full md:w-1/2 object-cover rounded-xl border-stone-200 border"
   />
 
   <img
@@ -130,15 +131,15 @@ const Homecontent = () => {
 
 <div className="flex flex-col md:flex-row w-full overflow-hidden gap-2 pt-4 pb-8">
   <img
-    src="/trace-before.png"
+    src="/tracebf.png"
     alt="Before"
-    className="w-full md:w-1/2 object-cover rounded-xl"
+    className="w-full md:w-1/2 object-cover rounded-xl border-stone-200 border"
   />
 
   <img
-    src="/trace-after.png"
+    src="/traceafter.png"
     alt="After"
-    className="w-full md:w-1/2 object-cover rounded-xl"
+    className="w-full md:w-1/2 object-cover rounded-xl border-stone-200 border"
   />
 </div>
 
