@@ -34,53 +34,42 @@ const experiences = [
 export default function WorkHistoryTable() {
   return (
     <section className="w-full">
-      {/* Title */}
-
-      {/* Header */}
-      <div className="hidden md:grid grid-cols-12 gap-6 pb-3 text-xs uppercase tracking-wide text-neutral-500">
-        <div className="col-span-2"></div>
-        <div className="col-span-4"></div>
-        <div className="col-span-4"></div>
-        <div className="col-span-2 text-right"></div>
-      </div>
-
-      {/* Rows */}
-      <div className="">
-        {experiences.map((exp, index) => (
-          <div
-            key={index}
-            className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 py-3 px-2 rounded-2xl hover:bg-neutral-50 transition"
-          >
-            {/* Logo */}
-            <div className="col-span-2 flex items-center">
-              <img
-                src={exp.image}
-                alt={exp.company}
-                className="h-11 w-11 rounded-xl border border-neutral-200 object-cover bg-white"
-              />
-            </div>
-
-            {/* Company Name */}
-            <div className="col-span-4 flex items-center">
-              <p className="text-sm text-neutral-900 font-medium">
-                {exp.company}
-              </p>
-            </div>
-
-            {/* Role */}
-            <div className="col-span-4 flex items-center">
-              <p className="text-sm text-neutral-500">{exp.role}</p>
-            </div>
-
-            {/* Date */}
-            <div className="col-span-2 flex md:justify-end items-center">
-              <span className="text-xs font-medium text-neutral-600 px-3 py-1 rounded-full border border-neutral-200 bg-white whitespace-nowrap">
-                {exp.date}
-              </span>
-            </div>
+      {experiences.map((exp, index) => (
+        <div
+          key={index}
+          className="grid grid-cols-12 gap-3 md:gap-6 py-3 px-2 rounded-2xl hover:bg-neutral-50 transition"
+        >
+          {/* Logo */}
+          <div className="col-span-2 flex items-center">
+            <img
+              src={exp.image}
+              alt={exp.company}
+              className="h-9 w-9 md:h-11 md:w-11 rounded-xl border border-neutral-200 object-cover bg-white"
+            />
           </div>
-        ))}
-      </div>
+
+          {/* Company Name */}
+          <div className="col-span-4 flex items-center">
+            <p className="text-xs md:text-sm text-neutral-900 font-medium">
+              {exp.company}
+            </p>
+          </div>
+
+          {/* Role */}
+          <div className="col-span-4 flex items-center">
+            <p className="text-xs md:text-sm text-neutral-500">
+              {exp.role}
+            </p>
+          </div>
+
+          {/* Date */}
+          <div className="col-span-2 flex justify-end items-center">
+            <span className="text-[10px] md:text-xs font-medium text-neutral-600 px-2 md:px-3 py-1 rounded-full border border-neutral-200 bg-white">
+              {exp.date}
+            </span>
+          </div>
+        </div>
+      ))}
     </section>
   );
 }
