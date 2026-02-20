@@ -64,7 +64,7 @@ const Homecontent = () => {
 
     <div className="md:w-3/6 w-full py-4">
       <div className="text-sm text-stone-500 md:pr-16">
-        {"Led a full website redesign for WealthyPlanet’s AI-driven financial platform. Delivered a cohesive experience that increased sign-ups 270% and session time 20%, from research to launch."}
+        {"Led a full website redesign for WealthyPlanet’s AI-driven financial platform. Delivered a cohesive experience that increased sign-ups 62% and session time 20%, from research to launch."}
       </div>
     </div>
 
