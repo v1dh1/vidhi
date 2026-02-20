@@ -32,7 +32,7 @@ const Homecontent = () => {
 
   <div className='md:pb-32'></div>
 
-<div className='text-stone-800 text-xs font-medium px-4 md:px-16'>SELECTED WORK</div>
+<div className='text-stone-500 text-sm font-medium px-4 md:px-16 tracking-widest'>SELECTED WORK</div>
 <div className='p-4 md:px-16'>
   <div className='border-t border-b border-stone-200 pb-8 pt-4'>
 
