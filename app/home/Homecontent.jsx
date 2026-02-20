@@ -71,17 +71,19 @@ const Homecontent = () => {
     <div className='md:w-1/6 text-stone-500 text-sm font-medium py-4 md:pl-8 hover:text-fuchsia-600'>{"Read Case → "}</div>
   </div>
 
-  {/* Centered video */}
-  <div className="w-full flex justify-center pt-4">
-    <video
-      className="w-3/4 lg:w-1/2 h-full object-cover"
-      src="/vpsmallerbid.mp4"
-      autoPlay
-      muted
-      loop
-      playsInLine
-    ></video>
-  </div>
+<div className="flex flex-col md:flex-row w-full overflow-hidden gap-2 pt-4">
+  <img
+    src="/wpmock1.png"
+    alt="Before"
+    className="w-full md:w-1/2 object-cover rounded-xl"
+  />
+
+  <img
+    src="/wpmock2.png"
+    alt="After"
+    className="w-full md:w-1/2 object-cover rounded-xl border-stone-200 border"
+  />
+</div>
 </Link>
 
 </motion.div>
@@ -111,7 +113,7 @@ const Homecontent = () => {
     >
 
     <Link href="/design/tdbank">
-    <div className="flex flex-col md:flex-row w-full ">
+    <div className="flex flex-col md:flex-row w-full">
       {/* Left column - 1/3 width on medium+ screens */}
       <div className="md:w-2/6 w-full py-4 md:pr-4">
         <div className="text-lg text-stone-700 pb-2">{"Integrating a Sustainability Rewards Platform Into Mobile Banking"}</div>
