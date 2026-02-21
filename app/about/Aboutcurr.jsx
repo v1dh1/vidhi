@@ -39,7 +39,7 @@ const Aboutcurr = () => {
                       />
         </div>
 
-        <div className="p-4 text-sm text-stone-600">
+        <div className="p-4 text-sm text-stone-600 pb-12 md:pb-0">
 
             <div className='pb-2'>{"I’m a product designer with 2+ years of experience designing complex systems in fintech, logistics, and defence. I’m currently in my 4th year of Systems Design Engineering at the University of Waterloo, where I bring structured problem-solving into human-centered product work. "}</div>
             <div className=''>{"I designed and built this site end-to-end. The technical choices reflect the same principles I care about in products: fast load times, readable structure, and minimal abstraction. The stack is modern but boring on purpose."}</div>
